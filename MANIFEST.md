@@ -1,6 +1,6 @@
 # Manifest
 
-Generated 2026-11-14T13:16:33+00:00.
+Generated 2026-11-14T13:39:44+00:00.
 143 files, 14.2 MB.
 
 SHA-256 is given for every file. The source data files and their
@@ -14,9 +14,9 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `.github/workflows/verify.yml` | 1 kB | `15b735059324` | Continuous integration: rebuild and verify outputs |
 | `.gitignore` | 0 kB | `0ac42a5f77fd` | Excluded local, cache and unlicensed source files |
 | `.zenodo.json` | 2 kB | `f3e1768c9b5c` | Archival metadata for Zenodo |
-| `CITATION.cff` | 2 kB | `47296c6d2136` | Citation metadata for this software release |
+| `CITATION.cff` | 2 kB | `a4fc379e6ae7` | Citation metadata for this software release |
 | `LICENSE` | 1 kB | `df0804fec300` | MIT licence for the analysis code |
-| `README.md` | 7 kB | `ebc99cbec004` | Study summary, data sources, method and instructions for reproduction |
+| `README.md` | 8 kB | `539232351d4f` | Study summary, data sources, method and instructions for reproduction |
 | `RESULTS.md` | 2 kB | `dde791c35199` | Results summary generated from derived/key_results.json |
 | `THIRD_PARTY_DATA.md` | 2 kB | `7d17b83be427` | Licensing and attribution of third-party source data |
 | `pyproject.toml` | 0 kB | `c3e5986650e4` | Python project metadata and pinned runtime dependencies |
@@ -36,7 +36,7 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `src/s06_verify.py` | 22 kB | `f59be6976428` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
 | `src/s07_substitution.py` | 6 kB | `b1bc83e7392c` | Candidate embolisation codes against extra-axial haematoma evacuation |
 | `src/s08_projection.py` | 8 kB | `026b4af529bf` | Fixed-rate demographic scenario to 2039/40 |
-| `src/s10_package.py` | 9 kB | `c7759fc40a72` | This script: builds the file manifest |
+| `src/s10_package.py` | 9 kB | `fa341b272c7e` | This script: builds the file manifest |
 | `src/s11_code_level.py` | 7 kB | `62e840228a3a` | Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen |
 | `src/s12_robustness.py` | 15 kB | `d60d70a70ebd` | Panel, weighting, stable-code and projection sensitivity analyses |
 | `src/s13_publication.py` | 28 kB | `334fd0332667` | Numbered publication tables and figures; key results; RESULTS.md |

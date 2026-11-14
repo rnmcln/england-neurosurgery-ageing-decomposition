@@ -2,9 +2,9 @@ path,bytes,sha256,description
 .github/workflows/verify.yml,625,15b735059324f5b4a8640b213136fc571a0b69dc47213a3eda7e1c34f76f31e6,Continuous integration: rebuild and verify outputs
 .gitignore,357,0ac42a5f77fd928f645e5a9054a13e9fb160786b3756565ede54e232cb8a1e15,"Excluded local, cache and unlicensed source files"
 .zenodo.json,2138,f3e1768c9b5c53aed2a577b335c5bca0ee8912701d43c34438df56dc87c8c090,Archival metadata for Zenodo
-CITATION.cff,1718,47296c6d2136b4dea73a834aa8a764ca3724ef3f7a08472b894d53d2c0988d6d,Citation metadata for this software release
+CITATION.cff,1718,a4fc379e6ae7d60cda2996dd74f013c3494391549129de430a86bc895456c56d,Citation metadata for this software release
 LICENSE,1149,df0804fec3004af8caa3c1abd1bceca9f42aee86dd9acee62f4595267855ca81,MIT licence for the analysis code
-README.md,7441,ebc99cbec0049feb739a92cfeba98a29fd0e2a840a20926fd92f3e0e5c1eb45c,"Study summary, data sources, method and instructions for reproduction"
+README.md,7710,539232351d4fc8bca17455ad45bbd6dd8b165954fe935bb192e43bde7a0eadb8,"Study summary, data sources, method and instructions for reproduction"
 RESULTS.md,1951,dde791c3519936e89d77dfe2d8f3505c216a005d0bdfb60fd4b3ae3e179058a4,Results summary generated from derived/key_results.json
 THIRD_PARTY_DATA.md,1890,7d17b83be4272b9182f6d411b7b7c39347563c9d8599106d328d6f05d67f539c,Licensing and attribution of third-party source data
 data-raw/manifest.json,1513,25ea06499eaf916209fe0e9ef4596d861b8f9976ff993f61f06147d2e532d532,"Source URL, byte count and SHA-256 for each source file"
@@ -138,7 +138,7 @@ src/s05_figures.py,22343,b69a55dc215262a843406bc6ac4b90c024d19f06d81eb85dc5001bf
 src/s06_verify.py,22317,f59be6976428f910e3422800b92675eecf03c87547fef9edf7eac3a6327d387d,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
 src/s07_substitution.py,5614,b1bc83e7392cc358cedbc80e168fa156417baea63f02a012c69a74db9c17bfc8,Candidate embolisation codes against extra-axial haematoma evacuation
 src/s08_projection.py,8107,026b4af529bf1f313e9291a2d49a59dc267c1a2f7fc44b2d786eae4875951404,Fixed-rate demographic scenario to 2039/40
-src/s10_package.py,9456,c7759fc40a721a5e2e3b5fbc1388c32e7a5d3e61e4e3d2ce13340b05ef643ac1,This script: builds the file manifest
+src/s10_package.py,9474,fa341b272c7e22c15cfcb62c1d15694df14230df19f7cca30f736b04913454bb,This script: builds the file manifest
 src/s11_code_level.py,6547,62e840228a3a9925bc4bec80278c335e1d6b74b837e2fa3deab42ccdd60ecb1f,"Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen"
 src/s12_robustness.py,15166,d60d70a70ebd63e278bdb101a88eea23bfdd40c63dde5126bab20f20ab93ab36,"Panel, weighting, stable-code and projection sensitivity analyses"
 src/s13_publication.py,28478,334fd03326672010e537c849206d2551a9ac6c3d6528eed2ae7a98b2c877a04e,Numbered publication tables and figures; key results; RESULTS.md

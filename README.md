@@ -1,5 +1,7 @@
 # Population ageing and neurosurgery-related procedure activity in England
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24221325.svg)](https://doi.org/10.5281/zenodo.24221325)
+
 Analysis code and derived data for a national decomposition of recorded
 neurosurgery-related procedure activity in England, 2012/13 to 2024/25, with
 fixed-rate demographic projections to 2039/40.
@@ -131,6 +133,11 @@ units. The age-specific rate component contains every within-age influence on
 recorded activity, including incidence, indications, guidance, capacity,
 setting of care and coding. The 2039/40 scenario is a demographic exposure
 estimate at current rates, not a forecast.
+
+## Archive
+
+Releases are archived at Zenodo: https://doi.org/10.5281/zenodo.24221325 (all versions);
+version 1.0.1 is https://doi.org/10.5281/zenodo.24221532.
 
 ## Licence and citation
 

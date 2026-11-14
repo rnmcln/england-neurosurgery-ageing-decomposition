@@ -115,7 +115,7 @@ def main():
     for p in sorted(root.rglob("*")):
         if not p.is_file():
             continue
-        if any(part in EXCLUDE_DIRS for part in p.parts):
+        if any(part in EXCLUDE_DIRS for part in p.relative_to(root).parts):
             continue
         if p.name in EXCLUDE_NAMES or p.suffix in {".tiff", ".eps"}:
             continue

@@ -1,10 +1,10 @@
 path,bytes,sha256,description
 .github/workflows/verify.yml,625,15b735059324f5b4a8640b213136fc571a0b69dc47213a3eda7e1c34f76f31e6,Continuous integration: rebuild and verify outputs
 .gitignore,357,0ac42a5f77fd928f645e5a9054a13e9fb160786b3756565ede54e232cb8a1e15,"Excluded local, cache and unlicensed source files"
-.zenodo.json,2237,3ee2ced1363cf9d19e4b8badeb4db5f5cb4bbba8e18416e92a8355a9ec02572e,Archival metadata for Zenodo
-CITATION.cff,1735,e4d6718842d369246bf61bf66bb6ae987b32b5fa2a34e993698512af26df736d,Citation metadata for this software release
+.zenodo.json,2237,d52a75f5a762e0e8b0f5c78497d50a951bf4b225429320797838b243c1b6ab12,Archival metadata for Zenodo
+CITATION.cff,1735,0af153ad383a331a7babae220d5ed1ffa7ba9fb01a0e4e1c0ff4c65efbc1ccdc,Citation metadata for this software release
 LICENSE,1149,df0804fec3004af8caa3c1abd1bceca9f42aee86dd9acee62f4595267855ca81,MIT licence for the analysis code
-README.md,8247,b82857e5d5497a22838060a0991f5a48a1fd0739c549f230838e8b121b6ddca7,"Study summary, data sources, method and instructions for reproduction"
+README.md,8462,952c1b5f622d21cd3b2eaf28f62f93523750a15dd55258279f6f958f13563870,"Study summary, data sources, method and instructions for reproduction"
 RESULTS.md,2136,f98128c661dc700c1377a5927aebf83afe4c7f8e267b9835b6b5864ec3aead60,Results summary generated from derived/key_results.json
 THIRD_PARTY_DATA.md,1890,7d17b83be4272b9182f6d411b7b7c39347563c9d8599106d328d6f05d67f539c,Licensing and attribution of third-party source data
 data-raw/manifest.json,1513,25ea06499eaf916209fe0e9ef4596d861b8f9976ff993f61f06147d2e532d532,"Source URL, byte count and SHA-256 for each source file"
@@ -55,8 +55,8 @@ outputs/figures/fig_asr_trajectories.pdf,22965,c589e9aa0a3f89baa2b37a20d42410707
 outputs/figures/fig_asr_trajectories.png,404057,2836ea0f7524b763e627d791d30e432989c3746e42af2686b52625034cb0340a,Working figure
 outputs/figures/fig_code_level_trends.pdf,15739,f2520404dc60525c3a5af2aa7770619ae407e3698f821e7957b4658765076a52,Working figure (PDF)
 outputs/figures/fig_code_level_trends.png,438601,3ff6a2dba09b498faffb27543b7151b33df3c981bcd7682e9e3c57f5a081b7cf,Working figure
-outputs/figures/fig_counterfactual_scatter.pdf,13986,f23aa20df478eeb6cf897af8c20ec922b3b43fb52e069bec2ba84c5cb82618a8,Working figure (PDF)
-outputs/figures/fig_counterfactual_scatter.png,167440,3cefab57bff45d408cb728297429c6d1b0ded91089456b4b2940d45197009e6a,Working figure
+outputs/figures/fig_counterfactual_scatter.pdf,14530,a43c8e0e9b99cc974406fcdf140a2af2c49a109cb6e96d330e5196c3da93e894,Working figure (PDF)
+outputs/figures/fig_counterfactual_scatter.png,182611,970a49619441a335758c4d75d40572c1b060bf4e9997228d5be2147635e2b88f,Working figure
 outputs/figures/fig_counting_sensitivity.pdf,13851,81c6dc08e1662f2cfd1f91674ab30bccbd7631ab3b35908a044c31a15c44108a,Working figure (PDF)
 outputs/figures/fig_counting_sensitivity.png,190902,443da65f8c5291d4a9253ce8ae0488d6848ade2ae2ad0b64dbbe99fb1ee5753b,Working figure
 outputs/figures/fig_decomposition_components.pdf,17465,6997cd141ba41e4ebde17b2cbf4d468cc977df918f826bdfd5d75e46b63f4442,Working figure (PDF)
@@ -76,8 +76,8 @@ outputs/publication/FigS2.pdf,23983,f1cea69b79682a4b0b3d31a8838a3c1c02f2223e70e2
 outputs/publication/FigS2.png,661491,8bab1edeec31c6be3281640008e32d8bea3d1d3a69ae744b744609003e6b9b5f,Supplementary figure (numbered as in the article)
 outputs/publication/FigS3.pdf,17465,6997cd141ba41e4ebde17b2cbf4d468cc977df918f826bdfd5d75e46b63f4442,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS3.png,232421,44b3c7a3c06c3e318880e76b94af378d0187ec7715bd0b04c6483b4003c8909d,Supplementary figure (numbered as in the article)
-outputs/publication/FigS4.pdf,13986,f23aa20df478eeb6cf897af8c20ec922b3b43fb52e069bec2ba84c5cb82618a8,Supplementary figure (numbered as in the article) (PDF)
-outputs/publication/FigS4.png,167440,3cefab57bff45d408cb728297429c6d1b0ded91089456b4b2940d45197009e6a,Supplementary figure (numbered as in the article)
+outputs/publication/FigS4.pdf,14530,a43c8e0e9b99cc974406fcdf140a2af2c49a109cb6e96d330e5196c3da93e894,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS4.png,182611,970a49619441a335758c4d75d40572c1b060bf4e9997228d5be2147635e2b88f,Supplementary figure (numbered as in the article)
 outputs/publication/FigS5.pdf,14400,000909bbec689c05daa674785d364cb86ab782606e71e89c66de0fb5d7dcadca,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS5.png,203612,336ef650728179392ffb8e6a7da9e712c4f9b2b21b3afefab171d6a266934dda,Supplementary figure (numbered as in the article)
 outputs/publication/FigS6.pdf,13851,81c6dc08e1662f2cfd1f91674ab30bccbd7631ab3b35908a044c31a15c44108a,Supplementary figure (numbered as in the article) (PDF)
@@ -135,7 +135,7 @@ src/s01_fetch.py,4887,112b5f01c654d8d2299d86680744756f0e45d6d474f98a299a163dfba3
 src/s02_build.py,7057,28445a5b253da53e29d2b6f8e4868f5ab24b2d424662d17cdc426177ef472292,Build six analysis dataset variants; integrity checks C1 to C3
 src/s03_decompose.py,18456,c0b3d7d8b05d0370e92c6d1ef0ccf78f37044a9bfcddb074092da0389b1fc802,"Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual"
 src/s04_tables.py,12011,c047e753a088a42460977c329a5bf1ad5041d15743ec95942e59c306c93cd9c7,Working tables (tab_*.csv)
-src/s05_figures.py,22351,d275889200562a5d34ec8996713a44db771d73608fc305aacf9d2007fa1aa621,Working figures (fig_*.pdf/.eps/.tiff/.png)
+src/s05_figures.py,23434,d7f6363829b8798c175fc206dd4c2a39a2f44f2bf081752da9f846089f8c68b6,Working figures (fig_*.pdf/.eps/.tiff/.png)
 src/s06_verify.py,22629,af991f135c2d931ef60a9ffb8e58f995d0171f717a8b0ec4557322ae477268f6,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
 src/s07_substitution.py,5614,b1bc83e7392cc358cedbc80e168fa156417baea63f02a012c69a74db9c17bfc8,Candidate embolisation codes against extra-axial haematoma evacuation
 src/s08_projection.py,10029,2a9ed5156ea5c28c0a4baf0d018fc8013a697ea4eaf8588ac85038a65043978a,Fixed-rate demographic scenario to 2039/40

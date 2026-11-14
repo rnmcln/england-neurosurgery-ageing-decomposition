@@ -393,8 +393,8 @@ def figS5_counterfactual():
     hi = max(x.max(), y.max()) + 4
     ax.plot([lo, hi], [lo, hi], color=GREY_LIGHT, lw=0.6, ls=(0, (3, 3)),
             zorder=1)
-    ax.axhline(0, color=GREY_MID, lw=0.4, zorder=1)
-    ax.axvline(0, color=GREY_MID, lw=0.4, zorder=1)
+    ax.axhline(0, color=GREY_LIGHT, lw=0.4, zorder=1)
+    ax.axvline(0, color=GREY_LIGHT, lw=0.4, zorder=1)
     ax.plot(x, y, "o", mfc=ACCENT, mec=ACCENT, ms=4, ls="none", zorder=3)
     short = {
         "Extra-axial haematoma evacuation": "Extra-axial haematoma",
@@ -410,19 +410,43 @@ def figS5_counterfactual():
         "Spinal deformity correction": "Deformity correction",
         "Spinal facet joint denervation": "Facet denervation",
     }
-    offsets = {
-        "Intracranial tumour resection and biopsy": (4, -7),
-        "Extra-axial haematoma evacuation": (4, 3),
-        "Spinal deformity correction": (-4, -7),
-        "Intracerebral haematoma evacuation": (4, 2),
-        "Spinal fusion and instrumentation": (4, -6),
-        "CSF diversion, primary": (4, 3),
-    }
-    for xi, yi, g in zip(x, y, cf["group"]):
-        dx, dy = offsets.get(g, (3, 3))
-        ax.annotate(short[g], (xi, yi), xytext=(dx, dy),
-                    textcoords="offset points", fontsize=5.4, color=GREY_MID,
-                    ha="right" if dx < 0 else "left")
+    # Labels are set in one column to the right of the points, at the height
+    # of their point where possible and spaced apart where points are close.
+    # Each label is joined to its point by an elbow leader (vertical, then
+    # horizontal), so that no leader passes through another point; where two
+    # points share a height, the point further right takes the upper label.
+    label_x = float(x.max()) + 8
+    gap = 2.8      # minimum vertical spacing between labels, data units
+    r = 0.7        # clearance from the marker centre, data units
+    key = y.to_numpy() + 0.05 * x.to_numpy()
+    order = np.argsort(key)
+    ys = y.to_numpy()[order].astype(float)
+    xs = x.to_numpy()[order].astype(float)
+    groups = cf["group"].to_numpy()[order]
+    pos = ys.copy()
+    for _ in range(500):
+        moved = False
+        for i in range(1, len(pos)):
+            d = pos[i] - pos[i - 1]
+            if d < gap - 1e-9:
+                shift = (gap - d) / 2
+                pos[i - 1] -= shift
+                pos[i] += shift
+                moved = True
+        if not moved:
+            break
+    for xi, yi, li, g in zip(xs, ys, pos, groups):
+        if abs(li - yi) < 0.3:
+            px, py = [xi + r, label_x - 0.6], [li, li]
+        else:
+            sgn = 1 if li > yi else -1
+            px = [xi, xi, label_x - 0.6]
+            py = [yi + sgn * r, li, li]
+        ax.plot(px, py, color=GREY_MID, lw=0.35, zorder=2,
+                solid_joinstyle="miter", solid_capstyle="butt")
+        ax.text(label_x, li, short[g], fontsize=6, color=GREY_DARK,
+                ha="left", va="center", zorder=4,
+                bbox=dict(facecolor="white", edgecolor="none", pad=0.6))
     ax.set_xlim(lo, hi)
     ax.set_ylim(lo, hi)
     ax.set_xlabel("Demographic counterfactual change, % of baseline")

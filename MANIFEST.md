@@ -1,6 +1,6 @@
 # Manifest
 
-Generated 2026-11-14T15:39:32+00:00.
+Generated 2026-11-14T16:04:27+00:00.
 144 files, 14.2 MB.
 
 SHA-256 is given for every file. The source data files and their
@@ -13,10 +13,10 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 |---|---|---|---|
 | `.github/workflows/verify.yml` | 1 kB | `15b735059324` | Continuous integration: rebuild and verify outputs |
 | `.gitignore` | 0 kB | `0ac42a5f77fd` | Excluded local, cache and unlicensed source files |
-| `.zenodo.json` | 2 kB | `3ee2ced1363c` | Archival metadata for Zenodo |
-| `CITATION.cff` | 2 kB | `e4d6718842d3` | Citation metadata for this software release |
+| `.zenodo.json` | 2 kB | `d52a75f5a762` | Archival metadata for Zenodo |
+| `CITATION.cff` | 2 kB | `0af153ad383a` | Citation metadata for this software release |
 | `LICENSE` | 1 kB | `df0804fec300` | MIT licence for the analysis code |
-| `README.md` | 8 kB | `b82857e5d549` | Study summary, data sources, method and instructions for reproduction |
+| `README.md` | 8 kB | `952c1b5f622d` | Study summary, data sources, method and instructions for reproduction |
 | `RESULTS.md` | 2 kB | `f98128c661dc` | Results summary generated from derived/key_results.json |
 | `THIRD_PARTY_DATA.md` | 2 kB | `7d17b83be427` | Licensing and attribution of third-party source data |
 | `pyproject.toml` | 0 kB | `c3e5986650e4` | Python project metadata and pinned runtime dependencies |
@@ -32,7 +32,7 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `src/s02_build.py` | 7 kB | `28445a5b253d` | Build six analysis dataset variants; integrity checks C1 to C3 |
 | `src/s03_decompose.py` | 18 kB | `c0b3d7d8b05d` | Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual |
 | `src/s04_tables.py` | 12 kB | `c047e753a088` | Working tables (tab_*.csv) |
-| `src/s05_figures.py` | 22 kB | `d27588920056` | Working figures (fig_*.pdf/.eps/.tiff/.png) |
+| `src/s05_figures.py` | 23 kB | `d7f6363829b8` | Working figures (fig_*.pdf/.eps/.tiff/.png) |
 | `src/s06_verify.py` | 23 kB | `af991f135c2d` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
 | `src/s07_substitution.py` | 6 kB | `b1bc83e7392c` | Candidate embolisation codes against extra-axial haematoma evacuation |
 | `src/s08_projection.py` | 10 kB | `2a9ed5156ea5` | Fixed-rate demographic scenario to 2039/40 |
@@ -129,8 +129,8 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `outputs/figures/fig_asr_trajectories.png` | 404 kB | `2836ea0f7524` | Working figure |
 | `outputs/figures/fig_code_level_trends.pdf` | 16 kB | `f2520404dc60` | Working figure (PDF) |
 | `outputs/figures/fig_code_level_trends.png` | 439 kB | `3ff6a2dba09b` | Working figure |
-| `outputs/figures/fig_counterfactual_scatter.pdf` | 14 kB | `f23aa20df478` | Working figure (PDF) |
-| `outputs/figures/fig_counterfactual_scatter.png` | 167 kB | `3cefab57bff4` | Working figure |
+| `outputs/figures/fig_counterfactual_scatter.pdf` | 15 kB | `a43c8e0e9b99` | Working figure (PDF) |
+| `outputs/figures/fig_counterfactual_scatter.png` | 183 kB | `970a49619441` | Working figure |
 | `outputs/figures/fig_counting_sensitivity.pdf` | 14 kB | `81c6dc08e166` | Working figure (PDF) |
 | `outputs/figures/fig_counting_sensitivity.png` | 191 kB | `443da65f8c52` | Working figure |
 | `outputs/figures/fig_decomposition_components.pdf` | 17 kB | `6997cd141ba4` | Working figure (PDF) |
@@ -155,8 +155,8 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `outputs/publication/FigS2.png` | 661 kB | `8bab1edeec31` | Supplementary figure (numbered as in the article) |
 | `outputs/publication/FigS3.pdf` | 17 kB | `6997cd141ba4` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS3.png` | 232 kB | `44b3c7a3c06c` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS4.pdf` | 14 kB | `f23aa20df478` | Supplementary figure (numbered as in the article) (PDF) |
-| `outputs/publication/FigS4.png` | 167 kB | `3cefab57bff4` | Supplementary figure (numbered as in the article) |
+| `outputs/publication/FigS4.pdf` | 15 kB | `a43c8e0e9b99` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS4.png` | 183 kB | `970a49619441` | Supplementary figure (numbered as in the article) |
 | `outputs/publication/FigS5.pdf` | 14 kB | `000909bbec68` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS5.png` | 204 kB | `336ef6507281` | Supplementary figure (numbered as in the article) |
 | `outputs/publication/FigS6.pdf` | 14 kB | `81c6dc08e166` | Supplementary figure (numbered as in the article) (PDF) |

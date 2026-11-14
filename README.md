@@ -143,6 +143,9 @@ the Zenodo record.
 
 ## Changes
 
+- 1.1.1: point labels in the demographic counterfactual scatter (Figure S4)
+  are set in one column with elbow leader lines, so that each label is
+  unambiguously attached to its point. No numerical output changed.
 - 1.1.0: the primary 2039/40 scenario is additionally split by broad age at
   the time of the procedure (0 to 64, 65 to 79, 80 and over;
   `derived/projection_2040_by_age.csv`, reported in Table 3); figure 1 panels

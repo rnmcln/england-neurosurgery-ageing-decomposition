@@ -1,0 +1,7 @@
+Period,"Variance of net change, pp^2","SD of net change, pp",Population size share,Age structure share,Age-specific rate share,Share sum
+Pre-pandemic (2012/13 to 2018/19),479.8876,21.9063,0.0216,-0.0077,0.986,1.0
+Later period (2018/19 to 2024/25),52.435,7.2412,0.0229,-0.039,1.0161,1.0
+Pandemic shock (2019/20 to 2020/21),485.2452,22.0283,0.0009,-0.0066,1.0058,1.0
+Recovery (2020/21 to 2024/25),3409.9175,58.3945,0.0195,0.0101,0.9705,1.0
+Whole period (2012/13 to 2024/25),393.4553,19.8357,0.0435,-0.0414,0.9979,1.0
+"Pre-pandemic, alternative endpoint (2012/13 to 2019/20)",469.9102,21.6774,0.0242,-0.0203,0.9961,1.0

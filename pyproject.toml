@@ -1,0 +1,17 @@
+[project]
+name = "neurosurgical-procedure-decomposition"
+version = "1.0.0"
+description = "Reproducible decomposition of recorded neurosurgery-related procedure activity in England"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy==2.1.3",
+  "pandas==2.2.3",
+  "scipy==1.14.1",
+  "matplotlib==3.9.2",
+  "pyreadr==0.5.2",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

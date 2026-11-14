@@ -1,0 +1,78 @@
+group,opcs4_code,revision_fy,count_before,count_at,log_change,median_abs_nonrevision_log_change,flagged,pandemic_confounded
+"CSF diversion, primary",(group total),2021,3283.0,2796.0,-0.1605412913693846,0.041447408074912,True,True
+"CSF diversion, primary",A124,2021,2177.0,1819.0,-0.1796156916744433,0.0346627029896796,True,True
+"CSF diversion, revision and maintenance",(group total),2018,3222.0,3698.0,0.1377698762145798,0.0443442890729883,True,False
+"CSF diversion, revision and maintenance",A131,2018,263.0,344.0,0.2680407224722962,0.0394077385969574,True,False
+"CSF diversion, revision and maintenance",A134,2015,236.0,308.0,0.2657736354134548,0.0714979393524478,True,False
+"CSF diversion, revision and maintenance",A134,2018,325.0,405.0,0.2197584119068436,0.0714979393524478,True,False
+"CSF diversion, revision and maintenance",A142,2021,586.0,493.0,-0.1726498092199938,0.0519301870588539,True,True
+"CSF diversion, revision and maintenance",A143,2015,324.0,381.0,0.1618253145803669,0.0477028743918196,True,False
+"CSF diversion, revision and maintenance",A143,2021,386.0,315.0,-0.2029731860462088,0.0477028743918196,True,True
+"CSF diversion, revision and maintenance",A143,2024,346.0,409.0,0.1670540846631662,0.0477028743918196,True,False
+Extra-axial haematoma evacuation,(group total),2021,4398.0,3676.0,-0.1793023610564522,0.0305078421667384,True,True
+Extra-axial haematoma evacuation,A401,2024,441.0,371.0,-0.1726291558862007,0.0546285424068202,True,False
+Extra-axial haematoma evacuation,A411,2021,3921.0,3242.0,-0.1901295964621222,0.0346792825067323,True,True
+Intracranial tumour resection and biopsy,(group total),2021,8486.0,7456.0,-0.1293905303987491,0.0293833599232471,True,True
+Intracranial tumour resection and biopsy,A021,2018,1451.0,1587.0,0.0895629473021621,0.0201676020987981,True,False
+Intracranial tumour resection and biopsy,A021,2021,1621.0,1418.0,-0.1337516714984666,0.0201676020987981,True,True
+Intracranial tumour resection and biopsy,A023,2018,695.0,806.0,0.1480728862017659,0.038816458506441,True,False
+Intracranial tumour resection and biopsy,A025,2021,708.0,615.0,-0.1407151135062269,0.026795683453593,True,True
+Intracranial tumour resection and biopsy,A041,2015,127.0,250.0,0.6753425559264385,0.0849466292744698,True,False
+Intracranial tumour resection and biopsy,A388,2018,504.0,397.0,-0.238372905699277,0.0758482289928215,True,False
+Intracranial tumour resection and biopsy,A388,2021,389.0,291.0,-0.2898238595202559,0.0758482289928215,True,True
+Lumbar decompression without fusion,(group total),2021,24434.0,13658.0,-0.5816340296114865,0.0266757041034394,True,True
+Lumbar decompression without fusion,V252,2021,310.0,127.0,-0.8900675367750527,0.1817193928160427,True,True
+Lumbar decompression without fusion,V254,2021,5222.0,3107.0,-0.5191576700458547,0.0405518643368587,True,True
+Lumbar decompression without fusion,V255,2021,12472.0,6817.0,-0.6040333850154489,0.094060591277076,True,True
+Lumbar decompression without fusion,V256,2021,1367.0,751.0,-0.5986683251031071,0.120030023190084,True,True
+Lumbar decompression without fusion,V259,2021,420.0,197.0,-0.7557058950718262,0.1198111573133554,True,True
+Lumbar decompression without fusion,V337,2021,2589.0,1401.0,-0.6139217152591032,0.1364847046395333,True,True
+Lumbar decompression without fusion,V338,2021,548.0,289.0,-0.639031982702235,0.1030868174774763,True,True
+Neuromodulation implantation,(group total),2021,3852.0,1472.0,-0.961760651668529,0.0582019739604588,True,True
+Neuromodulation implantation,A091,2021,393.0,174.0,-0.813156326214976,0.0717797766213266,True,True
+Neuromodulation implantation,A095,2021,166.0,51.0,-1.173413501750808,0.0863771835363446,True,True
+Neuromodulation implantation,A331,2021,417.0,218.0,-0.6474985297552655,0.1479260224466589,True,True
+Neuromodulation implantation,A701,2021,745.0,307.0,-0.8855800469582206,0.0766206406454972,True,True
+Neuromodulation implantation,A701,2024,692.0,911.0,0.2747833560572242,0.0766206406454972,True,False
+Neuromodulation implantation,A704,2021,2076.0,707.0,-1.0767014335534155,0.0650619335850833,True,True
+Peripheral nerve entrapment release,(group total),2021,50733.0,25208.0,-0.6994052026739092,0.0486117342773285,True,True
+Peripheral nerve entrapment release,A651,2021,44603.0,22191.0,-0.6981029986063287,0.0501346130297229,True,True
+Peripheral nerve entrapment release,A652,2021,342.0,163.0,-0.7394586673649719,0.1538731439516849,True,True
+Peripheral nerve entrapment release,A671,2021,5328.0,2688.0,-0.684086355411278,0.0645301954923222,True,True
+Peripheral nerve entrapment release,A673,2021,73.0,15.0,-1.55644538229359,0.133570677105141,True,True
+Peripheral nerve entrapment release,A678,2021,241.0,84.0,-1.0501179387294992,0.075707009665439,True,True
+Spinal deformity correction,(group total),2021,2482.0,1527.0,-0.4856337048735774,0.0650602661826754,True,True
+Spinal deformity correction,V411,2021,2107.0,1308.0,-0.47662096790581,0.0628844315613705,True,True
+Spinal deformity correction,V415,2018,0.0,81.0,5.093750200806762,0.0682976222439916,True,False
+Spinal deformity correction,V418,2018,328.0,123.0,-0.9782956818566334,0.1556859217870928,True,False
+Spinal facet joint denervation,(group total),2021,16854.0,7522.0,-0.8067191539360555,0.0907910579915217,True,True
+Spinal facet joint denervation,V481,2021,1040.0,428.0,-0.8871659077958547,0.0971620044808346,True,True
+Spinal facet joint denervation,V482,2021,237.0,100.0,-0.8600098959755654,0.1583518775523036,True,True
+Spinal facet joint denervation,V483,2021,221.0,91.0,-0.8840836172037146,0.1553704481348859,True,True
+Spinal facet joint denervation,V485,2021,11655.0,5143.0,-0.8180443900214923,0.0914871962872865,True,True
+Spinal facet joint denervation,V486,2018,1991.0,2760.0,0.3265236991024003,0.0861758222559812,True,False
+Spinal facet joint denervation,V486,2021,2248.0,1189.0,-0.6367302764677496,0.0861758222559812,True,True
+Spinal facet joint denervation,V487,2021,1261.0,488.0,-0.948717296598275,0.078313525838485,True,True
+Spinal facet joint denervation,V488,2021,117.0,52.0,-0.8056251639866356,0.2142163545036773,True,True
+Spinal fusion and instrumentation,(group total),2021,10918.0,6627.0,-0.4992309390632416,0.0359722250154183,True,True
+Spinal fusion and instrumentation,V221,2018,2540.0,3326.0,0.2695597881481557,0.0780649669013807,True,False
+Spinal fusion and instrumentation,V221,2021,3958.0,2614.0,-0.4147922909833032,0.0780649669013807,True,True
+Spinal fusion and instrumentation,V224,2021,399.0,307.0,-0.2617386779597567,0.0518144931105585,True,True
+Spinal fusion and instrumentation,V253,2018,876.0,662.0,-0.2799161465009119,0.0846270256129811,True,False
+Spinal fusion and instrumentation,V253,2021,705.0,332.0,-0.7522669111969599,0.0846270256129811,True,True
+Spinal fusion and instrumentation,V294,2018,3367.0,2627.0,-0.2481378055334127,0.0777475833140729,True,False
+Spinal fusion and instrumentation,V294,2021,1785.0,1028.0,-0.5515970579414913,0.0777475833140729,True,True
+Spinal fusion and instrumentation,V333,2021,283.0,122.0,-0.8391010931830252,0.154623880812679,True,True
+Spinal fusion and instrumentation,V336,2021,124.0,49.0,-0.9223330463301176,0.1856045521039641,True,True
+Spinal fusion and instrumentation,V381,2018,533.0,677.0,0.2389504820120478,0.0683972050332619,True,False
+Spinal fusion and instrumentation,V383,2015,814.0,684.0,-0.1738857833135962,0.042162770233797,True,False
+Spinal fusion and instrumentation,V383,2018,681.0,792.0,0.1508962546148483,0.042162770233797,True,False
+Spinal fusion and instrumentation,V383,2021,631.0,407.0,-0.4380570091096284,0.042162770233797,True,True
+Spinal fusion and instrumentation,V385,2018,1009.0,805.0,-0.225747235135863,0.0564082166071326,True,False
+Spinal fusion and instrumentation,V385,2021,741.0,280.0,-0.9721014366152356,0.0564082166071326,True,True
+Spinal fusion and instrumentation,V386,2021,1390.0,728.0,-0.6464310480387601,0.0696244725333049,True,True
+Spinal fusion and instrumentation,V388,2018,227.0,108.0,-0.7404000654104909,0.1559703516158625,True,False
+Spinal nerve root injection and denervation,(group total),2021,52341.0,21944.0,-0.8692730168136064,0.0837400688371886,True,True
+Spinal nerve root injection and denervation,A573,2021,4622.0,2245.0,-0.7220074707334873,0.052327894892465,True,True
+Spinal nerve root injection and denervation,A574,2021,530.0,216.0,-0.8962294106114932,0.1978972943638181,True,True
+Spinal nerve root injection and denervation,A577,2021,47189.0,19483.0,-0.8846034566837115,0.0842264270606975,True,True

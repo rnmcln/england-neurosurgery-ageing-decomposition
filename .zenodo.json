@@ -1,0 +1,39 @@
+{
+  "title": "Population ageing and neurosurgery-related procedure activity in England, 2012/13 to 2024/25: decomposition and fixed-rate projections to 2039/40 (analysis code)",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "description": "Reproducible Python pipeline and derived data for a national decomposition of recorded neurosurgery-related procedure activity in England (Hospital Episode Statistics OPCS-4 code usage, twelve procedure groups, 2012/13 to 2024/25) into population-size, age-structure and age-specific rate components, with a covariance decomposition of between-group variance and fixed-rate demographic projections to 2039/40 using ONS 2024-based population projections. Upstream NHS England code-usage files are downloaded from a pinned commit and verified by checksum.",
+  "creators": [
+    {
+      "name": "Lawson McLean, Aaron",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany",
+      "orcid": "0000-0001-5528-6905"
+    },
+    {
+      "name": "Varga-Vrancsik, Zsófia",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany"
+    },
+    {
+      "name": "Kahr, Julian",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany"
+    },
+    {
+      "name": "Senft, Christian",
+      "affiliation": "Department of Neurosurgery, Jena University Hospital, Friedrich Schiller University Jena, Jena, Germany"
+    },
+    {
+      "name": "Kamp, Marcel A.",
+      "affiliation": "Centre for Palliative and Neuro-Palliative Care, Faculty of Health Sciences Brandenburg, Brandenburg Medical School Theodor Fontane, Rüdersdorf bei Berlin, Germany; Department for Palliative and Neuro-Palliative Care, Immanuel Clinic Rüdersdorf, Rüdersdorf bei Berlin, Germany"
+    }
+  ],
+  "keywords": [
+    "neurosurgery",
+    "population ageing",
+    "Hospital Episode Statistics",
+    "OPCS-4",
+    "decomposition analysis",
+    "demand projection",
+    "health services research"
+  ]
+}

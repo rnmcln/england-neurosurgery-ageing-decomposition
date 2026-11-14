@@ -1,0 +1,29 @@
+specification,omitted_group,n_groups,population_size_share,age_structure_share,age_specific_rate_share,share_sum
+Primary: equal-weight percentage change,,12,0.021615882033014212,-0.00765427886925045,0.9860383968362363,1.0
+Leave one group out,Extra-axial haematoma evacuation,11,0.02161588203301421,-0.004720450230949476,0.983104568197935,0.9999999999999998
+Leave one group out,Intracerebral haematoma evacuation,11,0.02161588203301422,-0.004537208176649203,0.982921326143635,1.0
+Leave one group out,Intracranial tumour resection and biopsy,11,0.021615882033014212,-0.006788528909627324,0.9851726468766131,1.0
+Leave one group out,"CSF diversion, primary",11,0.021615882033014212,-0.009886901025614844,0.9882710189926006,1.0
+Leave one group out,"CSF diversion, revision and maintenance",11,0.02161588203301422,0.02302318523937734,0.9553609327276087,1.0000000000000002
+Leave one group out,Peripheral nerve entrapment release,11,0.021615882033014216,-0.002724193690484575,0.9811083116574704,1.0
+Leave one group out,Neuromodulation implantation,11,0.021615882033014216,-0.008161668022356157,0.9865457859893421,1.0000000000000002
+Leave one group out,Spinal nerve root injection and denervation,11,0.02161588203301421,-0.01586430512690632,0.9942484230938922,1.0
+Leave one group out,Lumbar decompression without fusion,11,0.021615882033014212,-0.006678160260315208,0.985062278227301,1.0
+Leave one group out,Spinal fusion and instrumentation,11,0.021615882033014216,-0.008190660547072215,0.986574778514058,1.0
+Leave one group out,Spinal deformity correction,11,0.021615882033014212,-0.019039207973141525,0.9974233259401275,1.0000000000000002
+Leave one group out,Spinal facet joint denervation,11,0.021615882033014212,-0.030210417679037455,1.008594535646023,0.9999999999999999
+Baseline-volume-weighted percentage change,,12,0.021615882033014223,0.003522764172377752,0.9748613537946087,1.0000000000000007
+Equal-weight absolute count change,,12,0.046620046739463614,0.018445415919640606,0.9349345373408967,1.0000000000000009
+Stable-code sensitivity: Present in every study year,,12,0.021615882033014212,-0.005472948960516398,0.9838570669275023,1.0000000000000002
+Stable-code sensitivity: Present throughout primary window,,12,0.02161588203301421,-0.0053787156893158996,0.983762833656302,1.0000000000000002
+Counting variant: all_procedures__proportional,,12,0.021615882033014212,-0.00765427886925045,0.9860383968362363,1.0
+Counting variant: all_procedures__oldest,,12,0.021615882033014233,-0.007282969826794785,0.9856670877937808,1.0000000000000002
+Counting variant: all_procedures__drop,,12,0.02161588203301422,-0.006188263729169028,0.9845723816961552,1.0000000000000004
+Counting variant: main_procedure__proportional,,12,0.021615882033014205,0.0019945640425162677,0.9763895539244699,1.0000000000000004
+Counting variant: main_procedure__oldest,,12,0.021615882033014188,0.002166377786660206,0.9762177401803251,0.9999999999999996
+Counting variant: main_procedure__drop,,12,0.02161588203301418,0.003176091952812466,0.9752080260141733,1.0
+Six-group subsets: minimum rate share,Included: Extra-axial haematoma evacuation; Intracranial tumour resection and biopsy; Peripheral nerve entrapment release; Lumbar decompression without fusion; Spinal fusion and instrumentation; Spinal deformity correction,6,0.02161588203301425,0.10048823974432192,0.8778958782226634,0.9999999999999996
+Six-group subsets: maximum rate share,"Included: Intracerebral haematoma evacuation; Intracranial tumour resection and biopsy; CSF diversion, primary; Peripheral nerve entrapment release; Lumbar decompression without fusion; Spinal fusion and instrumentation",6,0.021615882033014237,-0.10869173581122155,1.087075853778208,1.0000000000000007
+Six-group subset rate-share 5th percentile,,6,,,0.9385447736050144,
+Six-group subset rate-share median,,6,,,0.9809419003043754,
+Six-group subset rate-share 95th percentile,,6,,,1.0534109419125322,

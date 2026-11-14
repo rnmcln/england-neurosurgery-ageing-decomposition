@@ -1,0 +1,13 @@
+Procedure group,OPCS-4 codes,n codes,Count 2012/13,Count 2024/25,ASR 2012/13,ASR 2024/25,A priori expectation
+Extra-axial haematoma evacuation,"A401, A411",2,4214,4185,7.88,6.59,demographic
+Intracerebral haematoma evacuation,"A052, A053, A054",3,708,672,1.32,1.14,demographic
+Intracranial tumour resection and biopsy,"A021, A022, A023, A024, A025, A026, A027, A028, A029, A041, A042, A043, A044, A045, A046, A048, A049, A081, A082, A083, A084, A085, A086, A088, A089, A171, A381, A382, A383, A384, A385, A386, A388, A389, A431, A432, A438, A439",38,7579,8099,14.16,13.4,mixed
+"CSF diversion, primary","A122, A123, A124, A125, A128, A129, A172",7,2883,3484,5.39,5.98,mixed
+"CSF diversion, revision and maintenance","A131, A132, A133, A134, A138, A139, A141, A142, A143, A144, A145, A148, A149",13,2704,3738,5.05,6.61,rate
+Peripheral nerve entrapment release,"A651, A652, A658, A659, A671, A672, A673, A678, A679",9,57945,54926,108.29,88.73,rate
+Neuromodulation implantation,"A091, A095, A331, A334, A701, A704",6,3170,3819,5.92,6.41,rate
+Spinal nerve root injection and denervation,"A573, A574, A577",3,38554,48100,72.05,78.76,rate
+Lumbar decompression without fusion,"V252, V254, V255, V256, V258, V259, V331, V332, V337, V338, V339",11,26028,23521,48.64,38.13,demographic
+Spinal fusion and instrumentation,"V221, V224, V225, V251, V253, V294, V333, V335, V336, V381, V382, V383, V384, V385, V386, V388, V389",17,10763,10558,20.12,17.56,rate
+Spinal deformity correction,"V411, V412, V414, V415, V417, V418, V419",7,2995,2909,5.6,4.95,rate
+Spinal facet joint denervation,"V481, V482, V483, V484, V485, V486, V487, V488, V489",9,11776,18003,22.01,29.11,rate

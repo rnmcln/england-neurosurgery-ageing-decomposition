@@ -1,0 +1,126 @@
+Procedure group,Expectation recorded before decomposition,OPCS-4 code,Description (most recent release)
+Extra-axial haematoma evacuation,demographic,A40.1,Evacuation of extradural haematoma
+Extra-axial haematoma evacuation,demographic,A41.1,Evacuation of subdural haematoma
+Intracerebral haematoma evacuation,demographic,A05.2,Evacuation of haematoma from temporal lobe of brain
+Intracerebral haematoma evacuation,demographic,A05.3,Evacuation of haematoma from cerebellum
+Intracerebral haematoma evacuation,demographic,A05.4,Evacuation of intracerebral haematoma NEC
+Intracranial tumour resection and biopsy,mixed,A02.1,Excision of lesion of tissue of frontal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A02.2,Excision of lesion of tissue of temporal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A02.3,Excision of lesion of tissue of parietal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A02.4,Excision of lesion of tissue of occipital lobe of brain
+Intracranial tumour resection and biopsy,mixed,A02.5,Excision of lesion of tissue of cerebellum
+Intracranial tumour resection and biopsy,mixed,A02.6,Excision of lesion of tissue of brain stem
+Intracranial tumour resection and biopsy,mixed,A02.7,Excision of transcranial dermoid cyst
+Intracranial tumour resection and biopsy,mixed,A02.8,Other specified excision of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A02.9,Unspecified excision of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A04.1,Open biopsy of lesion of tissue of frontal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A04.2,Open biopsy of lesion of tissue of temporal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A04.3,Open biopsy of lesion of tissue of parietal lobe of brain
+Intracranial tumour resection and biopsy,mixed,A04.4,Open biopsy of lesion of tissue of occipital lobe of brain
+Intracranial tumour resection and biopsy,mixed,A04.5,Open biopsy of lesion of tissue of cerebellum
+Intracranial tumour resection and biopsy,mixed,A04.6,Open biopsy of lesion of tissue of brain stem
+Intracranial tumour resection and biopsy,mixed,A04.8,Other specified open biopsy of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A04.9,Unspecified open biopsy of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A08.1,Biopsy of lesion of tissue of frontal lobe of brain NEC
+Intracranial tumour resection and biopsy,mixed,A08.2,Biopsy of lesion of tissue of temporal lobe of brain NEC
+Intracranial tumour resection and biopsy,mixed,A08.3,Biopsy of lesion of tissue of parietal lobe of brain NEC
+Intracranial tumour resection and biopsy,mixed,A08.4,Biopsy of lesion of tissue of occipital lobe of brain NEC
+Intracranial tumour resection and biopsy,mixed,A08.5,Biopsy of lesion of tissue of cerebellum NEC
+Intracranial tumour resection and biopsy,mixed,A08.6,Biopsy of lesion of tissue of brain stem NEC
+Intracranial tumour resection and biopsy,mixed,A08.8,Other specified other biopsy of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A08.9,Unspecified other biopsy of lesion of tissue of brain
+Intracranial tumour resection and biopsy,mixed,A17.1,Endoscopic extirpation of lesion of ventricle of brain
+Intracranial tumour resection and biopsy,mixed,A38.1,Extirpation of lesion of meninges of cortex of brain
+Intracranial tumour resection and biopsy,mixed,A38.2,Extirpation of lesion of meninges of sphenoidal ridge of cranium
+Intracranial tumour resection and biopsy,mixed,A38.3,Extirpation of lesion of meninges of subfrontal region of brain
+Intracranial tumour resection and biopsy,mixed,A38.4,Extirpation of lesion of meninges of parasagittal region of brain
+Intracranial tumour resection and biopsy,mixed,A38.5,Extirpation of lesion of falx cerebri
+Intracranial tumour resection and biopsy,mixed,A38.6,Extirpation of lesion of tentorium cerebelli
+Intracranial tumour resection and biopsy,mixed,A38.8,Other specified extirpation of lesion of meninges of brain
+Intracranial tumour resection and biopsy,mixed,A38.9,Unspecified extirpation of lesion of meninges of brain
+Intracranial tumour resection and biopsy,mixed,A43.1,Extirpation of lesion of meninges of skull base
+Intracranial tumour resection and biopsy,mixed,A43.2,Extirpation of lesion of meninges of skull clivus
+Intracranial tumour resection and biopsy,mixed,A43.8,Other specified other extirpation of lesion of meninges of brain
+Intracranial tumour resection and biopsy,mixed,A43.9,Unspecified other extirpation of lesion of meninges of brain
+"CSF diversion, primary",mixed,A12.2,Creation of ventriculovascular shunt
+"CSF diversion, primary",mixed,A12.3,Creation of ventriculopleural shunt
+"CSF diversion, primary",mixed,A12.4,Creation of ventriculoperitoneal shunt
+"CSF diversion, primary",mixed,A12.5,Creation of subcutaneous cerebrospinal fluid reservoir
+"CSF diversion, primary",mixed,A12.8,Other specified creation of connection from ventricle of brain
+"CSF diversion, primary",mixed,A12.9,Unspecified creation of connection from ventricle of brain
+"CSF diversion, primary",mixed,A17.2,Endoscopic third ventriculostomy
+"CSF diversion, revision and maintenance",rate,A13.1,Maintenance of proximal catheter of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A13.2,Maintenance of distal catheter of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A13.3,Insertion of antisyphon device into cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A13.4,Renewal of valve of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A13.8,Other specified attention to component of connection from ventricle of brain
+"CSF diversion, revision and maintenance",rate,A13.9,Unspecified attention to component of connection from ventricle of brain
+"CSF diversion, revision and maintenance",rate,A14.1,Renewal of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A14.2,Revision of cerebroventricular shunt NEC
+"CSF diversion, revision and maintenance",rate,A14.3,Removal of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A14.4,Irrigation of cerebroventricular shunt
+"CSF diversion, revision and maintenance",rate,A14.5,Attention to cerebroventricular shunt NEC
+"CSF diversion, revision and maintenance",rate,A14.8,Other specified other operations on connection from ventricle of brain
+"CSF diversion, revision and maintenance",rate,A14.9,Unspecified other operations on connection from ventricle of brain
+Peripheral nerve entrapment release,rate,A65.1,Carpal tunnel release
+Peripheral nerve entrapment release,rate,A65.2,Canal of Guyon release
+Peripheral nerve entrapment release,rate,A65.8,Other specified release of entrapment of peripheral nerve at wrist
+Peripheral nerve entrapment release,rate,A65.9,Unspecified release of entrapment of peripheral nerve at wrist
+Peripheral nerve entrapment release,rate,A67.1,Cubital tunnel release
+Peripheral nerve entrapment release,rate,A67.2,Release of entrapment of lateral cutaneous nerve of thigh
+Peripheral nerve entrapment release,rate,A67.3,Release of entrapment of plantar digital nerve
+Peripheral nerve entrapment release,rate,A67.8,Other specified release of entrapment of peripheral nerve at other site
+Peripheral nerve entrapment release,rate,A67.9,Unspecified release of entrapment of peripheral nerve at other site
+Neuromodulation implantation,rate,A09.1,Implantation of brain neurostimulator
+Neuromodulation implantation,rate,A09.5,Insertion of neurostimulator electrodes into the brain
+Neuromodulation implantation,rate,A33.1,Implantation of cranial nerve neurostimulator
+Neuromodulation implantation,rate,A33.4,Insertion of neurostimulator electrodes adjacent to the cranial nerve
+Neuromodulation implantation,rate,A70.1,Implantation of peripheral nerve neurostimulator
+Neuromodulation implantation,rate,A70.4,Insertion of neurostimulator electrodes adjacent to peripheral nerve
+Spinal nerve root injection and denervation,rate,A57.3,Radiofrequency controlled thermal destruction of spinal nerve root
+Spinal nerve root injection and denervation,rate,A57.4,Injection of destructive substance into spinal nerve root
+Spinal nerve root injection and denervation,rate,A57.7,Injection of therapeutic substance around spinal nerve root
+Lumbar decompression without fusion,demographic,V25.2,Primary extended decompression of lumbar spine NEC
+Lumbar decompression without fusion,demographic,V25.4,Primary posterior laminectomy decompression of lumbar spine
+Lumbar decompression without fusion,demographic,V25.5,Primary posterior decompression of lumbar spine NEC
+Lumbar decompression without fusion,demographic,V25.6,Primary lateral foraminotomy of lumbar spine
+Lumbar decompression without fusion,demographic,V25.8,Other specified primary decompression operations on lumbar spine
+Lumbar decompression without fusion,demographic,V25.9,Unspecified primary decompression operations on lumbar spine
+Lumbar decompression without fusion,demographic,V33.1,Primary laminectomy excision of lumbar intervertebral disc
+Lumbar decompression without fusion,demographic,V33.2,Primary fenestration excision of lumbar intervertebral disc
+Lumbar decompression without fusion,demographic,V33.7,Primary microdiscectomy of lumbar intervertebral disc
+Lumbar decompression without fusion,demographic,V33.8,Other specified primary excision of lumbar intervertebral disc
+Lumbar decompression without fusion,demographic,V33.9,Unspecified primary excision of lumbar intervertebral disc
+Spinal fusion and instrumentation,rate,V22.1,Primary anterior decompression of cervical spinal cord and fusion of joint of cervical spine
+Spinal fusion and instrumentation,rate,V22.4,Primary anterior corpectomy of cervical spine with reconstruction HFQ
+Spinal fusion and instrumentation,rate,V22.5,Primary decompression of posterior fossa and upper cervical spinal cord and instrumentation
+Spinal fusion and instrumentation,rate,V25.1,Primary extended decompression of lumbar spine and intertransverse fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V25.3,Primary posterior decompression of lumbar spine and intertransverse fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V29.4,Primary anterior excision of cervical intervertebral disc and interbody fusion of joint of cervical spine
+Spinal fusion and instrumentation,rate,V33.3,Primary anterior excision of lumbar intervertebral disc and interbody fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V33.5,Primary anterior excision of lumbar intervertebral disc and posterior graft fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V33.6,Primary anterior excision of lumbar intervertebral disc and posterior instrumentation of lumbar spine
+Spinal fusion and instrumentation,rate,V38.1,Primary fusion of joint of thoracic spine
+Spinal fusion and instrumentation,rate,V38.2,Primary posterior interlaminar fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V38.3,Primary posterior fusion of joint of lumbar spine NEC
+Spinal fusion and instrumentation,rate,V38.4,Primary intertransverse fusion of joint of lumbar spine NEC
+Spinal fusion and instrumentation,rate,V38.5,Primary posterior interbody fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V38.6,Primary transforaminal interbody fusion of joint of lumbar spine
+Spinal fusion and instrumentation,rate,V38.8,Other specified primary fusion of other joint of spine
+Spinal fusion and instrumentation,rate,V38.9,Unspecified primary fusion of other joint of spine
+Spinal deformity correction,rate,V41.1,Posterior attachment of correctional instrument to spine
+Spinal deformity correction,rate,V41.2,Anterior attachment of correctional instrument to spine
+Spinal deformity correction,rate,V41.4,Anterior and posterior attachment of correctional instrument to spine
+Spinal deformity correction,rate,V41.5,Posterior attachment of spinal growing system
+Spinal deformity correction,rate,V41.7,Surgical distraction of spinal growing system
+Spinal deformity correction,rate,V41.8,Other specified instrumental correction of deformity of spine
+Spinal deformity correction,rate,V41.9,Unspecified instrumental correction of deformity of spine
+Spinal facet joint denervation,rate,V48.1,Radiofrequency controlled thermal denervation of spinal facet joint of cervical vertebra
+Spinal facet joint denervation,rate,V48.2,Denervation of spinal facet joint of cervical vertebra NEC
+Spinal facet joint denervation,rate,V48.3,Radiofrequency controlled thermal denervation of spinal facet joint of thoracic vertebra
+Spinal facet joint denervation,rate,V48.4,Denervation of spinal facet joint of thoracic vertebra NEC
+Spinal facet joint denervation,rate,V48.5,Radiofrequency controlled thermal denervation of spinal facet joint of lumbar vertebra
+Spinal facet joint denervation,rate,V48.6,Denervation of spinal facet joint of lumbar vertebra NEC
+Spinal facet joint denervation,rate,V48.7,Radiofrequency controlled thermal denervation of spinal facet joint of vertebra NEC
+Spinal facet joint denervation,rate,V48.8,Other specified denervation of spinal facet joint of vertebra
+Spinal facet joint denervation,rate,V48.9,Unspecified denervation of spinal facet joint of vertebra

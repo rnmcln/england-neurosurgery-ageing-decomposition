@@ -1,0 +1,549 @@
+group,opcs4_code,revision_fy,count_before,count_at,log_change,median_abs_nonrevision_log_change,flagged,pandemic_confounded
+"CSF diversion, primary",(group total),2015,3012.0,3142.0,0.04224836266549212,0.04144740807491207,False,False
+"CSF diversion, primary",(group total),2018,3178.0,3311.0,0.040991871548570605,0.04144740807491207,False,False
+"CSF diversion, primary",(group total),2021,3283.0,2796.0,-0.1605412913693846,0.04144740807491207,True,True
+"CSF diversion, primary",(group total),2024,3252.0,3461.0,0.06227808973141972,0.04144740807491207,False,False
+"CSF diversion, primary",A122,2015,29.0,44.0,0.4110989258264204,0.10627937794018136,False,False
+"CSF diversion, primary",A122,2018,43.0,48.0,0.10880285984879917,0.10627937794018136,False,False
+"CSF diversion, primary",A122,2021,50.0,39.0,-0.24567266437423793,0.10627937794018136,False,True
+"CSF diversion, primary",A122,2024,35.0,39.0,0.10676797542570614,0.10627937794018136,False,False
+"CSF diversion, primary",A123,2015,35.0,56.0,0.4647079416710252,0.2607747935644832,False,False
+"CSF diversion, primary",A123,2018,28.0,37.0,0.27443684570176036,0.2607747935644832,False,False
+"CSF diversion, primary",A123,2021,46.0,29.0,-0.4550620492475365,0.2607747935644832,False,True
+"CSF diversion, primary",A123,2024,40.0,37.0,-0.07696104113612832,0.2607747935644832,False,False
+"CSF diversion, primary",A124,2015,2000.0,2086.0,0.042090871734317574,0.03466270298967968,False,False
+"CSF diversion, primary",A124,2018,2111.0,2241.0,0.05974668922149592,0.03466270298967968,False,False
+"CSF diversion, primary",A124,2021,2177.0,1819.0,-0.17961569167444333,0.03466270298967968,True,True
+"CSF diversion, primary",A124,2024,2200.0,2411.0,0.09156435325788057,0.03466270298967968,False,False
+"CSF diversion, primary",A125,2015,377.0,397.0,0.051624365405307245,0.03359245404850787,False,False
+"CSF diversion, primary",A125,2018,413.0,416.0,0.007228947143151292,0.03359245404850787,False,False
+"CSF diversion, primary",A125,2021,411.0,387.0,-0.06009317132372286,0.03359245404850787,False,True
+"CSF diversion, primary",A125,2024,436.0,429.0,-0.01616663385534689,0.03359245404850787,False,False
+"CSF diversion, primary",A128,2015,83.0,80.0,-0.03658944743229206,0.14199193374999913,False,False
+"CSF diversion, primary",A128,2018,114.0,93.0,-0.202613386699653,0.14199193374999913,False,False
+"CSF diversion, primary",A128,2021,133.0,87.0,-0.4224626844767354,0.14199193374999913,False,True
+"CSF diversion, primary",A128,2024,73.0,75.0,0.026847250036188056,0.14199193374999913,False,False
+"CSF diversion, primary",A129,2015,4.0,5.0,0.20067069546215124,0.541843319225717,False,False
+"CSF diversion, primary",A129,2018,0.0,2.0,1.6094379124341003,0.541843319225717,False,False
+"CSF diversion, primary",A129,2021,7.0,2.0,-1.0986122886681098,0.541843319225717,False,True
+"CSF diversion, primary",A129,2024,8.0,2.0,-1.2237754316221157,0.541843319225717,False,False
+"CSF diversion, primary",A172,2015,484.0,474.0,-0.020855813280838346,0.05712530703851726,False,False
+"CSF diversion, primary",A172,2018,469.0,474.0,0.010593319401665021,0.05712530703851726,False,False
+"CSF diversion, primary",A172,2021,459.0,433.0,-0.05824714557514522,0.05712530703851726,False,True
+"CSF diversion, primary",A172,2024,460.0,468.0,0.01722324598311535,0.05712530703851726,False,False
+"CSF diversion, revision and maintenance",(group total),2015,2705.0,2864.0,0.057107076765842466,0.04434428907298831,False,False
+"CSF diversion, revision and maintenance",(group total),2018,3222.0,3698.0,0.13776987621457984,0.04434428907298831,True,False
+"CSF diversion, revision and maintenance",(group total),2021,4041.0,3911.0,-0.03269497804876369,0.04434428907298831,False,True
+"CSF diversion, revision and maintenance",(group total),2024,4135.0,4129.0,-0.0014519058811894676,0.04434428907298831,False,False
+"CSF diversion, revision and maintenance",A131,2015,227.0,218.0,-0.04036422385536023,0.03940773859695744,False,False
+"CSF diversion, revision and maintenance",A131,2018,263.0,344.0,0.2680407224722962,0.03940773859695744,True,False
+"CSF diversion, revision and maintenance",A131,2021,349.0,333.0,-0.04686069631818654,0.03940773859695744,False,True
+"CSF diversion, revision and maintenance",A131,2024,336.0,378.0,0.11761792379272097,0.03940773859695744,False,False
+"CSF diversion, revision and maintenance",A132,2015,228.0,272.0,0.17610240376903935,0.0917811109133583,False,False
+"CSF diversion, revision and maintenance",A132,2018,320.0,358.0,0.11204638367895035,0.0917811109133583,False,False
+"CSF diversion, revision and maintenance",A132,2021,332.0,290.0,-0.13503628380394286,0.0917811109133583,False,True
+"CSF diversion, revision and maintenance",A132,2024,412.0,428.0,0.03805453226309883,0.0917811109133583,False,False
+"CSF diversion, revision and maintenance",A133,2015,51.0,49.0,-0.03960913809504583,0.19319175956918427,False,False
+"CSF diversion, revision and maintenance",A133,2018,27.0,29.0,0.07020425867324856,0.19319175956918427,False,False
+"CSF diversion, revision and maintenance",A133,2021,56.0,61.0,0.08479653666007685,0.19319175956918427,False,True
+"CSF diversion, revision and maintenance",A133,2024,75.0,97.0,0.2557197217488224,0.19319175956918427,False,False
+"CSF diversion, revision and maintenance",A134,2015,236.0,308.0,0.2657736354134548,0.07149793935244786,True,False
+"CSF diversion, revision and maintenance",A134,2018,325.0,405.0,0.21975841190684364,0.07149793935244786,True,False
+"CSF diversion, revision and maintenance",A134,2021,381.0,387.0,0.015604998068890054,0.07149793935244786,False,True
+"CSF diversion, revision and maintenance",A134,2024,431.0,486.0,0.11996939110257704,0.07149793935244786,False,False
+"CSF diversion, revision and maintenance",A138,2015,110.0,189.0,0.5393735035646735,0.1846974004951916,False,False
+"CSF diversion, revision and maintenance",A138,2018,238.0,255.0,0.06885309931536314,0.1846974004951916,False,False
+"CSF diversion, revision and maintenance",A138,2021,258.0,319.0,0.21186157986910562,0.1846974004951916,False,True
+"CSF diversion, revision and maintenance",A138,2024,333.0,369.0,0.102507875032578,0.1846974004951916,False,False
+"CSF diversion, revision and maintenance",A139,2015,1.0,1.0,0.0,0.8472978603872037,False,False
+"CSF diversion, revision and maintenance",A139,2018,2.0,3.0,0.3364722366212129,0.8472978603872037,False,False
+"CSF diversion, revision and maintenance",A139,2021,2.0,0.0,-1.6094379124341003,0.8472978603872037,False,True
+"CSF diversion, revision and maintenance",A139,2024,3.0,2.0,-0.3364722366212129,0.8472978603872037,False,False
+"CSF diversion, revision and maintenance",A141,2015,61.0,94.0,0.4295626596872249,0.29470922479244116,False,False
+"CSF diversion, revision and maintenance",A141,2018,106.0,94.0,-0.11954515064978269,0.29470922479244116,False,False
+"CSF diversion, revision and maintenance",A141,2021,158.0,133.0,-0.1716531154770311,0.29470922479244116,False,True
+"CSF diversion, revision and maintenance",A141,2024,88.0,125.0,0.3493032065579547,0.29470922479244116,False,False
+"CSF diversion, revision and maintenance",A142,2015,757.0,684.0,-0.10133489265502064,0.051930187058853994,False,False
+"CSF diversion, revision and maintenance",A142,2018,655.0,665.0,0.01514033463141174,0.051930187058853994,False,False
+"CSF diversion, revision and maintenance",A142,2021,586.0,493.0,-0.17264980921999382,0.051930187058853994,True,True
+"CSF diversion, revision and maintenance",A142,2024,581.0,525.0,-0.10126078164171333,0.051930187058853994,False,False
+"CSF diversion, revision and maintenance",A143,2015,324.0,381.0,0.16182531458036695,0.047702874391819694,True,False
+"CSF diversion, revision and maintenance",A143,2018,397.0,426.0,0.07041743283734721,0.047702874391819694,False,False
+"CSF diversion, revision and maintenance",A143,2021,386.0,315.0,-0.20297318604620881,0.047702874391819694,True,True
+"CSF diversion, revision and maintenance",A143,2024,346.0,409.0,0.16705408466316624,0.047702874391819694,True,False
+"CSF diversion, revision and maintenance",A144,2015,7.0,7.0,0.0,0.28409898211496176,False,False
+"CSF diversion, revision and maintenance",A144,2018,27.0,49.0,0.5877866649021191,0.28409898211496176,False,False
+"CSF diversion, revision and maintenance",A144,2021,55.0,47.0,-0.15565330971179328,0.28409898211496176,False,True
+"CSF diversion, revision and maintenance",A144,2024,62.0,47.0,-0.2744368457017603,0.28409898211496176,False,False
+"CSF diversion, revision and maintenance",A145,2015,385.0,391.0,0.015444322427473556,0.1055220741133916,False,False
+"CSF diversion, revision and maintenance",A145,2018,435.0,372.0,-0.15625775847294324,0.1055220741133916,False,False
+"CSF diversion, revision and maintenance",A145,2021,549.0,577.0,0.04969966855227254,0.1055220741133916,False,True
+"CSF diversion, revision and maintenance",A145,2024,699.0,665.0,-0.04982715627036959,0.1055220741133916,False,False
+"CSF diversion, revision and maintenance",A148,2015,318.0,270.0,-0.1633503767256818,0.17972327831536217,False,False
+"CSF diversion, revision and maintenance",A148,2018,426.0,698.0,0.49332281176528264,0.17972327831536217,False,False
+"CSF diversion, revision and maintenance",A148,2021,928.0,956.0,0.02971040808754709,0.17972327831536217,False,True
+"CSF diversion, revision and maintenance",A148,2024,769.0,598.0,-0.25131442828090605,0.17972327831536217,False,False
+"CSF diversion, revision and maintenance",A149,2015,0.0,0.0,0.0,1.0986122886681098,False,False
+"CSF diversion, revision and maintenance",A149,2018,1.0,0.0,-1.0986122886681098,1.0986122886681098,False,False
+"CSF diversion, revision and maintenance",A149,2021,1.0,0.0,-1.0986122886681098,1.0986122886681098,False,True
+"CSF diversion, revision and maintenance",A149,2024,0.0,0.0,0.0,1.0986122886681098,False,False
+Extra-axial haematoma evacuation,(group total),2015,4432.0,4302.0,-0.029767509862668434,0.03050784216673843,False,False
+Extra-axial haematoma evacuation,(group total),2018,4327.0,4464.0,0.03116721790690681,0.03050784216673843,False,False
+Extra-axial haematoma evacuation,(group total),2021,4398.0,3676.0,-0.17930236105645223,0.03050784216673843,True,True
+Extra-axial haematoma evacuation,(group total),2024,4450.0,4313.0,-0.03126680988235276,0.03050784216673843,False,False
+Extra-axial haematoma evacuation,A401,2015,503.0,510.0,0.0138069254461032,0.05462854240682022,False,False
+Extra-axial haematoma evacuation,A401,2018,509.0,520.0,0.021360035392244098,0.05462854240682022,False,False
+Extra-axial haematoma evacuation,A401,2021,477.0,434.0,-0.09436821521533821,0.05462854240682022,False,True
+Extra-axial haematoma evacuation,A401,2024,441.0,371.0,-0.17262915588620079,0.05462854240682022,True,False
+Extra-axial haematoma evacuation,A411,2015,3929.0,3792.0,-0.035486759083542305,0.03467928250673239,False,False
+Extra-axial haematoma evacuation,A411,2018,3818.0,3944.0,0.03246452820670548,0.03467928250673239,False,False
+Extra-axial haematoma evacuation,A411,2021,3921.0,3242.0,-0.19012959646212224,0.03467928250673239,True,True
+Extra-axial haematoma evacuation,A411,2024,4009.0,3942.0,-0.016851505409889934,0.03467928250673239,False,False
+Intracerebral haematoma evacuation,(group total),2015,667.0,629.0,-0.058613536790002724,0.061645188320674296,False,False
+Intracerebral haematoma evacuation,(group total),2018,640.0,674.0,0.05172255431102169,0.061645188320674296,False,False
+Intracerebral haematoma evacuation,(group total),2021,694.0,680.0,-0.020364340102877663,0.061645188320674296,False,True
+Intracerebral haematoma evacuation,(group total),2024,710.0,723.0,0.018131598534383328,0.061645188320674296,False,False
+Intracerebral haematoma evacuation,A052,2015,95.0,115.0,0.19014428247516366,0.13833417269348297,False,False
+Intracerebral haematoma evacuation,A052,2018,112.0,94.0,-0.1743533871447778,0.13833417269348297,False,False
+Intracerebral haematoma evacuation,A052,2021,114.0,123.0,0.07566633307373752,0.13833417269348297,False,True
+Intracerebral haematoma evacuation,A052,2024,112.0,124.0,0.1013524942602875,0.13833417269348297,False,False
+Intracerebral haematoma evacuation,A053,2015,72.0,64.0,-0.11692133805890229,0.11069109563983168,False,False
+Intracerebral haematoma evacuation,A053,2018,75.0,79.0,0.051624365405307245,0.11069109563983168,False,False
+Intracerebral haematoma evacuation,A053,2021,82.0,83.0,0.012048338516174574,0.11069109563983168,False,True
+Intracerebral haematoma evacuation,A053,2024,101.0,80.0,-0.2318016140573243,0.11069109563983168,False,False
+Intracerebral haematoma evacuation,A054,2015,500.0,450.0,-0.1052495217068826,0.07795704144946175,False,False
+Intracerebral haematoma evacuation,A054,2018,453.0,501.0,0.10060833784679891,0.07795704144946175,False,False
+Intracerebral haematoma evacuation,A054,2021,498.0,474.0,-0.04934197135191047,0.07795704144946175,False,True
+Intracerebral haematoma evacuation,A054,2024,497.0,519.0,0.04327125394063468,0.07795704144946175,False,False
+Intracranial tumour resection and biopsy,(group total),2015,7565.0,7699.0,0.01755695277684204,0.02938335992324718,False,False
+Intracranial tumour resection and biopsy,(group total),2018,8214.0,8404.0,0.02286639132705736,0.02938335992324718,False,False
+Intracranial tumour resection and biopsy,(group total),2021,8486.0,7456.0,-0.1293905303987491,0.02938335992324718,True,True
+Intracranial tumour resection and biopsy,(group total),2024,8017.0,8114.0,0.012025932188626612,0.02938335992324718,False,False
+Intracranial tumour resection and biopsy,A021,2015,1404.0,1458.0,0.03772714276347767,0.020167602098798112,False,False
+Intracranial tumour resection and biopsy,A021,2018,1451.0,1587.0,0.08956294730216215,0.020167602098798112,True,False
+Intracranial tumour resection and biopsy,A021,2021,1621.0,1418.0,-0.13375167149846667,0.020167602098798112,True,True
+Intracranial tumour resection and biopsy,A021,2024,1445.0,1399.0,-0.03234025250089259,0.020167602098798112,False,False
+Intracranial tumour resection and biopsy,A022,2015,902.0,952.0,0.05392141679381996,0.04734567877553798,False,False
+Intracranial tumour resection and biopsy,A022,2018,1065.0,1118.0,0.04854432939151248,0.04734567877553798,False,False
+Intracranial tumour resection and biopsy,A022,2021,1077.0,950.0,-0.12541066004941898,0.04734567877553798,False,True
+Intracranial tumour resection and biopsy,A022,2024,1011.0,971.0,-0.04034838779030538,0.04734567877553798,False,False
+Intracranial tumour resection and biopsy,A023,2015,601.0,575.0,-0.04418730725279628,0.038816458506441005,False,False
+Intracranial tumour resection and biopsy,A023,2018,695.0,806.0,0.14807288620176598,0.038816458506441005,True,False
+Intracranial tumour resection and biopsy,A023,2021,703.0,703.0,0.0,0.038816458506441005,False,True
+Intracranial tumour resection and biopsy,A023,2024,670.0,704.0,0.04946462861700172,0.038816458506441005,False,False
+Intracranial tumour resection and biopsy,A024,2015,258.0,247.0,-0.04348511193973878,0.05635293655113176,False,False
+Intracranial tumour resection and biopsy,A024,2018,268.0,260.0,-0.030248052755497738,0.05635293655113176,False,False
+Intracranial tumour resection and biopsy,A024,2021,290.0,255.0,-0.12838116664820687,0.05635293655113176,False,True
+Intracranial tumour resection and biopsy,A024,2024,255.0,260.0,0.019380451549662593,0.05635293655113176,False,False
+Intracranial tumour resection and biopsy,A025,2015,571.0,620.0,0.08226112140979659,0.02679568345359306,False,False
+Intracranial tumour resection and biopsy,A025,2018,635.0,644.0,0.014062731749733336,0.02679568345359306,False,False
+Intracranial tumour resection and biopsy,A025,2021,708.0,615.0,-0.14071511350622692,0.02679568345359306,True,True
+Intracranial tumour resection and biopsy,A025,2024,628.0,604.0,-0.03893435797545477,0.02679568345359306,False,False
+Intracranial tumour resection and biopsy,A026,2015,100.0,95.0,-0.051031480012445875,0.1401085437211274,False,False
+Intracranial tumour resection and biopsy,A026,2018,100.0,105.0,0.04855322541699074,0.1401085437211274,False,False
+Intracranial tumour resection and biopsy,A026,2021,94.0,75.0,-0.22446717824471804,0.1401085437211274,False,True
+Intracranial tumour resection and biopsy,A026,2024,85.0,84.0,-0.01176484157958637,0.1401085437211274,False,False
+Intracranial tumour resection and biopsy,A027,2015,0.0,11.0,3.1354942159291497,0.25413396447304915,False,False
+Intracranial tumour resection and biopsy,A027,2018,26.0,32.0,0.20409535634351522,0.25413396447304915,False,False
+Intracranial tumour resection and biopsy,A027,2021,31.0,25.0,-0.2113090936672069,0.25413396447304915,False,True
+Intracranial tumour resection and biopsy,A027,2024,33.0,32.0,-0.030305349495328922,0.25413396447304915,False,False
+Intracranial tumour resection and biopsy,A028,2015,427.0,433.0,0.013937507843781678,0.09720199432182064,False,False
+Intracranial tumour resection and biopsy,A028,2018,401.0,444.0,0.10174252156714289,0.09720199432182064,False,False
+Intracranial tumour resection and biopsy,A028,2021,384.0,357.0,-0.07280842681163635,0.09720199432182064,False,True
+Intracranial tumour resection and biopsy,A028,2024,394.0,342.0,-0.14134748258364893,0.09720199432182064,False,False
+Intracranial tumour resection and biopsy,A029,2015,51.0,46.0,-0.10212949507637979,0.35185693329911305,False,False
+Intracranial tumour resection and biopsy,A029,2018,41.0,40.0,-0.024391453124159124,0.35185693329911305,False,False
+Intracranial tumour resection and biopsy,A029,2021,57.0,32.0,-0.570544858467613,0.35185693329911305,False,True
+Intracranial tumour resection and biopsy,A029,2024,70.0,49.0,-0.3536400402435783,0.35185693329911305,False,False
+Intracranial tumour resection and biopsy,A041,2015,127.0,250.0,0.6753425559264385,0.08494662927446986,True,False
+Intracranial tumour resection and biopsy,A041,2018,258.0,236.0,-0.08894748601649617,0.08494662927446986,False,False
+Intracranial tumour resection and biopsy,A041,2021,210.0,209.0,-0.004761913760243703,0.08494662927446986,False,True
+Intracranial tumour resection and biopsy,A041,2024,214.0,210.0,-0.01882408524563559,0.08494662927446986,False,False
+Intracranial tumour resection and biopsy,A042,2015,113.0,133.0,0.16229864091884688,0.1912972698102725,False,False
+Intracranial tumour resection and biopsy,A042,2018,142.0,152.0,0.06782259633876109,0.1912972698102725,False,False
+Intracranial tumour resection and biopsy,A042,2021,111.0,105.0,-0.05531363798405231,0.1912972698102725,False,True
+Intracranial tumour resection and biopsy,A042,2024,94.0,121.0,0.25131442828090617,0.1912972698102725,False,False
+Intracranial tumour resection and biopsy,A043,2015,78.0,110.0,0.3419168961694447,0.14131007575714444,False,False
+Intracranial tumour resection and biopsy,A043,2018,143.0,126.0,-0.1260927270321009,0.14131007575714444,False,False
+Intracranial tumour resection and biopsy,A043,2021,134.0,99.0,-0.30140655487734663,0.14131007575714444,False,True
+Intracranial tumour resection and biopsy,A043,2024,117.0,101.0,-0.1463795351023716,0.14131007575714444,False,False
+Intracranial tumour resection and biopsy,A044,2015,24.0,30.0,0.21905356606268467,0.14847139045265859,False,False
+Intracranial tumour resection and biopsy,A044,2018,25.0,30.0,0.17904823144898546,0.14847139045265859,False,False
+Intracranial tumour resection and biopsy,A044,2021,13.0,9.0,-0.3513978868378886,0.14847139045265859,False,True
+Intracranial tumour resection and biopsy,A044,2024,21.0,24.0,0.13062018241706422,0.14847139045265859,False,False
+Intracranial tumour resection and biopsy,A045,2015,26.0,28.0,0.0727593542824283,0.1706134642657479,False,False
+Intracranial tumour resection and biopsy,A045,2018,24.0,33.0,0.3128723212803394,0.1706134642657479,False,False
+Intracranial tumour resection and biopsy,A045,2021,28.0,36.0,0.24740817331384096,0.1706134642657479,False,True
+Intracranial tumour resection and biopsy,A045,2024,39.0,35.0,-0.10676797542570605,0.1706134642657479,False,False
+Intracranial tumour resection and biopsy,A046,2015,19.0,21.0,0.09763846956391607,0.1824170934933655,False,False
+Intracranial tumour resection and biopsy,A046,2018,27.0,23.0,-0.15718558352241238,0.1824170934933655,False,False
+Intracranial tumour resection and biopsy,A046,2021,30.0,20.0,-0.3973017974690035,0.1824170934933655,False,True
+Intracranial tumour resection and biopsy,A046,2024,17.0,21.0,0.20585205420414882,0.1824170934933655,False,False
+Intracranial tumour resection and biopsy,A048,2015,75.0,88.0,0.1588698957589048,0.32202367526533804,False,False
+Intracranial tumour resection and biopsy,A048,2018,99.0,86.0,-0.14001323022671347,0.32202367526533804,False,False
+Intracranial tumour resection and biopsy,A048,2021,57.0,65.0,0.13026519483790155,0.32202367526533804,False,True
+Intracranial tumour resection and biopsy,A048,2024,66.0,75.0,0.12693070859317065,0.32202367526533804,False,False
+Intracranial tumour resection and biopsy,A049,2015,11.0,10.0,-0.09097177820572676,0.18120280932385868,False,False
+Intracranial tumour resection and biopsy,A049,2018,14.0,17.0,0.18805223150293962,0.18120280932385868,False,False
+Intracranial tumour resection and biopsy,A049,2021,13.0,10.0,-0.25131442828090605,0.18120280932385868,False,True
+Intracranial tumour resection and biopsy,A049,2024,18.0,6.0,-1.0459685551826876,0.18120280932385868,False,False
+Intracranial tumour resection and biopsy,A081,2015,392.0,347.0,-0.12177187221761628,0.09829531013943271,False,False
+Intracranial tumour resection and biopsy,A081,2018,303.0,289.0,-0.047226313486503003,0.09829531013943271,False,False
+Intracranial tumour resection and biopsy,A081,2021,307.0,234.0,-0.27101949936023856,0.09829531013943271,False,True
+Intracranial tumour resection and biopsy,A081,2024,246.0,294.0,0.1779170096088966,0.09829531013943271,False,False
+Intracranial tumour resection and biopsy,A082,2015,201.0,154.0,-0.2655952850489375,0.06282763447409506,False,False
+Intracranial tumour resection and biopsy,A082,2018,131.0,132.0,0.007575793808457723,0.06282763447409506,False,False
+Intracranial tumour resection and biopsy,A082,2021,143.0,119.0,-0.18301866382811038,0.06282763447409506,False,True
+Intracranial tumour resection and biopsy,A082,2024,135.0,135.0,0.0,0.06282763447409506,False,False
+Intracranial tumour resection and biopsy,A083,2015,208.0,155.0,-0.2932933096195673,0.11810694994360976,False,False
+Intracranial tumour resection and biopsy,A083,2018,169.0,121.0,-0.3329386640399018,0.11810694994360976,False,False
+Intracranial tumour resection and biopsy,A083,2021,176.0,135.0,-0.26434923605359584,0.11810694994360976,False,True
+Intracranial tumour resection and biopsy,A083,2024,130.0,135.0,0.03759841355700759,0.11810694994360976,False,False
+Intracranial tumour resection and biopsy,A084,2015,50.0,32.0,-0.4407332469456223,0.16590465886961087,False,False
+Intracranial tumour resection and biopsy,A084,2018,45.0,33.0,-0.3061668871258839,0.16590465886961087,False,False
+Intracranial tumour resection and biopsy,A084,2021,27.0,26.0,-0.0370412716803491,0.16590465886961087,False,True
+Intracranial tumour resection and biopsy,A084,2024,33.0,31.0,-0.06155789299943332,0.16590465886961087,False,False
+Intracranial tumour resection and biopsy,A085,2015,45.0,29.0,-0.43332206261113054,0.17315923500728564,False,False
+Intracranial tumour resection and biopsy,A085,2018,34.0,28.0,-0.19105523676270922,0.17315923500728564,False,False
+Intracranial tumour resection and biopsy,A085,2021,40.0,34.0,-0.16034265007517937,0.17315923500728564,False,True
+Intracranial tumour resection and biopsy,A085,2024,35.0,24.0,-0.3708595789306889,0.17315923500728564,False,False
+Intracranial tumour resection and biopsy,A086,2015,45.0,26.0,-0.5405675929647281,0.23547151874383576,False,False
+Intracranial tumour resection and biopsy,A086,2018,42.0,31.0,-0.2995165300987837,0.23547151874383576,False,False
+Intracranial tumour resection and biopsy,A086,2021,36.0,28.0,-0.24740817331384096,0.23547151874383576,False,True
+Intracranial tumour resection and biopsy,A086,2024,31.0,44.0,0.34550164334060723,0.23547151874383576,False,False
+Intracranial tumour resection and biopsy,A088,2015,154.0,148.0,-0.03960913809504583,0.08074497077522443,False,False
+Intracranial tumour resection and biopsy,A088,2018,129.0,133.0,0.03042059670071172,0.08074497077522443,False,False
+Intracranial tumour resection and biopsy,A088,2021,158.0,145.0,-0.08557850670578815,0.08074497077522443,False,True
+Intracranial tumour resection and biopsy,A088,2024,150.0,148.0,-0.013378125946176087,0.08074497077522443,False,False
+Intracranial tumour resection and biopsy,A089,2015,36.0,41.0,0.1283811666482069,0.086324904609997,False,False
+Intracranial tumour resection and biopsy,A089,2018,34.0,19.0,-0.570544858467613,0.086324904609997,False,False
+Intracranial tumour resection and biopsy,A089,2021,24.0,21.0,-0.13062018241706422,0.086324904609997,False,True
+Intracranial tumour resection and biopsy,A089,2024,39.0,25.0,-0.4376222197426957,0.086324904609997,False,False
+Intracranial tumour resection and biopsy,A171,2015,85.0,80.0,-0.06025919151819684,0.1309425112940194,False,False
+Intracranial tumour resection and biopsy,A171,2018,94.0,108.0,0.13815033848081718,0.1309425112940194,False,False
+Intracranial tumour resection and biopsy,A171,2021,116.0,95.0,-0.19876502551907066,0.1309425112940194,False,True
+Intracranial tumour resection and biopsy,A171,2024,111.0,118.0,0.06088836967501239,0.1309425112940194,False,False
+Intracranial tumour resection and biopsy,A381,2015,191.0,155.0,-0.20824207700141192,0.10744622346875879,False,False
+Intracranial tumour resection and biopsy,A381,2018,212.0,291.0,0.3160980174260756,0.10744622346875879,False,False
+Intracranial tumour resection and biopsy,A381,2021,333.0,303.0,-0.09426125485612548,0.10744622346875879,False,True
+Intracranial tumour resection and biopsy,A381,2024,342.0,377.0,0.0972989109867995,0.10744622346875879,False,False
+Intracranial tumour resection and biopsy,A382,2015,203.0,216.0,0.06192454255989483,0.08404749123916264,False,False
+Intracranial tumour resection and biopsy,A382,2018,256.0,259.0,0.011628037995119214,0.08404749123916264,False,False
+Intracranial tumour resection and biopsy,A382,2021,259.0,233.0,-0.10557462549699136,0.08404749123916264,False,True
+Intracranial tumour resection and biopsy,A382,2024,249.0,257.0,0.03156080491221751,0.08404749123916264,False,False
+Intracranial tumour resection and biopsy,A383,2015,193.0,196.0,0.015384918839479456,0.09651549820762903,False,False
+Intracranial tumour resection and biopsy,A383,2018,201.0,180.0,-0.11005860361380204,0.09651549820762903,False,False
+Intracranial tumour resection and biopsy,A383,2021,189.0,158.0,-0.17863443120514572,0.09651549820762903,False,True
+Intracranial tumour resection and biopsy,A383,2024,202.0,231.0,0.13383998697969499,0.09651549820762903,False,False
+Intracranial tumour resection and biopsy,A384,2015,173.0,170.0,-0.017442302663342374,0.06581321856957179,False,False
+Intracranial tumour resection and biopsy,A384,2018,239.0,228.0,-0.0470172065167105,0.06581321856957179,False,False
+Intracranial tumour resection and biopsy,A384,2021,249.0,220.0,-0.12356122030467268,0.06581321856957179,False,True
+Intracranial tumour resection and biopsy,A384,2024,220.0,229.0,0.040005334613699206,0.06581321856957179,False,False
+Intracranial tumour resection and biopsy,A385,2015,81.0,79.0,-0.024845998586530776,0.09998783137295794,False,False
+Intracranial tumour resection and biopsy,A385,2018,66.0,71.0,0.07249550203815361,0.09998783137295794,False,False
+Intracranial tumour resection and biopsy,A385,2021,106.0,118.0,0.10676797542570614,0.09998783137295794,False,True
+Intracranial tumour resection and biopsy,A385,2024,122.0,127.0,0.040005334613699206,0.09998783137295794,False,False
+Intracranial tumour resection and biopsy,A386,2015,74.0,52.0,-0.3499859557879358,0.17499297789396784,False,False
+Intracranial tumour resection and biopsy,A386,2018,74.0,74.0,0.0,0.17499297789396784,False,False
+Intracranial tumour resection and biopsy,A386,2021,95.0,75.0,-0.23499359123170555,0.17499297789396784,False,True
+Intracranial tumour resection and biopsy,A386,2024,68.0,72.0,0.05675281659244942,0.17499297789396784,False,False
+Intracranial tumour resection and biopsy,A388,2015,439.0,508.0,0.14582749836338285,0.07584822899282154,False,False
+Intracranial tumour resection and biopsy,A388,2018,504.0,397.0,-0.23837290569927708,0.07584822899282154,True,False
+Intracranial tumour resection and biopsy,A388,2021,389.0,291.0,-0.2898238595202559,0.07584822899282154,True,True
+Intracranial tumour resection and biopsy,A388,2024,404.0,469.0,0.14901656214977124,0.07584822899282154,False,False
+Intracranial tumour resection and biopsy,A389,2015,67.0,49.0,-0.3101549283038396,0.18179460997600966,False,False
+Intracranial tumour resection and biopsy,A389,2018,63.0,54.0,-0.15283920422944755,0.18179460997600966,False,False
+Intracranial tumour resection and biopsy,A389,2021,50.0,30.0,-0.5042466526679482,0.18179460997600966,False,True
+Intracranial tumour resection and biopsy,A389,2024,53.0,58.0,0.08934510033584996,0.18179460997600966,False,False
+Intracranial tumour resection and biopsy,A431,2015,115.0,129.0,0.11441035117774412,0.08348115581743734,False,False
+Intracranial tumour resection and biopsy,A431,2018,177.0,197.0,0.10676797542570614,0.08348115581743734,False,False
+Intracranial tumour resection and biopsy,A431,2021,198.0,182.0,-0.08403892710469887,0.08348115581743734,False,True
+Intracranial tumour resection and biopsy,A431,2024,243.0,266.0,0.0902573010832547,0.08348115581743734,False,False
+Intracranial tumour resection and biopsy,A432,2015,19.0,22.0,0.14310084364067324,0.12417518267377797,False,False
+Intracranial tumour resection and biopsy,A432,2018,23.0,16.0,-0.3536400402435783,0.12417518267377797,False,False
+Intracranial tumour resection and biopsy,A432,2021,27.0,26.0,-0.0370412716803491,0.12417518267377797,False,True
+Intracranial tumour resection and biopsy,A432,2024,25.0,34.0,0.3022808718729337,0.12417518267377797,False,False
+Intracranial tumour resection and biopsy,A438,2015,5.0,3.0,-0.45198512374305727,0.8472978603872037,False,False
+Intracranial tumour resection and biopsy,A438,2018,3.0,4.0,0.25131442828090617,0.8472978603872037,False,False
+Intracranial tumour resection and biopsy,A438,2021,3.0,0.0,-1.9459101490553135,0.8472978603872037,False,True
+Intracranial tumour resection and biopsy,A438,2024,2.0,2.0,0.0,0.8472978603872037,False,False
+Intracranial tumour resection and biopsy,A439,2015,2.0,1.0,-0.5108256237659907,0.0,False,False
+Intracranial tumour resection and biopsy,A439,2018,1.0,0.0,-1.0986122886681098,0.0,False,False
+Intracranial tumour resection and biopsy,A439,2021,0.0,0.0,0.0,0.0,False,True
+Intracranial tumour resection and biopsy,A439,2024,0.0,0.0,0.0,0.0,False,False
+Lumbar decompression without fusion,(group total),2015,26723.0,26471.0,-0.00947464555481735,0.026675704103439425,False,False
+Lumbar decompression without fusion,(group total),2018,26198.0,25641.0,-0.021490024538333458,0.026675704103439425,False,False
+Lumbar decompression without fusion,(group total),2021,24434.0,13658.0,-0.5816340296114865,0.026675704103439425,True,True
+Lumbar decompression without fusion,(group total),2024,20369.0,21287.0,0.04408136195218236,0.026675704103439425,False,False
+Lumbar decompression without fusion,V252,2015,391.0,391.0,0.0,0.1817193928160427,False,False
+Lumbar decompression without fusion,V252,2018,342.0,367.0,0.0704516609506113,0.1817193928160427,False,False
+Lumbar decompression without fusion,V252,2021,310.0,127.0,-0.8900675367750527,0.1817193928160427,True,True
+Lumbar decompression without fusion,V252,2024,204.0,153.0,-0.28686740845560466,0.1817193928160427,False,False
+Lumbar decompression without fusion,V254,2015,5125.0,5718.0,0.10947845199781515,0.04055186433685874,False,False
+Lumbar decompression without fusion,V254,2018,5736.0,5731.0,-0.000871991684133301,0.04055186433685874,False,False
+Lumbar decompression without fusion,V254,2021,5222.0,3107.0,-0.5191576700458547,0.04055186433685874,True,True
+Lumbar decompression without fusion,V254,2024,4839.0,5236.0,0.07884192662405706,0.04055186433685874,False,False
+Lumbar decompression without fusion,V255,2015,9929.0,9760.0,-0.017166495701070907,0.09406059127707606,False,False
+Lumbar decompression without fusion,V255,2018,10568.0,10761.0,0.018097071479342405,0.09406059127707606,False,False
+Lumbar decompression without fusion,V255,2021,12472.0,6817.0,-0.6040333850154489,0.09406059127707606,True,True
+Lumbar decompression without fusion,V255,2024,11112.0,11324.0,0.01889791944405475,0.09406059127707606,False,False
+Lumbar decompression without fusion,V256,2015,1418.0,1418.0,0.0,0.12003002319008406,False,False
+Lumbar decompression without fusion,V256,2018,1993.0,1872.0,-0.06261745143003519,0.12003002319008406,False,False
+Lumbar decompression without fusion,V256,2021,1367.0,751.0,-0.5986683251031071,0.12003002319008406,True,True
+Lumbar decompression without fusion,V256,2024,1149.0,1307.0,0.12878985173584181,0.12003002319008406,False,False
+Lumbar decompression without fusion,V258,2015,1324.0,1482.0,0.11269482215975611,0.16207411665678112,False,False
+Lumbar decompression without fusion,V258,2018,1164.0,1194.0,0.025435877441468496,0.16207411665678112,False,False
+Lumbar decompression without fusion,V258,2021,826.0,557.0,-0.393737413926805,0.16207411665678112,False,True
+Lumbar decompression without fusion,V258,2024,565.0,759.0,0.2949500264796524,0.16207411665678112,False,False
+Lumbar decompression without fusion,V259,2015,721.0,697.0,-0.03382986451840487,0.1198111573133554,False,False
+Lumbar decompression without fusion,V259,2018,638.0,636.0,-0.0031372574751327687,0.1198111573133554,False,False
+Lumbar decompression without fusion,V259,2021,420.0,197.0,-0.7557058950718262,0.1198111573133554,True,True
+Lumbar decompression without fusion,V259,2024,210.0,234.0,0.10796993476389789,0.1198111573133554,False,False
+Lumbar decompression without fusion,V331,2015,738.0,586.0,-0.23044843387790429,0.20783772718255028,False,False
+Lumbar decompression without fusion,V331,2018,525.0,329.0,-0.466773836374444,0.20783772718255028,False,False
+Lumbar decompression without fusion,V331,2021,310.0,184.0,-0.5205344378929516,0.20783772718255028,False,True
+Lumbar decompression without fusion,V331,2024,321.0,322.0,0.0031055925581530666,0.20783772718255028,False,False
+Lumbar decompression without fusion,V332,2015,948.0,705.0,-0.2959750180822003,0.2238453215298167,False,False
+Lumbar decompression without fusion,V332,2018,485.0,465.0,-0.04206719101425784,0.2238453215298167,False,False
+Lumbar decompression without fusion,V332,2021,282.0,168.0,-0.5167428007940793,0.2238453215298167,False,True
+Lumbar decompression without fusion,V332,2024,211.0,273.0,0.2570766233757032,0.2238453215298167,False,False
+Lumbar decompression without fusion,V337,2015,4835.0,4526.0,-0.06603552224152283,0.13648470463953338,False,False
+Lumbar decompression without fusion,V337,2018,3744.0,3432.0,-0.08699923804729566,0.13648470463953338,False,False
+Lumbar decompression without fusion,V337,2021,2589.0,1401.0,-0.6139217152591032,0.13648470463953338,True,True
+Lumbar decompression without fusion,V337,2024,1418.0,1329.0,-0.06479704356583156,0.13648470463953338,False,False
+Lumbar decompression without fusion,V338,2015,845.0,831.0,-0.01669686970565261,0.10308681747747633,False,False
+Lumbar decompression without fusion,V338,2018,795.0,685.0,-0.1488223487754725,0.10308681747747633,False,False
+Lumbar decompression without fusion,V338,2021,548.0,289.0,-0.639031982702235,0.10308681747747633,True,True
+Lumbar decompression without fusion,V338,2024,289.0,289.0,0.0,0.10308681747747633,False,False
+Lumbar decompression without fusion,V339,2015,449.0,357.0,-0.22900049177761259,0.3208655971564228,False,False
+Lumbar decompression without fusion,V339,2018,208.0,169.0,-0.20708611441835112,0.3208655971564228,False,False
+Lumbar decompression without fusion,V339,2021,88.0,60.0,-0.38035918697708804,0.3208655971564228,False,True
+Lumbar decompression without fusion,V339,2024,51.0,61.0,0.17745536714278165,0.3208655971564228,False,False
+Neuromodulation implantation,(group total),2015,3273.0,3535.0,0.07699498316314954,0.05820197396045885,False,False
+Neuromodulation implantation,(group total),2018,3818.0,3924.0,0.027381279238429663,0.05820197396045885,False,False
+Neuromodulation implantation,(group total),2021,3852.0,1472.0,-0.961760651668529,0.05820197396045885,True,True
+Neuromodulation implantation,(group total),2024,2947.0,3363.0,0.13202474505413445,0.05820197396045885,False,False
+Neuromodulation implantation,A091,2015,370.0,349.0,-0.05834988306227661,0.07177977662132667,False,False
+Neuromodulation implantation,A091,2018,458.0,432.0,-0.05837796532458558,0.07177977662132667,False,False
+Neuromodulation implantation,A091,2021,393.0,174.0,-0.813156326214976,0.07177977662132667,True,True
+Neuromodulation implantation,A091,2024,379.0,457.0,0.18692228787989132,0.07177977662132667,False,False
+Neuromodulation implantation,A095,2015,186.0,227.0,0.19871899930713482,0.08637718353634463,False,False
+Neuromodulation implantation,A095,2018,207.0,193.0,-0.06985382720091646,0.08637718353634463,False,False
+Neuromodulation implantation,A095,2021,166.0,51.0,-1.173413501750808,0.08637718353634463,True,True
+Neuromodulation implantation,A095,2024,110.0,114.0,0.035559302036486926,0.08637718353634463,False,False
+Neuromodulation implantation,A331,2015,203.0,221.0,0.08475658460254071,0.14792602244665892,False,False
+Neuromodulation implantation,A331,2018,364.0,370.0,0.016326893287428666,0.14792602244665892,False,False
+Neuromodulation implantation,A331,2021,417.0,218.0,-0.6474985297552655,0.14792602244665892,True,True
+Neuromodulation implantation,A331,2024,272.0,320.0,0.16224366225742598,0.14792602244665892,False,False
+Neuromodulation implantation,A334,2015,70.0,62.0,-0.12044615307586722,0.40079468137758983,False,False
+Neuromodulation implantation,A334,2018,58.0,62.0,0.06613980250454499,0.40079468137758983,False,False
+Neuromodulation implantation,A334,2021,55.0,15.0,-1.2755429968271879,0.40079468137758983,False,True
+Neuromodulation implantation,A334,2024,46.0,25.0,-0.6007738604289302,0.40079468137758983,False,False
+Neuromodulation implantation,A701,2015,881.0,848.0,-0.03815491716364393,0.07662064064549724,False,False
+Neuromodulation implantation,A701,2018,805.0,826.0,0.02573671464404988,0.07662064064549724,False,False
+Neuromodulation implantation,A701,2021,745.0,307.0,-0.8855800469582206,0.07662064064549724,True,True
+Neuromodulation implantation,A701,2024,692.0,911.0,0.2747833560572242,0.07662064064549724,True,False
+Neuromodulation implantation,A704,2015,1563.0,1828.0,0.15656906069153992,0.06506193358508336,False,False
+Neuromodulation implantation,A704,2018,1926.0,2041.0,0.057979946693418195,0.06506193358508336,False,False
+Neuromodulation implantation,A704,2021,2076.0,707.0,-1.0767014335534155,0.06506193358508336,True,True
+Neuromodulation implantation,A704,2024,1448.0,1536.0,0.05897856436113429,0.06506193358508336,False,False
+Peripheral nerve entrapment release,(group total),2015,60886.0,60609.0,-0.004559828800115141,0.048611734277328573,False,False
+Peripheral nerve entrapment release,(group total),2018,60014.0,56444.0,-0.06132834519833569,0.048611734277328573,False,False
+Peripheral nerve entrapment release,(group total),2021,50733.0,25208.0,-0.6994052026739092,0.048611734277328573,True,True
+Peripheral nerve entrapment release,(group total),2024,44549.0,46608.0,0.04518199742231342,0.048611734277328573,False,False
+Peripheral nerve entrapment release,A651,2015,53901.0,53501.0,-0.007448615949168601,0.05013461302972291,False,False
+Peripheral nerve entrapment release,A651,2018,52711.0,49664.0,-0.05954325589567025,0.05013461302972291,False,False
+Peripheral nerve entrapment release,A651,2021,44603.0,22191.0,-0.6981029986063287,0.05013461302972291,True,True
+Peripheral nerve entrapment release,A651,2024,39137.0,40974.0,0.04586883534037921,0.05013461302972291,False,False
+Peripheral nerve entrapment release,A652,2015,401.0,406.0,0.012376395601048968,0.1538731439516849,False,False
+Peripheral nerve entrapment release,A652,2018,488.0,389.0,-0.2264756061720345,0.1538731439516849,False,False
+Peripheral nerve entrapment release,A652,2021,342.0,163.0,-0.7394586673649719,0.1538731439516849,True,True
+Peripheral nerve entrapment release,A652,2024,299.0,300.0,0.003333336419758217,0.1538731439516849,False,False
+Peripheral nerve entrapment release,A658,2015,98.0,71.0,-0.3203590984780813,0.04416147672012684,False,False
+Peripheral nerve entrapment release,A658,2018,99.0,73.0,-0.30287223794575613,0.04416147672012684,False,False
+Peripheral nerve entrapment release,A658,2021,72.0,28.0,-0.9336824745860243,0.04416147672012684,False,True
+Peripheral nerve entrapment release,A658,2024,50.0,71.0,0.3477241134186478,0.04416147672012684,False,False
+Peripheral nerve entrapment release,A659,2015,20.0,14.0,-0.3462762367178338,0.43466399121108157,False,False
+Peripheral nerve entrapment release,A659,2018,25.0,12.0,-0.712949807856125,0.43466399121108157,False,False
+Peripheral nerve entrapment release,A659,2021,14.0,9.0,-0.4228568508200336,0.43466399121108157,False,True
+Peripheral nerve entrapment release,A659,2024,11.0,13.0,0.16034265007517948,0.43466399121108157,False,False
+Peripheral nerve entrapment release,A671,2015,6008.0,6155.0,0.024170857736315204,0.06453019549232221,False,False
+Peripheral nerve entrapment release,A671,2018,6260.0,5929.0,-0.054320161704152534,0.06453019549232221,False,False
+Peripheral nerve entrapment release,A671,2021,5328.0,2688.0,-0.684086355411278,0.06453019549232221,True,True
+Peripheral nerve entrapment release,A671,2024,4785.0,4952.0,0.0343019869367448,0.06453019549232221,False,False
+Peripheral nerve entrapment release,A672,2015,62.0,51.0,-0.1935847490726654,0.14965907960948915,False,False
+Peripheral nerve entrapment release,A672,2018,42.0,36.0,-0.15219181534192538,0.14965907960948915,False,False
+Peripheral nerve entrapment release,A672,2021,29.0,9.0,-1.133098464739279,0.14965907960948915,False,True
+Peripheral nerve entrapment release,A672,2024,15.0,20.0,0.2795848622191615,0.14965907960948915,False,False
+Peripheral nerve entrapment release,A673,2015,39.0,60.0,0.42634269312971956,0.13357067710514103,False,False
+Peripheral nerve entrapment release,A673,2018,41.0,46.0,0.11375888535665796,0.13357067710514103,False,False
+Peripheral nerve entrapment release,A673,2021,73.0,15.0,-1.55644538229359,0.13357067710514103,True,True
+Peripheral nerve entrapment release,A673,2024,36.0,34.0,-0.056352936551131744,0.13357067710514103,False,False
+Peripheral nerve entrapment release,A678,2015,310.0,312.0,0.0064205678029227616,0.075707009665439,False,False
+Peripheral nerve entrapment release,A678,2018,313.0,257.0,-0.19677963996918452,0.075707009665439,False,False
+Peripheral nerve entrapment release,A678,2021,241.0,84.0,-1.0501179387294992,0.075707009665439,True,True
+Peripheral nerve entrapment release,A678,2024,198.0,220.0,0.1051085947596555,0.075707009665439,False,False
+Peripheral nerve entrapment release,A679,2015,47.0,39.0,-0.1844290391335193,0.1433904565861734,False,False
+Peripheral nerve entrapment release,A679,2018,35.0,38.0,0.08112554481236853,0.1433904565861734,False,False
+Peripheral nerve entrapment release,A679,2021,31.0,21.0,-0.38193461069797024,0.1433904565861734,False,True
+Peripheral nerve entrapment release,A679,2024,18.0,24.0,0.28090238546640217,0.1433904565861734,False,False
+Spinal deformity correction,(group total),2015,3355.0,3097.0,-0.08000545609499647,0.06506026618267542,False,False
+Spinal deformity correction,(group total),2018,2997.0,2769.0,-0.07911180942851076,0.06506026618267542,False,False
+Spinal deformity correction,(group total),2021,2482.0,1527.0,-0.4856337048735774,0.06506026618267542,True,True
+Spinal deformity correction,(group total),2024,2619.0,2731.0,0.04186744898749794,0.06506026618267542,False,False
+Spinal deformity correction,V411,2015,2686.0,2490.0,-0.07575573765553804,0.0628844315613705,False,False
+Spinal deformity correction,V411,2018,2470.0,2320.0,-0.0626378796045742,0.0628844315613705,False,False
+Spinal deformity correction,V411,2021,2107.0,1308.0,-0.47662096790581004,0.0628844315613705,True,True
+Spinal deformity correction,V411,2024,2197.0,2277.0,0.03575799957478128,0.0628844315613705,False,False
+Spinal deformity correction,V412,2015,112.0,103.0,-0.08338160893905101,0.18904098017934576,False,False
+Spinal deformity correction,V412,2018,144.0,163.0,0.12353348278482125,0.18904098017934576,False,False
+Spinal deformity correction,V412,2021,120.0,72.0,-0.5080631910700807,0.18904098017934576,False,True
+Spinal deformity correction,V412,2024,91.0,105.0,0.1423719806346455,0.18904098017934576,False,False
+Spinal deformity correction,V414,2015,29.0,36.0,0.21292199724267172,0.14687312440276015,False,False
+Spinal deformity correction,V414,2018,40.0,26.0,-0.4241572411203169,0.14687312440276015,False,False
+Spinal deformity correction,V414,2021,40.0,15.0,-0.9604619501872925,0.14687312440276015,False,True
+Spinal deformity correction,V414,2024,26.0,12.0,-0.7514160886839211,0.14687312440276015,False,False
+Spinal deformity correction,V415,2015,0.0,0.0,0.0,0.06829762224399169,False,False
+Spinal deformity correction,V415,2018,0.0,81.0,5.093750200806762,0.06829762224399169,True,False
+Spinal deformity correction,V415,2021,82.0,50.0,-0.4908249570593213,0.06829762224399169,False,True
+Spinal deformity correction,V415,2024,82.0,63.0,-0.26175838744198937,0.06829762224399169,False,False
+Spinal deformity correction,V417,2015,0.0,0.0,0.0,0.11896914110594337,False,False
+Spinal deformity correction,V417,2018,0.0,49.0,4.59511985013459,0.11896914110594337,False,False
+Spinal deformity correction,V417,2021,38.0,28.0,-0.3007541540191337,0.11896914110594337,False,True
+Spinal deformity correction,V417,2024,155.0,209.0,0.29807800774290366,0.11896914110594337,False,False
+Spinal deformity correction,V418,2015,501.0,448.0,-0.11169492590313944,0.15568592178709284,False,False
+Spinal deformity correction,V418,2018,328.0,123.0,-0.9782956818566334,0.15568592178709284,True,False
+Spinal deformity correction,V418,2021,89.0,42.0,-0.7447345493504386,0.15568592178709284,False,True
+Spinal deformity correction,V418,2024,65.0,60.0,-0.07940677760441048,0.15568592178709284,False,False
+Spinal deformity correction,V419,2015,27.0,20.0,-0.29376111852816306,0.306017762848752,False,False
+Spinal deformity correction,V419,2018,15.0,7.0,-0.7259370033829361,0.306017762848752,False,False
+Spinal deformity correction,V419,2021,6.0,12.0,0.653926467406664,0.306017762848752,False,True
+Spinal deformity correction,V419,2024,3.0,5.0,0.4519851237430572,0.306017762848752,False,False
+Spinal facet joint denervation,(group total),2015,13572.0,13798.0,0.016514203805715527,0.09079105799152175,False,False
+Spinal facet joint denervation,(group total),2018,14444.0,17054.0,0.16610037925918658,0.09079105799152175,False,False
+Spinal facet joint denervation,(group total),2021,16854.0,7522.0,-0.8067191539360555,0.09079105799152175,True,True
+Spinal facet joint denervation,(group total),2024,14828.0,15998.0,0.07594396313578597,0.09079105799152175,False,False
+Spinal facet joint denervation,V481,2015,978.0,1033.0,0.05468559228569213,0.09716200448083465,False,False
+Spinal facet joint denervation,V481,2018,989.0,1098.0,0.10450112678204448,0.09716200448083465,False,False
+Spinal facet joint denervation,V481,2021,1040.0,428.0,-0.8871659077958547,0.09716200448083465,True,True
+Spinal facet joint denervation,V481,2024,875.0,996.0,0.12945398792694296,0.09716200448083465,False,False
+Spinal facet joint denervation,V482,2015,275.0,275.0,0.0,0.15835187755230368,False,False
+Spinal facet joint denervation,V482,2018,232.0,310.0,0.2892936763461224,0.15835187755230368,False,False
+Spinal facet joint denervation,V482,2021,237.0,100.0,-0.8600098959755654,0.15835187755230368,True,True
+Spinal facet joint denervation,V482,2024,189.0,172.0,-0.09399178805106664,0.15835187755230368,False,False
+Spinal facet joint denervation,V483,2015,330.0,322.0,-0.02450352305591381,0.1553704481348859,False,False
+Spinal facet joint denervation,V483,2018,281.0,288.0,0.024562638368409127,0.1553704481348859,False,False
+Spinal facet joint denervation,V483,2021,221.0,91.0,-0.8840836172037146,0.1553704481348859,True,True
+Spinal facet joint denervation,V483,2024,202.0,240.0,0.17198020299922195,0.1553704481348859,False,False
+Spinal facet joint denervation,V484,2015,50.0,49.0,-0.020000666706669543,0.18348970135057635,False,False
+Spinal facet joint denervation,V484,2018,45.0,57.0,0.2340726218464,0.18348970135057635,False,False
+Spinal facet joint denervation,V484,2021,56.0,24.0,-0.8355675206017139,0.18348970135057635,False,True
+Spinal facet joint denervation,V484,2024,46.0,48.0,0.04211148535012685,0.18348970135057635,False,False
+Spinal facet joint denervation,V485,2015,8696.0,8766.0,0.008016993061975126,0.09148719628728658,False,False
+Spinal facet joint denervation,V485,2018,9536.0,11179.0,0.15895520217337686,0.09148719628728658,False,False
+Spinal facet joint denervation,V485,2021,11655.0,5143.0,-0.8180443900214923,0.09148719628728658,True,True
+Spinal facet joint denervation,V485,2024,10494.0,11881.0,0.12413125818677323,0.09148719628728658,False,False
+Spinal facet joint denervation,V486,2015,1898.0,1993.0,0.04882778714955261,0.08617582225598128,False,False
+Spinal facet joint denervation,V486,2018,1991.0,2760.0,0.3265236991024003,0.08617582225598128,True,False
+Spinal facet joint denervation,V486,2021,2248.0,1189.0,-0.6367302764677496,0.08617582225598128,True,True
+Spinal facet joint denervation,V486,2024,2005.0,1627.0,-0.20884831112738322,0.08617582225598128,False,False
+Spinal facet joint denervation,V487,2015,1111.0,1083.0,-0.025513912427837543,0.07831352583848504,False,False
+Spinal facet joint denervation,V487,2018,1185.0,1137.0,-0.04133175468035466,0.07831352583848504,False,False
+Spinal facet joint denervation,V487,2021,1261.0,488.0,-0.948717296598275,0.07831352583848504,True,True
+Spinal facet joint denervation,V487,2024,961.0,978.0,0.01752622180729655,0.07831352583848504,False,False
+Spinal facet joint denervation,V488,2015,186.0,215.0,0.14452967045993234,0.21421635450367732,False,False
+Spinal facet joint denervation,V488,2018,156.0,189.0,0.1913330145422732,0.21421635450367732,False,False
+Spinal facet joint denervation,V488,2021,117.0,52.0,-0.8056251639866356,0.21421635450367732,True,True
+Spinal facet joint denervation,V488,2024,50.0,47.0,-0.06124362524071867,0.21421635450367732,False,False
+Spinal facet joint denervation,V489,2015,48.0,62.0,0.25360275879891836,0.6572960975505664,False,False
+Spinal facet joint denervation,V489,2018,29.0,36.0,0.21292199724267172,0.6572960975505664,False,False
+Spinal facet joint denervation,V489,2021,19.0,7.0,-0.9555114450274363,0.6572960975505664,False,True
+Spinal facet joint denervation,V489,2024,6.0,9.0,0.3794896217049037,0.6572960975505664,False,False
+Spinal fusion and instrumentation,(group total),2015,11377.0,11373.0,-0.00035163289888054345,0.035972225015418385,False,False
+Spinal fusion and instrumentation,(group total),2018,11769.0,11424.0,-0.02975126733978265,0.035972225015418385,False,False
+Spinal fusion and instrumentation,(group total),2021,10918.0,6627.0,-0.4992309390632416,0.035972225015418385,True,True
+Spinal fusion and instrumentation,(group total),2024,9527.0,9930.0,0.04142847549083102,0.035972225015418385,False,False
+Spinal fusion and instrumentation,V221,2015,1873.0,2053.0,0.09173731516287123,0.07806496690138076,False,False
+Spinal fusion and instrumentation,V221,2018,2540.0,3326.0,0.2695597881481557,0.07806496690138076,True,False
+Spinal fusion and instrumentation,V221,2021,3958.0,2614.0,-0.4147922909833032,0.07806496690138076,True,True
+Spinal fusion and instrumentation,V221,2024,3958.0,4241.0,0.06905181463630092,0.07806496690138076,False,False
+Spinal fusion and instrumentation,V224,2015,345.0,326.0,-0.05656269449123886,0.05181449311055853,False,False
+Spinal fusion and instrumentation,V224,2018,415.0,410.0,-0.012106685403019993,0.05181449311055853,False,False
+Spinal fusion and instrumentation,V224,2021,399.0,307.0,-0.26173867795975675,0.05181449311055853,True,True
+Spinal fusion and instrumentation,V224,2024,294.0,284.0,-0.03454574952525577,0.05181449311055853,False,False
+Spinal fusion and instrumentation,V225,2015,70.0,74.0,0.05518641556729094,0.21655831971933717,False,False
+Spinal fusion and instrumentation,V225,2018,73.0,82.0,0.11551288712184424,0.21655831971933717,False,False
+Spinal fusion and instrumentation,V225,2021,53.0,49.0,-0.07770898432731625,0.21655831971933717,False,True
+Spinal fusion and instrumentation,V225,2024,57.0,69.0,0.18954180476744162,0.21655831971933717,False,False
+Spinal fusion and instrumentation,V251,2015,148.0,153.0,0.033115608784497604,0.3655932506565661,False,False
+Spinal fusion and instrumentation,V251,2018,72.0,69.0,-0.04225980928988261,0.3655932506565661,False,False
+Spinal fusion and instrumentation,V251,2021,61.0,25.0,-0.8803587226480918,0.3655932506565661,False,True
+Spinal fusion and instrumentation,V251,2024,52.0,60.0,0.14183019543921763,0.3655932506565661,False,False
+Spinal fusion and instrumentation,V253,2015,955.0,986.0,0.03192856178234223,0.0846270256129811,False,False
+Spinal fusion and instrumentation,V253,2018,876.0,662.0,-0.2799161465009119,0.0846270256129811,True,False
+Spinal fusion and instrumentation,V253,2021,705.0,332.0,-0.7522669111969599,0.0846270256129811,True,True
+Spinal fusion and instrumentation,V253,2024,436.0,415.0,-0.04930576098415407,0.0846270256129811,False,False
+Spinal fusion and instrumentation,V294,2015,3458.0,3338.0,-0.03531336474271594,0.07774758331407298,False,False
+Spinal fusion and instrumentation,V294,2018,3367.0,2627.0,-0.24813780553341278,0.07774758331407298,True,False
+Spinal fusion and instrumentation,V294,2021,1785.0,1028.0,-0.5515970579414913,0.07774758331407298,True,True
+Spinal fusion and instrumentation,V294,2024,1056.0,991.0,-0.06349788909626078,0.07774758331407298,False,False
+Spinal fusion and instrumentation,V333,2015,300.0,257.0,-0.15442803387147142,0.15462388081267908,False,False
+Spinal fusion and instrumentation,V333,2018,327.0,322.0,-0.015384918839479456,0.15462388081267908,False,False
+Spinal fusion and instrumentation,V333,2021,283.0,122.0,-0.8391010931830252,0.15462388081267908,True,True
+Spinal fusion and instrumentation,V333,2024,238.0,245.0,0.028927636906179426,0.15462388081267908,False,False
+Spinal fusion and instrumentation,V335,2015,13.0,31.0,0.8472978603872037,0.5805663228247219,False,False
+Spinal fusion and instrumentation,V335,2018,14.0,18.0,0.2436220826577505,0.5805663228247219,False,False
+Spinal fusion and instrumentation,V335,2021,6.0,3.0,-0.6190392084062235,0.5805663228247219,False,True
+Spinal fusion and instrumentation,V335,2024,11.0,7.0,-0.4274440148269396,0.5805663228247219,False,False
+Spinal fusion and instrumentation,V336,2015,140.0,186.0,0.2832237503100698,0.18560455210396415,False,False
+Spinal fusion and instrumentation,V336,2018,137.0,149.0,0.08367247572411504,0.18560455210396415,False,False
+Spinal fusion and instrumentation,V336,2021,124.0,49.0,-0.9223330463301177,0.18560455210396415,True,True
+Spinal fusion and instrumentation,V336,2024,112.0,116.0,0.03493805136128044,0.18560455210396415,False,False
+Spinal fusion and instrumentation,V381,2015,625.0,541.0,-0.14420826346592058,0.06839720503326191,False,False
+Spinal fusion and instrumentation,V381,2018,533.0,677.0,0.23895048201204783,0.06839720503326191,True,False
+Spinal fusion and instrumentation,V381,2021,599.0,549.0,-0.08708720062389291,0.06839720503326191,False,True
+Spinal fusion and instrumentation,V381,2024,760.0,844.0,0.10476862454850713,0.06839720503326191,False,False
+Spinal fusion and instrumentation,V382,2015,27.0,42.0,0.4353180712578455,0.21303701526108015,False,False
+Spinal fusion and instrumentation,V382,2018,86.0,61.0,-0.3411072391253614,0.21303701526108015,False,False
+Spinal fusion and instrumentation,V382,2021,79.0,89.0,0.11848160362052344,0.21303701526108015,False,True
+Spinal fusion and instrumentation,V382,2024,126.0,138.0,0.09062801745981817,0.21303701526108015,False,False
+Spinal fusion and instrumentation,V383,2015,814.0,684.0,-0.17388578331359628,0.042162770233797074,True,False
+Spinal fusion and instrumentation,V383,2018,681.0,792.0,0.15089625461484837,0.042162770233797074,True,False
+Spinal fusion and instrumentation,V383,2021,631.0,407.0,-0.4380570091096284,0.042162770233797074,True,True
+Spinal fusion and instrumentation,V383,2024,610.0,689.0,0.1216884036825972,0.042162770233797074,False,False
+Spinal fusion and instrumentation,V384,2015,74.0,73.0,-0.01351371916672282,0.2464439615396617,False,False
+Spinal fusion and instrumentation,V384,2018,49.0,22.0,-0.7884573603642702,0.2464439615396617,False,False
+Spinal fusion and instrumentation,V384,2021,27.0,5.0,-1.6094379124341003,0.2464439615396617,False,True
+Spinal fusion and instrumentation,V384,2024,16.0,30.0,0.614366302706831,0.2464439615396617,False,False
+Spinal fusion and instrumentation,V385,2015,986.0,997.0,0.011088823301348551,0.05640821660713261,False,False
+Spinal fusion and instrumentation,V385,2018,1009.0,805.0,-0.22574723513586306,0.05640821660713261,True,False
+Spinal fusion and instrumentation,V385,2021,741.0,280.0,-0.9721014366152357,0.05640821660713261,True,True
+Spinal fusion and instrumentation,V385,2024,489.0,494.0,0.010162689092201837,0.05640821660713261,False,False
+Spinal fusion and instrumentation,V386,2015,1265.0,1320.0,0.042543151752008124,0.06962447253330496,False,False
+Spinal fusion and instrumentation,V386,2018,1348.0,1282.0,-0.05018156553486009,0.06962447253330496,False,False
+Spinal fusion and instrumentation,V386,2021,1390.0,728.0,-0.6464310480387601,0.06962447253330496,True,True
+Spinal fusion and instrumentation,V386,2024,1249.0,1256.0,0.005586606708639776,0.06962447253330496,False,False
+Spinal fusion and instrumentation,V388,2015,204.0,274.0,0.29438328546672893,0.15597035161586253,False,False
+Spinal fusion and instrumentation,V388,2018,227.0,108.0,-0.7404000654104909,0.15597035161586253,True,False
+Spinal fusion and instrumentation,V388,2021,72.0,37.0,-0.6592456288842639,0.15597035161586253,False,True
+Spinal fusion and instrumentation,V388,2024,58.0,43.0,-0.2962658161431724,0.15597035161586253,False,False
+Spinal fusion and instrumentation,V389,2015,80.0,38.0,-0.7375989431307791,0.30612438970846184,False,False
+Spinal fusion and instrumentation,V389,2018,15.0,12.0,-0.21511137961694557,0.30612438970846184,False,False
+Spinal fusion and instrumentation,V389,2021,5.0,3.0,-0.45198512374305727,0.30612438970846184,False,True
+Spinal fusion and instrumentation,V389,2024,5.0,8.0,0.4353180712578455,0.30612438970846184,False,False
+Spinal nerve root injection and denervation,(group total),2015,43954.0,51205.0,0.15269194018286525,0.08374006883718861,False,False
+Spinal nerve root injection and denervation,(group total),2018,59762.0,58665.0,-0.01852655414355234,0.08374006883718861,False,False
+Spinal nerve root injection and denervation,(group total),2021,52341.0,21944.0,-0.8692730168136064,0.08374006883718861,True,True
+Spinal nerve root injection and denervation,(group total),2024,44684.0,42147.0,-0.058451314625762515,0.08374006883718861,False,False
+Spinal nerve root injection and denervation,A573,2015,4031.0,4187.0,0.03796538200824516,0.05232789489246503,False,False
+Spinal nerve root injection and denervation,A573,2018,4649.0,4924.0,0.057463059691505065,0.05232789489246503,False,False
+Spinal nerve root injection and denervation,A573,2021,4622.0,2245.0,-0.7220074707334873,0.05232789489246503,True,True
+Spinal nerve root injection and denervation,A573,2024,3521.0,3539.0,0.005098439028778904,0.05232789489246503,False,False
+Spinal nerve root injection and denervation,A574,2015,705.0,739.0,0.04706751085798573,0.1978972943638181,False,False
+Spinal nerve root injection and denervation,A574,2018,736.0,739.0,0.0040650462481695935,0.1978972943638181,False,False
+Spinal nerve root injection and denervation,A574,2021,530.0,216.0,-0.8962294106114932,0.1978972943638181,True,True
+Spinal nerve root injection and denervation,A574,2024,806.0,649.0,-0.21650106145460926,0.1978972943638181,False,False
+Spinal nerve root injection and denervation,A577,2015,39218.0,46279.0,0.1655505242203273,0.08422642706069752,False,False
+Spinal nerve root injection and denervation,A577,2018,54377.0,53002.0,-0.02561138311245001,0.08422642706069752,False,False
+Spinal nerve root injection and denervation,A577,2021,47189.0,19483.0,-0.8846034566837115,0.08422642706069752,True,True
+Spinal nerve root injection and denervation,A577,2024,40357.0,37959.0,-0.06125744915431568,0.08422642706069752,False,False

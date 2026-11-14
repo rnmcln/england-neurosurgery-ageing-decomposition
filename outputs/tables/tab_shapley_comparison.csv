@@ -1,0 +1,13 @@
+Procedure group,"Population size, Kitagawa %","Population size, Shapley %","Population size, |difference| pp","Age structure, Kitagawa %","Age structure, Shapley %","Age structure, |difference| pp","Age-specific rate, Kitagawa %","Age-specific rate, Shapley %","Age-specific rate, |difference| pp"
+Extra-axial haematoma evacuation,4.586,4.587,0.0,3.755,3.755,0.0,-0.7,-0.7,0.0
+Intracerebral haematoma evacuation,4.192,4.196,0.004,2.105,2.103,0.002,-16.89,-16.892,0.002
+Intracranial tumour resection and biopsy,4.586,4.587,0.0,2.11,2.11,0.0,0.957,0.957,0.0
+"CSF diversion, primary",4.626,4.625,0.001,-1.177,-1.177,0.001,6.055,6.056,0.001
+"CSF diversion, revision and maintenance",5.402,5.404,0.003,-2.579,-2.581,0.001,42.555,42.553,0.001
+Peripheral nerve entrapment release,4.267,4.267,0.0,2.576,2.577,0.0,-13.972,-13.972,0.0
+Neuromodulation implantation,5.023,5.024,0.001,1.43,1.43,0.0,21.402,21.401,0.0
+Spinal nerve root injection and denervation,5.268,5.262,0.006,2.525,2.528,0.003,31.402,31.405,0.003
+Lumbar decompression without fusion,4.409,4.405,0.005,1.8,1.803,0.002,-6.736,-6.734,0.002
+Spinal fusion and instrumentation,4.535,4.531,0.004,1.133,1.135,0.002,-0.4,-0.398,0.002
+Spinal deformity correction,4.175,4.18,0.006,-0.348,-0.351,0.003,-15.212,-15.215,0.003
+Spinal facet joint denervation,5.528,5.517,0.011,3.146,3.151,0.005,42.54,42.546,0.005

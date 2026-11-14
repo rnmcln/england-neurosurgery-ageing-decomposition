@@ -1,0 +1,33 @@
+# Publication display items
+
+- **Table 1.** Procedure groups, recorded code occurrences and age-standardised rates
+- **Table 2.** Decomposition of change in recorded code occurrences, two periods
+- **Table 3.** Fixed-rate demographic scenario, 2024/25 to 2039/40
+- **Table S1.** OPCS-4 codes defining each procedure group, with the expectation recorded before the decomposition was calculated
+- **Table S2.** Proportion of recorded code occurrences with an allocated age band, by group and financial year
+- **Table S3.** Annual recorded code occurrences, crude rates and age-standardised rates per 100 000
+- **Table S4.** Covariance decomposition of between-group variance in net change, all comparison periods
+- **Table S5.** Demographic counterfactual (age-specific rates held at baseline) against observed change
+- **Table S6.** Change in age-standardised rates between 2019/20 and 2020/21, and 2024/25 relative to 2019/20
+- **Table S7.** Decomposition over the pre-pandemic, pandemic and recovery phases
+- **Table S8.** Scenario results for every combination of rate base and ONS population variant
+- **Table S9.** Average contribution per year of interval: observed 2012/13 to 2018/19 and scenario 2024/25 to 2039/40
+- **Table S10.** Symmetric (Kitagawa) and Shapley allocation of the three components, 2012/13 to 2018/19
+- **Table S11.** Decomposition with alternative endpoints
+- **Table S12.** Consecutive-year decompositions cumulated over 2012/13 to 2019/20
+- **Table S13.** Decomposition under six counting conventions, 2012/13 to 2018/19
+- **Table S14.** Between-group variance shares under alternative panels, weights, scales, code sets and counting conventions
+- **Table S15.** Decomposition restricted to codes present throughout the study or primary window
+- **Table S16.** Concentration of each group across its constituent codes
+- **Table S17.** Level shifts at OPCS-4 revision boundaries exceeding the code's typical year-on-year variability (flagged rows; the full screen is in the analysis repository)
+- **Table S18.** Extra-axial haematoma evacuation and candidate embolisation codes, 2018/19 to 2024/25
+- **Table S19.** Age profile of candidate embolisation codes, 2018/19 and 2024/25
+- **Fig. 1.** Demographic change against observed change by procedure group, two periods
+- **Fig. 2.** Fixed-rate demographic scenario, 2024/25 to 2039/40
+- **Fig. S1.** Age-standardised rates per 100 000, 2012/13 to 2024/25
+- **Fig. S2.** Age-specific rates in 2012/13, 2018/19 and 2024/25
+- **Fig. S3.** Three-component decomposition by group, two periods
+- **Fig. S4.** Demographic counterfactual against observed change, 2012/13 to 2018/19
+- **Fig. S5.** Age-structure contribution per year of interval, observed and scenario
+- **Fig. S6.** Components under six counting conventions
+- **Fig. S7.** Constituent-code trends in the four groups with the largest rate components

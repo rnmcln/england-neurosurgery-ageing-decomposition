@@ -1,0 +1,29 @@
+Specification,Omitted or included groups,Number of groups,"Population size, % of between-group variance","Age structure, % of between-group variance","Age-specific rate, % of between-group variance","Share sum, %"
+Primary: equal-weight percentage change,,12,2.16,-0.77,98.6,100.0
+Leave one group out,Extra-axial haematoma evacuation,11,2.16,-0.47,98.31,100.0
+Leave one group out,Intracerebral haematoma evacuation,11,2.16,-0.45,98.29,100.0
+Leave one group out,Intracranial tumour resection and biopsy,11,2.16,-0.68,98.52,100.0
+Leave one group out,"CSF diversion, primary",11,2.16,-0.99,98.83,100.0
+Leave one group out,"CSF diversion, revision and maintenance",11,2.16,2.3,95.54,100.0
+Leave one group out,Peripheral nerve entrapment release,11,2.16,-0.27,98.11,100.0
+Leave one group out,Neuromodulation implantation,11,2.16,-0.82,98.65,100.0
+Leave one group out,Spinal nerve root injection and denervation,11,2.16,-1.59,99.42,100.0
+Leave one group out,Lumbar decompression without fusion,11,2.16,-0.67,98.51,100.0
+Leave one group out,Spinal fusion and instrumentation,11,2.16,-0.82,98.66,100.0
+Leave one group out,Spinal deformity correction,11,2.16,-1.9,99.74,100.0
+Leave one group out,Spinal facet joint denervation,11,2.16,-3.02,100.86,100.0
+Baseline-volume-weighted percentage change,,12,2.16,0.35,97.49,100.0
+Equal-weight absolute count change,,12,4.66,1.84,93.49,100.0
+Stable-code sensitivity: Present in every study year,,12,2.16,-0.55,98.39,100.0
+Stable-code sensitivity: Present throughout primary window,,12,2.16,-0.54,98.38,100.0
+Counting variant: all_procedures__proportional,,12,2.16,-0.77,98.6,100.0
+Counting variant: all_procedures__oldest,,12,2.16,-0.73,98.57,100.0
+Counting variant: all_procedures__drop,,12,2.16,-0.62,98.46,100.0
+Counting variant: main_procedure__proportional,,12,2.16,0.2,97.64,100.0
+Counting variant: main_procedure__oldest,,12,2.16,0.22,97.62,100.0
+Counting variant: main_procedure__drop,,12,2.16,0.32,97.52,100.0
+Six-group subsets: minimum rate share,Included: Extra-axial haematoma evacuation; Intracranial tumour resection and biopsy; Peripheral nerve entrapment release; Lumbar decompression without fusion; Spinal fusion and instrumentation; Spinal deformity correction,6,2.16,10.05,87.79,100.0
+Six-group subsets: maximum rate share,"Included: Intracerebral haematoma evacuation; Intracranial tumour resection and biopsy; CSF diversion, primary; Peripheral nerve entrapment release; Lumbar decompression without fusion; Spinal fusion and instrumentation",6,2.16,-10.87,108.71,100.0
+Six-group subset rate-share 5th percentile,,6,,,93.85,
+Six-group subset rate-share median,,6,,,98.09,
+Six-group subset rate-share 95th percentile,,6,,,105.34,

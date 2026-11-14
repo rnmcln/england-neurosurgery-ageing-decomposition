@@ -1,0 +1,109 @@
+group,rate_base,variant,count_2024_25,count_2039_40,change_n,change_pct,population_size_pct,age_structure_pct
+Extra-axial haematoma evacuation,2024/25,Old age structure,4172.58,4966.09,793.52,19.02,-0.2,19.22
+Extra-axial haematoma evacuation,2024/25,Principal projection,4172.58,4997.76,825.18,19.78,4.18,15.59
+Extra-axial haematoma evacuation,2024/25,Young age structure,4172.58,5075.74,903.16,21.65,11.04,10.6
+Extra-axial haematoma evacuation,mean of 2023/24 and 2024/25,Old age structure,4273.34,5100.4,827.06,19.35,-0.2,19.56
+Extra-axial haematoma evacuation,mean of 2023/24 and 2024/25,Principal projection,4273.34,5131.86,858.52,20.09,4.19,15.9
+Extra-axial haematoma evacuation,mean of 2023/24 and 2024/25,Young age structure,4273.34,5210.68,937.34,21.93,11.06,10.88
+Extra-axial haematoma evacuation,2018/19 (pre-pandemic),Old age structure,4950.53,5942.65,992.12,20.04,-0.2,20.24
+Extra-axial haematoma evacuation,2018/19 (pre-pandemic),Principal projection,4950.53,5983.17,1032.65,20.86,4.2,16.65
+Extra-axial haematoma evacuation,2018/19 (pre-pandemic),Young age structure,4950.53,6082.16,1131.63,22.86,11.1,11.76
+Intracerebral haematoma evacuation,2024/25,Old age structure,669.38,708.59,39.21,5.86,-0.19,6.05
+Intracerebral haematoma evacuation,2024/25,Principal projection,669.38,723.48,54.1,8.08,3.97,4.12
+Intracerebral haematoma evacuation,2024/25,Young age structure,669.38,749.88,80.5,12.03,10.59,1.44
+Intracerebral haematoma evacuation,mean of 2023/24 and 2024/25,Old age structure,698.14,735.64,37.5,5.37,-0.19,5.56
+Intracerebral haematoma evacuation,mean of 2023/24 and 2024/25,Principal projection,698.14,750.8,52.65,7.54,3.96,3.59
+Intracerebral haematoma evacuation,mean of 2023/24 and 2024/25,Young age structure,698.14,777.84,79.7,11.42,10.56,0.86
+Intracerebral haematoma evacuation,2018/19 (pre-pandemic),Old age structure,664.81,702.6,37.78,5.68,-0.19,5.87
+Intracerebral haematoma evacuation,2018/19 (pre-pandemic),Principal projection,664.81,715.93,51.12,7.69,3.96,3.73
+Intracerebral haematoma evacuation,2018/19 (pre-pandemic),Young age structure,664.81,739.84,75.03,11.29,10.55,0.73
+Intracranial tumour resection and biopsy,2024/25,Old age structure,8072.66,8519.03,446.37,5.53,-0.19,5.72
+Intracranial tumour resection and biopsy,2024/25,Principal projection,8072.66,8699.12,626.46,7.76,3.96,3.8
+Intracranial tumour resection and biopsy,2024/25,Young age structure,8072.66,9009.69,937.03,11.61,10.57,1.04
+Intracranial tumour resection and biopsy,mean of 2023/24 and 2024/25,Old age structure,8121.68,8549.46,427.79,5.27,-0.19,5.46
+Intracranial tumour resection and biopsy,mean of 2023/24 and 2024/25,Principal projection,8121.68,8736.58,614.91,7.57,3.96,3.62
+Intracranial tumour resection and biopsy,mean of 2023/24 and 2024/25,Young age structure,8121.68,9057.5,935.82,11.52,10.56,0.96
+Intracranial tumour resection and biopsy,2018/19 (pre-pandemic),Old age structure,8593.26,9019.85,426.59,4.96,-0.19,5.15
+Intracranial tumour resection and biopsy,2018/19 (pre-pandemic),Principal projection,8593.26,9217.99,624.73,7.27,3.95,3.32
+Intracranial tumour resection and biopsy,2018/19 (pre-pandemic),Young age structure,8593.26,9560.1,966.84,11.25,10.55,0.7
+"CSF diversion, primary",2024/25,Old age structure,3481.7,3526.89,45.19,1.3,-0.18,1.48
+"CSF diversion, primary",2024/25,Principal projection,3481.7,3693.67,211.98,6.09,3.93,2.16
+"CSF diversion, primary",2024/25,Young age structure,3481.7,3948.79,467.09,13.42,10.65,2.76
+"CSF diversion, primary",mean of 2023/24 and 2024/25,Old age structure,3487.5,3513.62,26.12,0.75,-0.18,0.93
+"CSF diversion, primary",mean of 2023/24 and 2024/25,Principal projection,3487.5,3685.22,197.72,5.67,3.92,1.75
+"CSF diversion, primary",mean of 2023/24 and 2024/25,Young age structure,3487.5,3946.01,458.51,13.15,10.64,2.51
+"CSF diversion, primary",2018/19 (pre-pandemic),Old age structure,3266.09,3244.08,-22.0,-0.67,-0.18,-0.49
+"CSF diversion, primary",2018/19 (pre-pandemic),Principal projection,3266.09,3420.58,154.49,4.73,3.9,0.83
+"CSF diversion, primary",2018/19 (pre-pandemic),Young age structure,3266.09,3687.79,421.7,12.91,10.63,2.28
+"CSF diversion, revision and maintenance",2024/25,Old age structure,3746.92,3458.34,-288.58,-7.7,-0.18,-7.53
+"CSF diversion, revision and maintenance",2024/25,Principal projection,3746.92,3712.7,-34.21,-0.91,3.8,-4.71
+"CSF diversion, revision and maintenance",2024/25,Young age structure,3746.92,4088.83,341.91,9.13,10.45,-1.32
+"CSF diversion, revision and maintenance",mean of 2023/24 and 2024/25,Old age structure,3958.7,3640.46,-318.24,-8.04,-0.18,-7.86
+"CSF diversion, revision and maintenance",mean of 2023/24 and 2024/25,Principal projection,3958.7,3907.92,-50.78,-1.28,3.79,-5.07
+"CSF diversion, revision and maintenance",mean of 2023/24 and 2024/25,Young age structure,3958.7,4303.22,344.52,8.7,10.43,-1.73
+"CSF diversion, revision and maintenance",2018/19 (pre-pandemic),Old age structure,4011.6,3664.93,-346.68,-8.64,-0.18,-8.47
+"CSF diversion, revision and maintenance",2018/19 (pre-pandemic),Principal projection,4011.6,3957.48,-54.12,-1.35,3.79,-5.14
+"CSF diversion, revision and maintenance",2018/19 (pre-pandemic),Young age structure,4011.6,4386.68,375.08,9.35,10.46,-1.11
+Peripheral nerve entrapment release,2024/25,Old age structure,54677.95,61537.99,6860.04,12.55,-0.2,12.74
+Peripheral nerve entrapment release,2024/25,Principal projection,54677.95,62184.82,7506.86,13.73,4.07,9.66
+Peripheral nerve entrapment release,2024/25,Young age structure,54677.95,63550.44,8872.49,16.23,10.79,5.44
+Peripheral nerve entrapment release,mean of 2023/24 and 2024/25,Old age structure,50876.52,57290.12,6413.6,12.61,-0.2,12.8
+Peripheral nerve entrapment release,mean of 2023/24 and 2024/25,Principal projection,50876.52,57892.89,7016.37,13.79,4.07,9.72
+Peripheral nerve entrapment release,mean of 2023/24 and 2024/25,Young age structure,50876.52,59166.41,8289.89,16.29,10.79,5.5
+Peripheral nerve entrapment release,2018/19 (pre-pandemic),Old age structure,57389.06,64379.79,6990.72,12.18,-0.19,12.38
+Peripheral nerve entrapment release,2018/19 (pre-pandemic),Principal projection,57389.06,65107.92,7718.86,13.45,4.07,9.38
+Peripheral nerve entrapment release,2018/19 (pre-pandemic),Young age structure,57389.06,66618.24,9229.18,16.08,10.78,5.3
+Neuromodulation implantation,2024/25,Old age structure,3808.51,3945.97,137.46,3.61,-0.19,3.8
+Neuromodulation implantation,2024/25,Principal projection,3808.51,4041.94,233.43,6.13,3.93,2.2
+Neuromodulation implantation,2024/25,Young age structure,3808.51,4211.39,402.87,10.58,10.52,0.06
+Neuromodulation implantation,mean of 2023/24 and 2024/25,Old age structure,3601.18,3722.37,121.19,3.37,-0.19,3.55
+Neuromodulation implantation,mean of 2023/24 and 2024/25,Principal projection,3601.18,3811.98,210.81,5.85,3.92,1.93
+Neuromodulation implantation,mean of 2023/24 and 2024/25,Young age structure,3601.18,3970.14,368.96,10.25,10.5,-0.26
+Neuromodulation implantation,2018/19 (pre-pandemic),Old age structure,4272.49,4398.54,126.06,2.95,-0.19,3.14
+Neuromodulation implantation,2018/19 (pre-pandemic),Principal projection,4272.49,4508.64,236.16,5.53,3.92,1.61
+Neuromodulation implantation,2018/19 (pre-pandemic),Young age structure,4272.49,4700.38,427.89,10.02,10.49,-0.48
+Spinal nerve root injection and denervation,2024/25,Old age structure,47873.74,52510.23,4636.49,9.68,-0.19,9.88
+Spinal nerve root injection and denervation,2024/25,Principal projection,47873.74,53229.17,5355.43,11.19,4.02,7.16
+Spinal nerve root injection and denervation,2024/25,Young age structure,47873.74,54645.66,6771.92,14.15,10.69,3.46
+Spinal nerve root injection and denervation,mean of 2023/24 and 2024/25,Old age structure,45182.15,49606.17,4424.02,9.79,-0.19,9.98
+Spinal nerve root injection and denervation,mean of 2023/24 and 2024/25,Principal projection,45182.15,50279.54,5097.39,11.28,4.03,7.26
+Spinal nerve root injection and denervation,mean of 2023/24 and 2024/25,Young age structure,45182.15,51609.03,6426.89,14.22,10.69,3.53
+Spinal nerve root injection and denervation,2018/19 (pre-pandemic),Old age structure,56942.11,62417.69,5475.58,9.62,-0.19,9.81
+Spinal nerve root injection and denervation,2018/19 (pre-pandemic),Principal projection,56942.11,63310.66,6368.55,11.18,4.02,7.16
+Spinal nerve root injection and denervation,2018/19 (pre-pandemic),Young age structure,56942.11,65058.26,8116.15,14.25,10.69,3.56
+Lumbar decompression without fusion,2024/25,Old age structure,23416.33,25638.05,2221.73,9.49,-0.19,9.68
+Lumbar decompression without fusion,2024/25,Principal projection,23416.33,26021.22,2604.89,11.12,4.02,7.1
+Lumbar decompression without fusion,2024/25,Young age structure,23416.33,26767.63,3351.31,14.31,10.7,3.62
+Lumbar decompression without fusion,mean of 2023/24 and 2024/25,Old age structure,22450.81,24574.82,2124.0,9.46,-0.19,9.65
+Lumbar decompression without fusion,mean of 2023/24 and 2024/25,Principal projection,22450.81,24949.66,2498.85,11.13,4.02,7.11
+Lumbar decompression without fusion,mean of 2023/24 and 2024/25,Young age structure,22450.81,25678.09,3227.28,14.37,10.7,3.68
+Lumbar decompression without fusion,2018/19 (pre-pandemic),Old age structure,27553.72,29974.69,2420.97,8.79,-0.19,8.98
+Lumbar decompression without fusion,2018/19 (pre-pandemic),Principal projection,27553.72,30493.26,2939.53,10.67,4.01,6.65
+Lumbar decompression without fusion,2018/19 (pre-pandemic),Young age structure,27553.72,31486.68,3932.96,14.27,10.69,3.58
+Spinal fusion and instrumentation,2024/25,Old age structure,10535.46,10972.69,437.23,4.15,-0.19,4.34
+Spinal fusion and instrumentation,2024/25,Principal projection,10535.46,11167.04,631.58,5.99,3.93,2.07
+Spinal fusion and instrumentation,2024/25,Young age structure,10535.46,11518.98,983.53,9.34,10.46,-1.12
+Spinal fusion and instrumentation,mean of 2023/24 and 2024/25,Old age structure,10275.02,10704.59,429.57,4.18,-0.19,4.37
+Spinal fusion and instrumentation,mean of 2023/24 and 2024/25,Principal projection,10275.02,10895.17,620.15,6.04,3.93,2.11
+Spinal fusion and instrumentation,mean of 2023/24 and 2024/25,Young age structure,10275.02,11240.29,965.27,9.39,10.46,-1.07
+Spinal fusion and instrumentation,2018/19 (pre-pandemic),Old age structure,11918.08,12545.96,627.88,5.27,-0.19,5.46
+Spinal fusion and instrumentation,2018/19 (pre-pandemic),Principal projection,11918.08,12773.87,855.79,7.18,3.95,3.23
+Spinal fusion and instrumentation,2018/19 (pre-pandemic),Young age structure,11918.08,13187.98,1269.9,10.66,10.52,0.13
+Spinal deformity correction,2024/25,Old age structure,2949.1,2546.36,-402.74,-13.66,-0.17,-13.49
+Spinal deformity correction,2024/25,Principal projection,2949.1,2670.5,-278.59,-9.45,3.64,-13.08
+Spinal deformity correction,2024/25,Young age structure,2949.1,2860.41,-88.68,-3.01,9.87,-12.88
+Spinal deformity correction,mean of 2023/24 and 2024/25,Old age structure,2875.9,2490.05,-385.85,-13.42,-0.17,-13.25
+Spinal deformity correction,mean of 2023/24 and 2024/25,Principal projection,2875.9,2610.27,-265.63,-9.24,3.64,-12.88
+Spinal deformity correction,mean of 2023/24 and 2024/25,Young age structure,2875.9,2794.61,-81.29,-2.83,9.88,-12.71
+Spinal deformity correction,2018/19 (pre-pandemic),Old age structure,2881.87,2589.51,-292.36,-10.14,-0.17,-9.97
+Spinal deformity correction,2018/19 (pre-pandemic),Principal projection,2881.87,2697.81,-184.05,-6.39,3.69,-10.08
+Spinal deformity correction,2018/19 (pre-pandemic),Young age structure,2881.87,2864.05,-17.81,-0.62,9.99,-10.6
+Spinal facet joint denervation,2024/25,Old age structure,17917.16,19989.68,2072.52,11.57,-0.19,11.76
+Spinal facet joint denervation,2024/25,Principal projection,17917.16,20181.67,2264.51,12.64,4.05,8.59
+Spinal facet joint denervation,2024/25,Young age structure,17917.16,20581.14,2663.98,14.87,10.72,4.15
+Spinal facet joint denervation,mean of 2023/24 and 2024/25,Old age structure,17021.57,18964.81,1943.24,11.42,-0.19,11.61
+Spinal facet joint denervation,mean of 2023/24 and 2024/25,Principal projection,17021.57,19148.55,2126.98,12.5,4.05,8.45
+Spinal facet joint denervation,mean of 2023/24 and 2024/25,Young age structure,17021.57,19529.86,2508.29,14.74,10.72,4.02
+Spinal facet joint denervation,2018/19 (pre-pandemic),Old age structure,18905.18,20925.46,2020.29,10.69,-0.19,10.88
+Spinal facet joint denervation,2018/19 (pre-pandemic),Principal projection,18905.18,21167.54,2262.36,11.97,4.04,7.93
+Spinal facet joint denervation,2018/19 (pre-pandemic),Young age structure,18905.18,21652.5,2747.32,14.53,10.71,3.83

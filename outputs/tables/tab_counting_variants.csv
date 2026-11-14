@@ -1,0 +1,73 @@
+Procedure group,Count basis,Unknown-age handling,"Net change, %","Population size, % of baseline","Age structure, % of baseline","Age-specific rate, % of baseline"
+Extra-axial haematoma evacuation,all_procedures,proportional,7.64,4.59,3.76,-0.7
+Intracerebral haematoma evacuation,all_procedures,proportional,-10.59,4.19,2.1,-16.89
+Intracranial tumour resection and biopsy,all_procedures,proportional,7.65,4.59,2.11,0.96
+"CSF diversion, primary",all_procedures,proportional,9.5,4.63,-1.18,6.06
+"CSF diversion, revision and maintenance",all_procedures,proportional,45.38,5.4,-2.58,42.55
+Peripheral nerve entrapment release,all_procedures,proportional,-7.13,4.27,2.58,-13.97
+Neuromodulation implantation,all_procedures,proportional,27.85,5.02,1.43,21.4
+Spinal nerve root injection and denervation,all_procedures,proportional,39.19,5.27,2.52,31.4
+Lumbar decompression without fusion,all_procedures,proportional,-0.53,4.41,1.8,-6.74
+Spinal fusion and instrumentation,all_procedures,proportional,5.27,4.53,1.13,-0.4
+Spinal deformity correction,all_procedures,proportional,-11.39,4.17,-0.35,-15.21
+Spinal facet joint denervation,all_procedures,proportional,51.21,5.53,3.15,42.54
+Extra-axial haematoma evacuation,all_procedures,oldest,7.64,4.59,3.77,-0.72
+Intracerebral haematoma evacuation,all_procedures,oldest,-10.59,4.19,2.12,-16.9
+Intracranial tumour resection and biopsy,all_procedures,oldest,7.65,4.59,2.14,0.93
+"CSF diversion, primary",all_procedures,oldest,9.5,4.63,-1.14,6.02
+"CSF diversion, revision and maintenance",all_procedures,oldest,45.38,5.4,-2.49,42.46
+Peripheral nerve entrapment release,all_procedures,oldest,-7.13,4.27,2.58,-13.98
+Neuromodulation implantation,all_procedures,oldest,27.85,5.02,1.44,21.39
+Spinal nerve root injection and denervation,all_procedures,oldest,39.19,5.27,2.53,31.4
+Lumbar decompression without fusion,all_procedures,oldest,-0.53,4.41,1.81,-6.74
+Spinal fusion and instrumentation,all_procedures,oldest,5.27,4.53,1.14,-0.41
+Spinal deformity correction,all_procedures,oldest,-11.39,4.17,-0.33,-15.23
+Spinal facet joint denervation,all_procedures,oldest,51.21,5.53,3.15,42.54
+Extra-axial haematoma evacuation,all_procedures,drop,7.12,4.57,3.75,-1.21
+Intracerebral haematoma evacuation,all_procedures,drop,-11.16,4.18,2.1,-17.44
+Intracranial tumour resection and biopsy,all_procedures,drop,7.37,4.58,2.11,0.68
+"CSF diversion, primary",all_procedures,drop,9.08,4.62,-1.18,5.64
+"CSF diversion, revision and maintenance",all_procedures,drop,43.35,5.36,-2.56,40.56
+Peripheral nerve entrapment release,all_procedures,drop,-7.31,4.26,2.57,-14.15
+Neuromodulation implantation,all_procedures,drop,27.79,5.02,1.43,21.34
+Spinal nerve root injection and denervation,all_procedures,drop,39.12,5.27,2.52,31.33
+Lumbar decompression without fusion,all_procedures,drop,-0.66,4.41,1.8,-6.86
+Spinal fusion and instrumentation,all_procedures,drop,5.04,4.53,1.13,-0.62
+Spinal deformity correction,all_procedures,drop,-11.76,4.17,-0.35,-15.58
+Spinal facet joint denervation,all_procedures,drop,51.13,5.53,3.15,42.45
+Extra-axial haematoma evacuation,main_procedure,proportional,6.6,4.56,3.74,-1.7
+Intracerebral haematoma evacuation,main_procedure,proportional,-27.1,3.83,1.94,-32.88
+Intracranial tumour resection and biopsy,main_procedure,proportional,8.15,4.6,2.11,1.44
+"CSF diversion, primary",main_procedure,proportional,8.5,4.6,-1.17,5.07
+"CSF diversion, revision and maintenance",main_procedure,proportional,33.54,5.15,-2.47,30.86
+Peripheral nerve entrapment release,main_procedure,proportional,-7.79,4.25,2.57,-14.61
+Neuromodulation implantation,main_procedure,proportional,27.2,5.01,1.43,20.76
+Spinal nerve root injection and denervation,main_procedure,proportional,45.58,5.41,2.59,37.58
+Lumbar decompression without fusion,main_procedure,proportional,-2.65,4.36,1.78,-8.79
+Spinal fusion and instrumentation,main_procedure,proportional,10.28,4.64,1.17,4.47
+Spinal deformity correction,main_procedure,proportional,-11.66,4.17,-0.35,-15.48
+Spinal facet joint denervation,main_procedure,proportional,51.65,5.54,3.15,42.96
+Extra-axial haematoma evacuation,main_procedure,oldest,6.6,4.56,3.75,-1.72
+Intracerebral haematoma evacuation,main_procedure,oldest,-27.1,3.83,1.95,-32.89
+Intracranial tumour resection and biopsy,main_procedure,oldest,8.15,4.6,2.14,1.41
+"CSF diversion, primary",main_procedure,oldest,8.5,4.6,-1.13,5.03
+"CSF diversion, revision and maintenance",main_procedure,oldest,33.54,5.15,-2.38,30.77
+Peripheral nerve entrapment release,main_procedure,oldest,-7.79,4.25,2.57,-14.62
+Neuromodulation implantation,main_procedure,oldest,27.2,5.01,1.43,20.76
+Spinal nerve root injection and denervation,main_procedure,oldest,45.58,5.41,2.6,37.57
+Lumbar decompression without fusion,main_procedure,oldest,-2.65,4.36,1.79,-8.8
+Spinal fusion and instrumentation,main_procedure,oldest,10.28,4.64,1.18,4.46
+Spinal deformity correction,main_procedure,oldest,-11.66,4.17,-0.33,-15.49
+Spinal facet joint denervation,main_procedure,oldest,51.65,5.54,3.16,42.96
+Extra-axial haematoma evacuation,main_procedure,drop,6.08,4.55,3.73,-2.2
+Intracerebral haematoma evacuation,main_procedure,drop,-27.57,3.82,1.93,-33.32
+Intracranial tumour resection and biopsy,main_procedure,drop,7.86,4.59,2.11,1.16
+"CSF diversion, primary",main_procedure,drop,8.08,4.6,-1.17,4.65
+"CSF diversion, revision and maintenance",main_procedure,drop,31.68,5.11,-2.45,29.03
+Peripheral nerve entrapment release,main_procedure,drop,-7.98,4.25,2.56,-14.79
+Neuromodulation implantation,main_procedure,drop,27.13,5.01,1.43,20.7
+Spinal nerve root injection and denervation,main_procedure,drop,45.5,5.4,2.59,37.5
+Lumbar decompression without fusion,main_procedure,drop,-2.78,4.36,1.78,-8.92
+Spinal fusion and instrumentation,main_procedure,drop,10.04,4.64,1.16,4.24
+Spinal deformity correction,main_procedure,drop,-12.03,4.16,-0.35,-15.84
+Spinal facet joint denervation,main_procedure,drop,51.56,5.54,3.15,42.88

@@ -1,0 +1,25 @@
+Procedure group,Period,"Count, start","Count, end","Net change, n","Net change, %","Population size, n","Population size, % of baseline","Age structure, n","Age structure, % of baseline","Age-specific rate, n","Age-specific rate, % of baseline"
+Extra-axial haematoma evacuation,Pre-pandemic (2012/13 to 2018/19),4214,4536,322,7.6,193,4.6,158,3.8,-29,-0.7
+Extra-axial haematoma evacuation,Later period (2018/19 to 2024/25),4536,4185,-351,-7.7,205,4.5,182,4.0,-738,-16.3
+Intracerebral haematoma evacuation,Pre-pandemic (2012/13 to 2018/19),708,633,-75,-10.6,30,4.2,15,2.1,-120,-16.9
+Intracerebral haematoma evacuation,Later period (2018/19 to 2024/25),633,672,39,6.2,31,4.8,1,0.1,8,1.2
+Intracranial tumour resection and biopsy,Pre-pandemic (2012/13 to 2018/19),7579,8159,580,7.7,348,4.6,160,2.1,73,1.0
+Intracranial tumour resection and biopsy,Later period (2018/19 to 2024/25),8159,8099,-60,-0.7,381,4.7,74,0.9,-515,-6.3
+"CSF diversion, primary",Pre-pandemic (2012/13 to 2018/19),2883,3157,274,9.5,133,4.6,-34,-1.2,175,6.1
+"CSF diversion, primary",Later period (2018/19 to 2024/25),3157,3484,327,10.4,155,4.9,-27,-0.8,198,6.3
+"CSF diversion, revision and maintenance",Pre-pandemic (2012/13 to 2018/19),2704,3931,1227,45.4,146,5.4,-70,-2.6,1151,42.6
+"CSF diversion, revision and maintenance",Later period (2018/19 to 2024/25),3931,3738,-193,-4.9,180,4.6,-102,-2.6,-271,-6.9
+Peripheral nerve entrapment release,Pre-pandemic (2012/13 to 2018/19),57945,53814,-4131,-7.1,2472,4.3,1493,2.6,-8096,-14.0
+Peripheral nerve entrapment release,Later period (2018/19 to 2024/25),53814,54926,1112,2.1,2548,4.7,1305,2.4,-2741,-5.1
+Neuromodulation implantation,Pre-pandemic (2012/13 to 2018/19),3170,4053,883,27.9,159,5.0,45,1.4,678,21.4
+Neuromodulation implantation,Later period (2018/19 to 2024/25),4053,3819,-234,-5.8,185,4.6,30,0.7,-448,-11.1
+Spinal nerve root injection and denervation,Pre-pandemic (2012/13 to 2018/19),38554,53665,15111,39.2,2031,5.3,973,2.5,12107,31.4
+Spinal nerve root injection and denervation,Later period (2018/19 to 2024/25),53665,48100,-5565,-10.4,2388,4.4,904,1.7,-8857,-16.5
+Lumbar decompression without fusion,Pre-pandemic (2012/13 to 2018/19),26028,25891,-137,-0.5,1148,4.4,469,1.8,-1753,-6.7
+Lumbar decompression without fusion,Later period (2018/19 to 2024/25),25891,23521,-2370,-9.2,1159,4.5,562,2.2,-4091,-15.8
+Spinal fusion and instrumentation,Pre-pandemic (2012/13 to 2018/19),10763,11330,567,5.3,488,4.5,122,1.1,-43,-0.4
+Spinal fusion and instrumentation,Later period (2018/19 to 2024/25),11330,10558,-772,-6.8,513,4.5,111,1.0,-1396,-12.3
+Spinal deformity correction,Pre-pandemic (2012/13 to 2018/19),2995,2654,-341,-11.4,125,4.2,-10,-0.3,-456,-15.2
+Spinal deformity correction,Later period (2018/19 to 2024/25),2654,2909,255,9.6,130,4.9,72,2.7,53,2.0
+Spinal facet joint denervation,Pre-pandemic (2012/13 to 2018/19),11776,17807,6031,51.2,651,5.5,370,3.1,5010,42.5
+Spinal facet joint denervation,Later period (2018/19 to 2024/25),17807,18003,196,1.1,839,4.7,354,2.0,-997,-5.6

@@ -1,0 +1,37 @@
+Procedure group,Phase,"Count, start","Count, end","Net change, %","Population size, % of baseline","Age structure, % of baseline","Age-specific rate, % of baseline"
+Extra-axial haematoma evacuation,Pre-pandemic (2012/13 to 2018/19),4214,4536,7.6,4.6,3.8,-0.7
+Extra-axial haematoma evacuation,Pandemic shock (2019/20 to 2020/21),4398,3676,-16.4,0.2,0.6,-17.2
+Extra-axial haematoma evacuation,Recovery (2020/21 to 2024/25),3676,4185,13.8,4.2,2.5,7.1
+Intracerebral haematoma evacuation,Pre-pandemic (2012/13 to 2018/19),708,633,-10.6,4.2,2.1,-16.9
+Intracerebral haematoma evacuation,Pandemic shock (2019/20 to 2020/21),694,680,-2.0,0.2,0.3,-2.5
+Intracerebral haematoma evacuation,Recovery (2020/21 to 2024/25),680,672,-1.2,3.9,-0.3,-4.8
+Intracranial tumour resection and biopsy,Pre-pandemic (2012/13 to 2018/19),7579,8159,7.7,4.6,2.1,1.0
+Intracranial tumour resection and biopsy,Pandemic shock (2019/20 to 2020/21),8486,7456,-12.1,0.2,0.4,-12.7
+Intracranial tumour resection and biopsy,Recovery (2020/21 to 2024/25),7456,8099,8.6,4.1,0.2,4.3
+"CSF diversion, primary",Pre-pandemic (2012/13 to 2018/19),2883,3157,9.5,4.6,-1.2,6.1
+"CSF diversion, primary",Pandemic shock (2019/20 to 2020/21),3283,2796,-14.8,0.2,-0.1,-14.9
+"CSF diversion, primary",Recovery (2020/21 to 2024/25),2796,3484,24.6,4.5,-0.6,20.8
+"CSF diversion, revision and maintenance",Pre-pandemic (2012/13 to 2018/19),2704,3931,45.4,5.4,-2.6,42.6
+"CSF diversion, revision and maintenance",Pandemic shock (2019/20 to 2020/21),4041,3911,-3.2,0.2,-0.5,-2.9
+"CSF diversion, revision and maintenance",Recovery (2020/21 to 2024/25),3911,3738,-4.4,3.9,-1.5,-6.8
+Peripheral nerve entrapment release,Pre-pandemic (2012/13 to 2018/19),57945,53814,-7.1,4.3,2.6,-14.0
+Peripheral nerve entrapment release,Pandemic shock (2019/20 to 2020/21),50733,25208,-50.3,0.1,0.4,-50.9
+Peripheral nerve entrapment release,Recovery (2020/21 to 2024/25),25208,54926,117.9,6.3,1.9,109.7
+Neuromodulation implantation,Pre-pandemic (2012/13 to 2018/19),3170,4053,27.9,5.0,1.4,21.4
+Neuromodulation implantation,Pandemic shock (2019/20 to 2020/21),3852,1472,-61.8,0.1,0.3,-62.2
+Neuromodulation implantation,Recovery (2020/21 to 2024/25),1472,3819,159.4,7.1,0.4,151.9
+Spinal nerve root injection and denervation,Pre-pandemic (2012/13 to 2018/19),38554,53665,39.2,5.3,2.5,31.4
+Spinal nerve root injection and denervation,Pandemic shock (2019/20 to 2020/21),52341,21944,-58.1,0.1,0.4,-58.6
+Spinal nerve root injection and denervation,Recovery (2020/21 to 2024/25),21944,48100,119.2,6.3,1.2,111.7
+Lumbar decompression without fusion,Pre-pandemic (2012/13 to 2018/19),26028,25891,-0.5,4.4,1.8,-6.7
+Lumbar decompression without fusion,Pandemic shock (2019/20 to 2020/21),24434,13658,-44.1,0.1,0.4,-44.6
+Lumbar decompression without fusion,Recovery (2020/21 to 2024/25),13658,23521,72.2,5.4,1.7,65.1
+Spinal fusion and instrumentation,Pre-pandemic (2012/13 to 2018/19),10763,11330,5.3,4.5,1.1,-0.4
+Spinal fusion and instrumentation,Pandemic shock (2019/20 to 2020/21),10918,6627,-39.3,0.1,0.4,-39.9
+Spinal fusion and instrumentation,Recovery (2020/21 to 2024/25),6627,10558,59.3,5.1,0.5,53.7
+Spinal deformity correction,Pre-pandemic (2012/13 to 2018/19),2995,2654,-11.4,4.2,-0.3,-15.2
+Spinal deformity correction,Pandemic shock (2019/20 to 2020/21),2482,1527,-38.5,0.1,0.7,-39.3
+Spinal deformity correction,Recovery (2020/21 to 2024/25),1527,2909,90.5,5.7,2.3,82.5
+Spinal facet joint denervation,Pre-pandemic (2012/13 to 2018/19),11776,17807,51.2,5.5,3.1,42.5
+Spinal facet joint denervation,Pandemic shock (2019/20 to 2020/21),16854,7522,-55.4,0.1,0.4,-55.9
+Spinal facet joint denervation,Recovery (2020/21 to 2024/25),7522,18003,139.3,6.7,1.4,131.3

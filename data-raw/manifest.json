@@ -1,0 +1,25 @@
+{
+  "retrieved_utc": "2026-11-06T22:23:14+00:00",
+  "files": {
+    "opcs4_usage.rda": {
+      "source": "https://raw.githubusercontent.com/bennettoxford/opencodecounts/a92a37bbfc3d670864fe6ae08edf1a61ed1d818e/data/opcs4_usage.rda",
+      "bytes": 772011,
+      "sha256": "90742fcd5e52019a2ec0054050384ceb4b76cbbaa2c6faff7fd418187e89af9e"
+    },
+    "opcs4_usage_breakdowns.rda": {
+      "source": "https://raw.githubusercontent.com/bennettoxford/opencodecounts/a92a37bbfc3d670864fe6ae08edf1a61ed1d818e/data/opcs4_usage_breakdowns.rda",
+      "bytes": 4956870,
+      "sha256": "ae27855e6b53a25a59efa58c84862f368bd54c2d3af821c2393689b89a097a1c"
+    },
+    "ons_mye_england_sya.csv": {
+      "source": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv?geography=2092957699&date=2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024&gender=0&c_age=101...191&measures=20100&select=date_name,c_age_name,obs_value",
+      "bytes": 27142,
+      "sha256": "ce7106ade0afcf2655cc2e3c9a99c6ea0eb86cf0da05e5417bee0f6b510a19d4"
+    },
+    "ons_npp_england_sya.csv": {
+      "source": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2403_1.data.csv?geography=2092957699&projected_year=2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039&projvar=1,11,13&gender=0&c_age=0,1...105,223&measures=20100&select=projected_year_name,projvar_name,c_age_name,obs_value",
+      "bytes": 228468,
+      "sha256": "0195eaf6c7c3f0bb852c5696de04c21a19122e68b0f3cde85f9e6847a12e101b"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Period,Procedure group,"Demographic counterfactual, %","Combined demographic component (symmetric decomposition), %","Observed net change, %"
+Pre-pandemic (2012/13 to 2018/19),Extra-axial haematoma evacuation,8.39,8.34,7.64
+Pre-pandemic (2012/13 to 2018/19),Intracerebral haematoma evacuation,6.97,6.3,-10.59
+Pre-pandemic (2012/13 to 2018/19),Intracranial tumour resection and biopsy,6.7,6.7,7.65
+Pre-pandemic (2012/13 to 2018/19),"CSF diversion, primary",3.22,3.45,9.5
+Pre-pandemic (2012/13 to 2018/19),"CSF diversion, revision and maintenance",2.07,2.82,45.38
+Pre-pandemic (2012/13 to 2018/19),Peripheral nerve entrapment release,7.14,6.84,-7.13
+Pre-pandemic (2012/13 to 2018/19),Neuromodulation implantation,6.03,6.45,27.85
+Pre-pandemic (2012/13 to 2018/19),Spinal nerve root injection and denervation,6.69,7.79,39.19
+Pre-pandemic (2012/13 to 2018/19),Lumbar decompression without fusion,6.03,6.21,-0.53
+Pre-pandemic (2012/13 to 2018/19),Spinal fusion and instrumentation,5.41,5.67,5.27
+Pre-pandemic (2012/13 to 2018/19),Spinal deformity correction,4.55,3.83,-11.39
+Pre-pandemic (2012/13 to 2018/19),Spinal facet joint denervation,7.0,8.67,51.21
+Later period (2018/19 to 2024/25),Extra-axial haematoma evacuation,9.43,8.53,-7.74
+Later period (2018/19 to 2024/25),Intracerebral haematoma evacuation,5.45,4.97,6.16
+Later period (2018/19 to 2024/25),Intracranial tumour resection and biopsy,5.67,5.57,-0.74
+Later period (2018/19 to 2024/25),"CSF diversion, primary",3.52,4.08,10.36
+Later period (2018/19 to 2024/25),"CSF diversion, revision and maintenance",1.74,1.99,-4.91
+Later period (2018/19 to 2024/25),Peripheral nerve entrapment release,7.13,7.16,2.07
+Later period (2018/19 to 2024/25),Neuromodulation implantation,5.67,5.29,-5.77
+Later period (2018/19 to 2024/25),Spinal nerve root injection and denervation,6.61,6.14,-10.37
+Later period (2018/19 to 2024/25),Lumbar decompression without fusion,6.91,6.65,-9.15
+Later period (2018/19 to 2024/25),Spinal fusion and instrumentation,5.53,5.51,-6.81
+Later period (2018/19 to 2024/25),Spinal deformity correction,7.48,7.63,9.61
+Later period (2018/19 to 2024/25),Spinal facet joint denervation,6.69,6.7,1.1
+Later period (2018/19 to 2024/25),"(correlation with observed, Pearson)",-0.17,-0.07,
+Later period (2018/19 to 2024/25),"(correlation with observed, Spearman)",-0.2,-0.16,
+Pre-pandemic (2012/13 to 2018/19),"(correlation with observed, Pearson)",-0.19,0.16,
+Pre-pandemic (2012/13 to 2018/19),"(correlation with observed, Spearman)",-0.13,0.22,

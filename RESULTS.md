@@ -42,7 +42,11 @@ cent (Spinal deformity correction) to 19.8 per cent
 (Extra-axial haematoma evacuation); the age-structure component ranged from
 -13.1 to 15.6 per cent. Across groups the
 scenario adds 20,002 annual code occurrences
-(11.0 per cent).
+(11.0 per cent). People aged 65 or over account for
+38.3 per cent of the scenario base and
+91.3 per cent of the scenario increase; people
+aged 80 or over account for 9.7 and
+36.1 per cent respectively.
 
 ## Sensitivity
 

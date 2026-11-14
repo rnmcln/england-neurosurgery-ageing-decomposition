@@ -100,9 +100,10 @@ def table2(dec, var):
     return pd.concat([pd.DataFrame(rows), pd.DataFrame([share])], ignore_index=True)
 
 
-def table3(proj):
+def table3(proj, by_age):
     pr = proj[(proj["rate_base"] == "2024/25")
               & (proj["variant"] == "Principal projection")].set_index("group")
+    ages = by_age.pivot(index="group", columns="age", values="change_n")
     rng = proj.groupby("group")["change_pct"].agg(["min", "max"])
     rows = []
     for g in pr.sort_values("change_pct", ascending=False).index:
@@ -110,9 +111,10 @@ def table3(proj):
         rows.append({
             "Procedure group": g,
             "Scenario base 2024/25": int(round(p["count_2024_25"])),
-            "Scenario 2039/40": int(round(p["count_2039_40"])),
             "Change, n": int(round(p["change_n"])),
             "Change, %": round(p["change_pct"], 1),
+            "Change aged 65 to 79, n": int(round(ages.loc[g, "65-79"])),
+            "Change aged 80 and over, n": int(round(ages.loc[g, "80+"])),
             "Population size, %": round(p["population_size_pct"], 1),
             "Age structure, %": round(p["age_structure_pct"], 1),
             "Range across variants and rate bases, %":
@@ -122,9 +124,10 @@ def table3(proj):
     tot = {
         "Procedure group": "All twelve groups",
         "Scenario base 2024/25": int(round(pr["count_2024_25"].sum())),
-        "Scenario 2039/40": int(round(pr["count_2039_40"].sum())),
         "Change, n": int(round(pr["change_n"].sum())),
         "Change, %": round(pr["change_n"].sum() / pr["count_2024_25"].sum() * 100, 1),
+        "Change aged 65 to 79, n": int(round(ages["65-79"].sum())),
+        "Change aged 80 and over, n": int(round(ages["80+"].sum())),
         "Population size, %": "", "Age structure, %": "",
         "Range across variants and rate bases, %": "",
     }
@@ -155,7 +158,7 @@ def copy_fig(src, dst):
             shutil.copy2(s, PUB / f"{dst}.{ext}")
 
 
-def key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub):
+def key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub, by_age):
     k = {}
     pre = dec[dec["period"] == PRE].set_index("group")
     lat = dec[dec["period"] == LATER].set_index("group")
@@ -254,6 +257,25 @@ def key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub):
     k["scen_total_base_n"] = int(round(pr["count_2024_25"].sum()))
     k["scen_total_change_pct"] = r1(pr["change_n"].sum() / pr["count_2024_25"].sum() * 100)
     k["scen_n_contract"] = int((pr["change_pct"] < 0).sum())
+    # age distribution of the scenario (primary specification)
+    tot_age = by_age.groupby("age")[["count_2024_25", "change_n"]].sum()
+    base_all, chg_all = tot_age["count_2024_25"].sum(), tot_age["change_n"].sum()
+    for a, short in [("0-64", "u65"), ("65-79", "65_79"), ("80+", "80p")]:
+        k[f"scen_age_{short}_change_n"] = int(round(tot_age.loc[a, "change_n"]))
+        k[f"scen_age_{short}_base_share_pct"] = r1(tot_age.loc[a, "count_2024_25"] / base_all * 100)
+        k[f"scen_age_{short}_change_share_pct"] = r1(tot_age.loc[a, "change_n"] / chg_all * 100)
+    old_base = tot_age.loc[["65-79", "80+"], "count_2024_25"].sum()
+    old_chg = tot_age.loc[["65-79", "80+"], "change_n"].sum()
+    k["scen_age_65p_base_share_pct"] = r1(old_base / base_all * 100)
+    k["scen_age_65p_change_share_pct"] = r1(old_chg / chg_all * 100)
+    k["scen_age_65p_change_n"] = int(round(old_chg))
+    eag = by_age[by_age["group"] == "Extra-axial haematoma evacuation"].set_index("age")
+    k["scen_extra_axial_80p_change_n"] = int(round(eag.loc["80+", "change_n"]))
+    k["scen_extra_axial_80p_change_share_pct"] = r1(eag.loc["80+", "change_n"] / eag["change_n"].sum() * 100)
+    k["scen_extra_axial_80p_base_share_pct"] = r1(eag.loc["80+", "count_2024_25"] / eag["count_2024_25"].sum() * 100)
+    g80 = by_age[by_age["age"] == "80+"].set_index("group")["change_n"]
+    k["scen_80p_change_top_group"] = g80.idxmax()
+    k["scen_80p_change_top_n"] = int(round(g80.max()))
     for g, short in [("Extra-axial haematoma evacuation", "extra_axial"),
                      ("Peripheral nerve entrapment release", "entrapment"),
                      ("Spinal nerve root injection and denervation", "root"),
@@ -380,7 +402,11 @@ cent ({k['scen_change_min_group']}) to {k['scen_change_max']} per cent
 ({k['scen_change_max_group']}); the age-structure component ranged from
 {k['scen_age_min']} to {k['scen_age_max']} per cent. Across groups the
 scenario adds {k['scen_total_change_n']:,} annual code occurrences
-({k['scen_total_change_pct']} per cent).
+({k['scen_total_change_pct']} per cent). People aged 65 or over account for
+{k['scen_age_65p_base_share_pct']} per cent of the scenario base and
+{k['scen_age_65p_change_share_pct']} per cent of the scenario increase; people
+aged 80 or over account for {k['scen_age_80p_base_share_pct']} and
+{k['scen_age_80p_change_share_pct']} per cent respectively.
 
 ## Sensitivity
 
@@ -404,6 +430,7 @@ def main():
     analysis = pd.read_csv(cfg.DERIVED / f"analysis_{PRIMARY_TAG}.csv")
     var = pd.read_csv(cfg.DERIVED / "variance_decomposition.csv")
     proj = pd.read_csv(cfg.DERIVED / "projection_2040.csv")
+    by_age = pd.read_csv(cfg.DERIVED / "projection_2040_by_age.csv")
     panel = pd.read_csv(cfg.DERIVED / "selected_panel_robustness.csv")
     stable = pd.read_csv(cfg.DERIVED / "stable_code_sensitivity.csv")
     cf = pd.read_csv(cfg.DERIVED / "demographic_counterfactual.csv")
@@ -411,7 +438,7 @@ def main():
     sub = pd.read_csv(cfg.TABLES / "tab_substitution_check.csv")
 
     items = []
-    t1, t2, t3 = table1(rates, analysis), table2(dec, var), table3(proj)
+    t1, t2, t3 = table1(rates, analysis), table2(dec, var), table3(proj, by_age)
     for n, t, cap in [(1, t1, "Procedure groups, recorded code occurrences and age-standardised rates"),
                       (2, t2, "Decomposition of change in recorded code occurrences, two periods"),
                       (3, t3, "Fixed-rate demographic scenario, 2024/25 to 2039/40")]:
@@ -469,7 +496,7 @@ def main():
         for lab, cap in items:
             f.write(f"- **{lab}.** {cap}\n")
 
-    k = key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub)
+    k = key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub, by_age)
     with open(cfg.DERIVED / "key_results.json", "w") as f:
         json.dump(k, f, indent=1, sort_keys=True)
     write_results_summary(k)

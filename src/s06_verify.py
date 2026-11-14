@@ -497,6 +497,10 @@ def main():
         check("V17d Table 3 totals equal sum of groups",
               int(body["Change, n"].sum()) - int(tot["Change, n"]) in (-2, -1, 0, 1, 2),
               f"sum {body['Change, n'].sum()} vs total {tot['Change, n']}")
+        ba = pd.read_csv(cfg.DERIVED / "projection_2040_by_age.csv")
+        gap = (body.set_index("Procedure group")["Change, n"]
+               - ba.groupby("group")["change_n"].sum().round(0)).abs().max()
+        check("V17f Table 3 age split reconciles to group change", gap <= 1, f"max |diff| = {gap:.0f}")
         t1 = pd.read_csv(pub / "Table1.csv")
         check("V17e Table 1 code count equals configuration",
               int(t1.iloc[-1]["OPCS-4 codes, n"]) == sum(len(s["codes"]) for s in cfg.PROCEDURE_GROUPS.values()), "")

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below and cite the associated article."
 title: "Population ageing and neurosurgery-related procedure activity in England, 2012/13 to 2024/25: decomposition and fixed-rate projections to 2039/40 (analysis code)"
 type: software
-version: 1.0.1
+version: 1.1.0
 date-released: 2026-11-14
 license: MIT
 repository-code: "https://github.com/rnmcln/england-neurosurgery-ageing-decomposition"
@@ -25,6 +25,7 @@ authors:
     affiliation: "Centre for Palliative and Neuro-Palliative Care, Faculty of Health Sciences Brandenburg, Brandenburg Medical School Theodor Fontane, Rüdersdorf bei Berlin, Germany; Department for Palliative and Neuro-Palliative Care, Immanuel Clinic Rüdersdorf, Rüdersdorf bei Berlin, Germany"
 keywords:
   - neurosurgery
+  - older people
   - population ageing
   - Hospital Episode Statistics
   - decomposition analysis

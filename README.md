@@ -38,7 +38,8 @@ widely between groups; changes in age-specific rates accounted for almost all
 of the difference between groups. After 2018/19, demographic change would
 have increased activity while recorded activity fell. Under current rates,
 projected demographic pressure to 2039/40 differs strongly by procedure and is
-largest for extra-axial haematoma evacuation. Every number is reported in
+largest for extra-axial haematoma evacuation; almost all of the projected
+increase concerns people aged 65 years or over. Every number is reported in
 [RESULTS.md](RESULTS.md), which the pipeline generates from
 `derived/key_results.json`.
 
@@ -136,8 +137,19 @@ estimate at current rates, not a forecast.
 
 ## Archive
 
-Releases are archived at Zenodo: https://doi.org/10.5281/zenodo.24221325 (all versions);
-version 1.0.1 is https://doi.org/10.5281/zenodo.24221532.
+Releases are archived at Zenodo: https://doi.org/10.5281/zenodo.24221325
+resolves to the latest version, and each release has its own version DOI on
+the Zenodo record.
+
+## Changes
+
+- 1.1.0: the primary 2039/40 scenario is additionally split by broad age at
+  the time of the procedure (0 to 64, 65 to 79, 80 and over;
+  `derived/projection_2040_by_age.csv`, reported in Table 3); figure 1 panels
+  are labelled 1a and 1b; PDF metadata timestamps are fixed so that figure
+  files are byte-identical between runs.
+- 1.0.1: manifest exclusions made independent of the checkout location.
+- 1.0.0: first release.
 
 ## Licence and citation
 

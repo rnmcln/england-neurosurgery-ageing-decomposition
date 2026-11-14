@@ -1,14 +1,14 @@
-Procedure group,Scenario base 2024/25,Scenario 2039/40,"Change, n","Change, %","Population size, %","Age structure, %","Range across variants and rate bases, %"
-Extra-axial haematoma evacuation,4173,4998,825,19.8,4.2,15.6,19.0 to 22.9
-Peripheral nerve entrapment release,54678,62185,7507,13.7,4.1,9.7,12.2 to 16.3
-Spinal facet joint denervation,17917,20182,2265,12.6,4.1,8.6,10.7 to 14.9
-Spinal nerve root injection and denervation,47874,53229,5355,11.2,4.0,7.2,9.6 to 14.3
-Lumbar decompression without fusion,23416,26021,2605,11.1,4.0,7.1,8.8 to 14.4
-Intracerebral haematoma evacuation,669,723,54,8.1,4.0,4.1,5.4 to 12.0
-Intracranial tumour resection and biopsy,8073,8699,626,7.8,4.0,3.8,5.0 to 11.6
-Neuromodulation implantation,3809,4042,233,6.1,3.9,2.2,3.0 to 10.6
-"CSF diversion, primary",3482,3694,212,6.1,3.9,2.2,-0.7 to 13.4
-Spinal fusion and instrumentation,10535,11167,632,6.0,3.9,2.1,4.2 to 10.7
-"CSF diversion, revision and maintenance",3747,3713,-34,-0.9,3.8,-4.7,-8.6 to 9.3
-Spinal deformity correction,2949,2671,-279,-9.4,3.6,-13.1,-13.7 to -0.6
-All twelve groups,181321,201323,20002,11.0,,,
+Procedure group,Scenario base 2024/25,"Change, n","Change, %","Change aged 65 to 79, n","Change aged 80 and over, n","Population size, %","Age structure, %","Range across variants and rate bases, %"
+Extra-axial haematoma evacuation,4173,825,19.8,328,497,4.2,15.6,19.0 to 22.9
+Peripheral nerve entrapment release,54678,7507,13.7,3357,3324,4.1,9.7,12.2 to 16.3
+Spinal facet joint denervation,17917,2265,12.6,1247,744,4.1,8.6,10.7 to 14.9
+Spinal nerve root injection and denervation,47874,5355,11.2,2885,1627,4.0,7.2,9.6 to 14.3
+Lumbar decompression without fusion,23416,2605,11.1,1670,677,4.0,7.1,8.8 to 14.4
+Intracerebral haematoma evacuation,669,54,8.1,38,3,4.0,4.1,5.4 to 12.0
+Intracranial tumour resection and biopsy,8073,626,7.8,526,78,4.0,3.8,5.0 to 11.6
+Neuromodulation implantation,3809,233,6.1,182,35,3.9,2.2,3.0 to 10.6
+"CSF diversion, primary",3482,212,6.1,178,92,3.9,2.2,-0.7 to 13.4
+Spinal fusion and instrumentation,10535,632,6.0,507,99,3.9,2.1,4.2 to 10.7
+"CSF diversion, revision and maintenance",3747,-34,-0.9,84,45,3.8,-4.7,-8.6 to 9.3
+Spinal deformity correction,2949,-279,-9.4,25,5,3.6,-13.1,-13.7 to -0.6
+All twelve groups,181321,20002,11.0,11028,7227,,,

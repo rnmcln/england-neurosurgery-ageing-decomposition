@@ -220,7 +220,7 @@ def fig_demographic_vs_observed(dec):
         ax.tick_params(axis="y", length=0)
         ax.spines["left"].set_visible(False)
         lab = "2012/13 to 2018/19" if k == 0 else "2018/19 to 2024/25"
-        ax.text(0.0, 1.015, f"{'ab'[k]}   {lab}", transform=ax.transAxes,
+        ax.text(0.0, 1.015, f"{('1a', '1b')[k]}   {lab}", transform=ax.transAxes,
                 fontsize=7, color=GREY_DARK, ha="left", va="bottom")
         if k == 0:
             top = order[-1]

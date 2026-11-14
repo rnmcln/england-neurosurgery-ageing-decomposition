@@ -61,6 +61,7 @@ DESCRIPTIONS = {
     # derived
     "derived/build_checks.csv": "Integrity checks: code coverage, age allocation, positional ratio",
     "derived/projection_2040.csv": "Scenario results, all groups by rate base and population variant",
+    "derived/projection_2040_by_age.csv": "Primary scenario split by broad age (0-64, 65-79, 80 and over)",
     "derived/shapley_comparison.csv": "Symmetric versus three-factor Shapley allocation, primary period",
     "derived/alternative_endpoints.csv": "Endpoint sensitivity: 2018/19, 2019/20, three-year averages",
     "derived/cumulative_annual.csv": "Consecutive-year decompositions cumulated over 2012/13 to 2019/20",

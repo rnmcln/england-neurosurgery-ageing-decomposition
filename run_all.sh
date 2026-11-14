@@ -19,6 +19,7 @@ if ! command -v "$neurosurg_python" >/dev/null 2>&1; then
   exit 2
 fi
 
+export SOURCE_DATE_EPOCH="${SOURCE_DATE_EPOCH:-1767225600}"  # fixed timestamp in PDF metadata
 export MPLBACKEND="${MPLBACKEND:-Agg}"
 export MPLCONFIGDIR="${MPLCONFIGDIR:-$PWD/.cache/matplotlib}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$PWD/.cache}"

@@ -1,7 +1,7 @@
 # Manifest
 
-Generated 2026-11-14T13:39:44+00:00.
-143 files, 14.2 MB.
+Generated 2026-11-14T15:39:32+00:00.
+144 files, 14.2 MB.
 
 SHA-256 is given for every file. The source data files and their
 retrieval URLs are additionally recorded in `data-raw/manifest.json`,
@@ -13,15 +13,15 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 |---|---|---|---|
 | `.github/workflows/verify.yml` | 1 kB | `15b735059324` | Continuous integration: rebuild and verify outputs |
 | `.gitignore` | 0 kB | `0ac42a5f77fd` | Excluded local, cache and unlicensed source files |
-| `.zenodo.json` | 2 kB | `f3e1768c9b5c` | Archival metadata for Zenodo |
-| `CITATION.cff` | 2 kB | `a4fc379e6ae7` | Citation metadata for this software release |
+| `.zenodo.json` | 2 kB | `3ee2ced1363c` | Archival metadata for Zenodo |
+| `CITATION.cff` | 2 kB | `e4d6718842d3` | Citation metadata for this software release |
 | `LICENSE` | 1 kB | `df0804fec300` | MIT licence for the analysis code |
-| `README.md` | 8 kB | `539232351d4f` | Study summary, data sources, method and instructions for reproduction |
-| `RESULTS.md` | 2 kB | `dde791c35199` | Results summary generated from derived/key_results.json |
+| `README.md` | 8 kB | `b82857e5d549` | Study summary, data sources, method and instructions for reproduction |
+| `RESULTS.md` | 2 kB | `f98128c661dc` | Results summary generated from derived/key_results.json |
 | `THIRD_PARTY_DATA.md` | 2 kB | `7d17b83be427` | Licensing and attribution of third-party source data |
 | `pyproject.toml` | 0 kB | `c3e5986650e4` | Python project metadata and pinned runtime dependencies |
 | `requirements.txt` | 0 kB | `7ea68be5282b` | Pinned runtime dependencies |
-| `run_all.sh` | 2 kB | `800643f2bde9` | Pipeline runner (verify or refresh mode) |
+| `run_all.sh` | 2 kB | `b0b675d836af` | Pipeline runner (verify or refresh mode) |
 
 ## Pipeline source (src/)
 
@@ -32,14 +32,14 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `src/s02_build.py` | 7 kB | `28445a5b253d` | Build six analysis dataset variants; integrity checks C1 to C3 |
 | `src/s03_decompose.py` | 18 kB | `c0b3d7d8b05d` | Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual |
 | `src/s04_tables.py` | 12 kB | `c047e753a088` | Working tables (tab_*.csv) |
-| `src/s05_figures.py` | 22 kB | `b69a55dc2152` | Working figures (fig_*.pdf/.eps/.tiff/.png) |
-| `src/s06_verify.py` | 22 kB | `f59be6976428` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
+| `src/s05_figures.py` | 22 kB | `d27588920056` | Working figures (fig_*.pdf/.eps/.tiff/.png) |
+| `src/s06_verify.py` | 23 kB | `af991f135c2d` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
 | `src/s07_substitution.py` | 6 kB | `b1bc83e7392c` | Candidate embolisation codes against extra-axial haematoma evacuation |
-| `src/s08_projection.py` | 8 kB | `026b4af529bf` | Fixed-rate demographic scenario to 2039/40 |
-| `src/s10_package.py` | 9 kB | `fa341b272c7e` | This script: builds the file manifest |
+| `src/s08_projection.py` | 10 kB | `2a9ed5156ea5` | Fixed-rate demographic scenario to 2039/40 |
+| `src/s10_package.py` | 10 kB | `d5212024c398` | This script: builds the file manifest |
 | `src/s11_code_level.py` | 7 kB | `62e840228a3a` | Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen |
 | `src/s12_robustness.py` | 15 kB | `d60d70a70ebd` | Panel, weighting, stable-code and projection sensitivity analyses |
-| `src/s13_publication.py` | 28 kB | `334fd0332667` | Numbered publication tables and figures; key results; RESULTS.md |
+| `src/s13_publication.py` | 31 kB | `567304ce38c7` | Numbered publication tables and figures; key results; RESULTS.md |
 
 ## Source data (data-raw/)
 
@@ -74,9 +74,10 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `derived/decomposition_main_procedure__proportional.csv` | 29 kB | `5a4686387586` | Decomposition output for one analysis variant |
 | `derived/demographic_counterfactual.csv` | 11 kB | `e7a45104832f` | Demographic counterfactual N(P2,c2,m1) - N(P1,c1,m1) per group and period |
 | `derived/dispersion.csv` | 4 kB | `8db6a28f3a9b` | Between-group SD, IQR and range per component (descriptive) |
-| `derived/key_results.json` | 6 kB | `6397f502624e` | Every quantity quoted in the results summary and article |
+| `derived/key_results.json` | 7 kB | `fdaefe02108e` | Every quantity quoted in the results summary and article |
 | `derived/npp_population_checks.csv` | 2 kB | `9cc5d2809055` | Projected single-age totals reconciled to published All Ages totals |
 | `derived/projection_2040.csv` | 25 kB | `5918214f902f` | Scenario results, all groups by rate base and population variant |
+| `derived/projection_2040_by_age.csv` | 3 kB | `c74033adc432` | Primary scenario split by broad age (0-64, 65-79, 80 and over) |
 | `derived/projection_per_year_comparison.csv` | 1 kB | `6b53d06ae397` | Group-level interval-average observed and projected demographic contributions |
 | `derived/projection_per_year_summary.csv` | 1 kB | `6ac6ecca085c` | Across-group summaries of observed and projected demographic contributions |
 | `derived/rates_all_procedures__drop.csv` | 13 kB | `a9652de913ec` | Annual counts, crude and age-standardised rates by group |
@@ -120,23 +121,23 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 
 | File | Size | SHA-256 (first 12) | Description |
 |---|---|---|---|
-| `outputs/figures/fig_age_specific_profiles.pdf` | 24 kB | `9aa96719f27b` | Working figure (PDF) |
+| `outputs/figures/fig_age_specific_profiles.pdf` | 24 kB | `f1cea69b7968` | Working figure (PDF) |
 | `outputs/figures/fig_age_specific_profiles.png` | 661 kB | `8bab1edeec31` | Working figure |
-| `outputs/figures/fig_age_structure_observed_vs_scenario.pdf` | 14 kB | `9005684028d2` | Working figure (PDF) |
+| `outputs/figures/fig_age_structure_observed_vs_scenario.pdf` | 14 kB | `000909bbec68` | Working figure (PDF) |
 | `outputs/figures/fig_age_structure_observed_vs_scenario.png` | 204 kB | `336ef6507281` | Working figure |
-| `outputs/figures/fig_asr_trajectories.pdf` | 23 kB | `6e41d79a4cd9` | Working figure (PDF) |
+| `outputs/figures/fig_asr_trajectories.pdf` | 23 kB | `c589e9aa0a3f` | Working figure (PDF) |
 | `outputs/figures/fig_asr_trajectories.png` | 404 kB | `2836ea0f7524` | Working figure |
-| `outputs/figures/fig_code_level_trends.pdf` | 16 kB | `261c95bb76ee` | Working figure (PDF) |
+| `outputs/figures/fig_code_level_trends.pdf` | 16 kB | `f2520404dc60` | Working figure (PDF) |
 | `outputs/figures/fig_code_level_trends.png` | 439 kB | `3ff6a2dba09b` | Working figure |
-| `outputs/figures/fig_counterfactual_scatter.pdf` | 14 kB | `391bae1bc1d3` | Working figure (PDF) |
+| `outputs/figures/fig_counterfactual_scatter.pdf` | 14 kB | `f23aa20df478` | Working figure (PDF) |
 | `outputs/figures/fig_counterfactual_scatter.png` | 167 kB | `3cefab57bff4` | Working figure |
-| `outputs/figures/fig_counting_sensitivity.pdf` | 14 kB | `2f16538c104e` | Working figure (PDF) |
+| `outputs/figures/fig_counting_sensitivity.pdf` | 14 kB | `81c6dc08e166` | Working figure (PDF) |
 | `outputs/figures/fig_counting_sensitivity.png` | 191 kB | `443da65f8c52` | Working figure |
-| `outputs/figures/fig_decomposition_components.pdf` | 17 kB | `7c74361bb751` | Working figure (PDF) |
+| `outputs/figures/fig_decomposition_components.pdf` | 17 kB | `6997cd141ba4` | Working figure (PDF) |
 | `outputs/figures/fig_decomposition_components.png` | 232 kB | `44b3c7a3c06c` | Working figure |
-| `outputs/figures/fig_demographic_vs_observed.pdf` | 16 kB | `85b1ac132828` | Working figure (PDF) |
-| `outputs/figures/fig_demographic_vs_observed.png` | 199 kB | `15aaad8620ea` | Working figure |
-| `outputs/figures/fig_scenario_2039.pdf` | 15 kB | `d29152ae5579` | Working figure (PDF) |
+| `outputs/figures/fig_demographic_vs_observed.pdf` | 16 kB | `5cae38b4300f` | Working figure (PDF) |
+| `outputs/figures/fig_demographic_vs_observed.png` | 199 kB | `0db8793f137a` | Working figure |
+| `outputs/figures/fig_scenario_2039.pdf` | 15 kB | `3a324e389b36` | Working figure (PDF) |
 | `outputs/figures/fig_scenario_2039.png` | 198 kB | `f52564bff68b` | Working figure |
 
 ## Publication items (outputs/publication/)
@@ -144,27 +145,27 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | File | Size | SHA-256 (first 12) | Description |
 |---|---|---|---|
 | `outputs/publication/CAPTIONS.md` | 3 kB | `0299f4327468` | Short description of each numbered publication item |
-| `outputs/publication/Fig1.pdf` | 16 kB | `85b1ac132828` | Main figure (numbered as in the article) (PDF) |
-| `outputs/publication/Fig1.png` | 199 kB | `15aaad8620ea` | Main figure (numbered as in the article) |
-| `outputs/publication/Fig2.pdf` | 15 kB | `d29152ae5579` | Main figure (numbered as in the article) (PDF) |
+| `outputs/publication/Fig1.pdf` | 16 kB | `5cae38b4300f` | Main figure (numbered as in the article) (PDF) |
+| `outputs/publication/Fig1.png` | 199 kB | `0db8793f137a` | Main figure (numbered as in the article) |
+| `outputs/publication/Fig2.pdf` | 15 kB | `3a324e389b36` | Main figure (numbered as in the article) (PDF) |
 | `outputs/publication/Fig2.png` | 198 kB | `f52564bff68b` | Main figure (numbered as in the article) |
-| `outputs/publication/FigS1.pdf` | 23 kB | `6e41d79a4cd9` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS1.pdf` | 23 kB | `c589e9aa0a3f` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS1.png` | 404 kB | `2836ea0f7524` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS2.pdf` | 24 kB | `9aa96719f27b` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS2.pdf` | 24 kB | `f1cea69b7968` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS2.png` | 661 kB | `8bab1edeec31` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS3.pdf` | 17 kB | `7c74361bb751` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS3.pdf` | 17 kB | `6997cd141ba4` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS3.png` | 232 kB | `44b3c7a3c06c` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS4.pdf` | 14 kB | `391bae1bc1d3` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS4.pdf` | 14 kB | `f23aa20df478` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS4.png` | 167 kB | `3cefab57bff4` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS5.pdf` | 14 kB | `9005684028d2` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS5.pdf` | 14 kB | `000909bbec68` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS5.png` | 204 kB | `336ef6507281` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS6.pdf` | 14 kB | `2f16538c104e` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS6.pdf` | 14 kB | `81c6dc08e166` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS6.png` | 191 kB | `443da65f8c52` | Supplementary figure (numbered as in the article) |
-| `outputs/publication/FigS7.pdf` | 16 kB | `261c95bb76ee` | Supplementary figure (numbered as in the article) (PDF) |
+| `outputs/publication/FigS7.pdf` | 16 kB | `f2520404dc60` | Supplementary figure (numbered as in the article) (PDF) |
 | `outputs/publication/FigS7.png` | 439 kB | `3ff6a2dba09b` | Supplementary figure (numbered as in the article) |
 | `outputs/publication/Table1.csv` | 2 kB | `036a5995e196` | Main table (numbered as in the article) |
 | `outputs/publication/Table2.csv` | 1 kB | `efbd43ca4478` | Main table (numbered as in the article) |
-| `outputs/publication/Table3.csv` | 1 kB | `2577d91ff957` | Main table (numbered as in the article) |
+| `outputs/publication/Table3.csv` | 1 kB | `e52df2fee29d` | Main table (numbered as in the article) |
 | `outputs/publication/TableS1.csv` | 13 kB | `76af1423a985` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS10.csv` | 1 kB | `7bef436293ce` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS11.csv` | 4 kB | `aff4e2f718bf` | Supplementary table (numbered as in the article) |

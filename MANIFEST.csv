@@ -1,11 +1,11 @@
 path,bytes,sha256,description
 .github/workflows/verify.yml,625,15b735059324f5b4a8640b213136fc571a0b69dc47213a3eda7e1c34f76f31e6,Continuous integration: rebuild and verify outputs
 .gitignore,357,0ac42a5f77fd928f645e5a9054a13e9fb160786b3756565ede54e232cb8a1e15,"Excluded local, cache and unlicensed source files"
-.zenodo.json,2138,f3e1768c9b5c53aed2a577b335c5bca0ee8912701d43c34438df56dc87c8c090,Archival metadata for Zenodo
-CITATION.cff,1718,a4fc379e6ae7d60cda2996dd74f013c3494391549129de430a86bc895456c56d,Citation metadata for this software release
+.zenodo.json,2237,3ee2ced1363cf9d19e4b8badeb4db5f5cb4bbba8e18416e92a8355a9ec02572e,Archival metadata for Zenodo
+CITATION.cff,1735,e4d6718842d369246bf61bf66bb6ae987b32b5fa2a34e993698512af26df736d,Citation metadata for this software release
 LICENSE,1149,df0804fec3004af8caa3c1abd1bceca9f42aee86dd9acee62f4595267855ca81,MIT licence for the analysis code
-README.md,7710,539232351d4fc8bca17455ad45bbd6dd8b165954fe935bb192e43bde7a0eadb8,"Study summary, data sources, method and instructions for reproduction"
-RESULTS.md,1951,dde791c3519936e89d77dfe2d8f3505c216a005d0bdfb60fd4b3ae3e179058a4,Results summary generated from derived/key_results.json
+README.md,8247,b82857e5d5497a22838060a0991f5a48a1fd0739c549f230838e8b121b6ddca7,"Study summary, data sources, method and instructions for reproduction"
+RESULTS.md,2136,f98128c661dc700c1377a5927aebf83afe4c7f8e267b9835b6b5864ec3aead60,Results summary generated from derived/key_results.json
 THIRD_PARTY_DATA.md,1890,7d17b83be4272b9182f6d411b7b7c39347563c9d8599106d328d6f05d67f539c,Licensing and attribution of third-party source data
 data-raw/manifest.json,1513,25ea06499eaf916209fe0e9ef4596d861b8f9976ff993f61f06147d2e532d532,"Source URL, byte count and SHA-256 for each source file"
 data-raw/ons_mye_england_sya.csv,27142,ce7106ade0afcf2655cc2e3c9a99c6ea0eb86cf0da05e5417bee0f6b510a19d4,"ONS mid-year population estimates, England, single year of age, 2012 to 2024"
@@ -31,9 +31,10 @@ derived/decomposition_main_procedure__oldest.csv,29149,6427cefcb94e7eba24a33e89b
 derived/decomposition_main_procedure__proportional.csv,28877,5a4686387586227d512b4301b0ff383c9e4d2c2cfc3fea0a24c7fcdcb9f90f3a,Decomposition output for one analysis variant
 derived/demographic_counterfactual.csv,10682,e7a45104832fadd2503973ec5fcf6bff2f298705dcee12b4d3e4aff1357a029f,"Demographic counterfactual N(P2,c2,m1) - N(P1,c1,m1) per group and period"
 derived/dispersion.csv,3587,8db6a28f3a9b3f392a5682135ceb1cc1d09bbd65428d279dfb0607c356b810c0,"Between-group SD, IQR and range per component (descriptive)"
-derived/key_results.json,5829,6397f502624ea93c484fcd974a07665d215346e952425922c4b97cec338a805f,Every quantity quoted in the results summary and article
+derived/key_results.json,6509,fdaefe02108e08668f60b453eff05d545c60fe07d835e5fe7aeb5543cc2708d6,Every quantity quoted in the results summary and article
 derived/npp_population_checks.csv,2203,9cc5d28090558d1ece7913018868d3adeffa6e68bbb5505df99ca53ffc2de909,Projected single-age totals reconciled to published All Ages totals
 derived/projection_2040.csv,24696,5918214f902f389781fe3cc7535988f41bd585fa7d67ee516bf24d1ee403689b,"Scenario results, all groups by rate base and population variant"
+derived/projection_2040_by_age.csv,3470,c74033adc4326a66263e9950b3e8efc1e8b35b3dc14516c518ffaea4e4e42171,"Primary scenario split by broad age (0-64, 65-79, 80 and over)"
 derived/projection_per_year_comparison.csv,1497,6b53d06ae397fe51f11502bc49e7128ad2e3839d14708fdc2c5ae85556500e01,Group-level interval-average observed and projected demographic contributions
 derived/projection_per_year_summary.csv,509,6ac6ecca085cadf090e97a1e27828ad55fb418a45d1cd87ef51017a537f2b9d4,Across-group summaries of observed and projected demographic contributions
 derived/rates_all_procedures__drop.csv,13047,a9652de913ec1a132c535d5404495b5c4d5ad084d9c8c0715ef63edf2bfd746f,"Annual counts, crude and age-standardised rates by group"
@@ -46,46 +47,46 @@ derived/selected_panel_robustness.csv,3902,34891d14b3a8e2068c9d82f174db26959b895
 derived/shapley_comparison.csv,3241,9d96a5a6befae8ca84425e11f07ca41ce536de73bcb190772f58ddf56b3c7ced,"Symmetric versus three-factor Shapley allocation, primary period"
 derived/stable_code_sensitivity.csv,7190,27b4769b1aa7ed4098ca7f184896c539bcbf451eca5446eb15ad3f77fb008013,Decomposition after excluding codes not present throughout
 derived/variance_decomposition.csv,1016,0ebe4cb4cac98605a5533648281e8f437e8507ca34ef6522de8d1f800c4d5b05,Covariance decomposition of between-group variance in net change
-outputs/figures/fig_age_specific_profiles.pdf,23989,9aa96719f27b54883d843345ac0d423951aea8a310fcef99f0bd68a67d9e2b52,Working figure (PDF)
+outputs/figures/fig_age_specific_profiles.pdf,23983,f1cea69b79682a4b0b3d31a8838a3c1c02f2223e70e2a299189dfeb8114fcc99,Working figure (PDF)
 outputs/figures/fig_age_specific_profiles.png,661491,8bab1edeec31c6be3281640008e32d8bea3d1d3a69ae744b744609003e6b9b5f,Working figure
-outputs/figures/fig_age_structure_observed_vs_scenario.pdf,14406,9005684028d26cd15efcec1f899e1fe2da6ba04cb4961cdf1e52123a3d47c53b,Working figure (PDF)
+outputs/figures/fig_age_structure_observed_vs_scenario.pdf,14400,000909bbec689c05daa674785d364cb86ab782606e71e89c66de0fb5d7dcadca,Working figure (PDF)
 outputs/figures/fig_age_structure_observed_vs_scenario.png,203612,336ef650728179392ffb8e6a7da9e712c4f9b2b21b3afefab171d6a266934dda,Working figure
-outputs/figures/fig_asr_trajectories.pdf,22971,6e41d79a4cd9c0b0cf9287a67d4296f7c84c75bddc471bd1bddb9adbdbfd93b4,Working figure (PDF)
+outputs/figures/fig_asr_trajectories.pdf,22965,c589e9aa0a3f89baa2b37a20d42410707ff850d86cd7c7a92741cc0ff9a67c72,Working figure (PDF)
 outputs/figures/fig_asr_trajectories.png,404057,2836ea0f7524b763e627d791d30e432989c3746e42af2686b52625034cb0340a,Working figure
-outputs/figures/fig_code_level_trends.pdf,15745,261c95bb76ee768ca663eb3b16807bba540fd8264648eb8398cb7a6806c19075,Working figure (PDF)
+outputs/figures/fig_code_level_trends.pdf,15739,f2520404dc60525c3a5af2aa7770619ae407e3698f821e7957b4658765076a52,Working figure (PDF)
 outputs/figures/fig_code_level_trends.png,438601,3ff6a2dba09b498faffb27543b7151b33df3c981bcd7682e9e3c57f5a081b7cf,Working figure
-outputs/figures/fig_counterfactual_scatter.pdf,13992,391bae1bc1d354974f6f3fc0da151e6fd1e2411e8edbe1e2df64854dd382ca1e,Working figure (PDF)
+outputs/figures/fig_counterfactual_scatter.pdf,13986,f23aa20df478eeb6cf897af8c20ec922b3b43fb52e069bec2ba84c5cb82618a8,Working figure (PDF)
 outputs/figures/fig_counterfactual_scatter.png,167440,3cefab57bff45d408cb728297429c6d1b0ded91089456b4b2940d45197009e6a,Working figure
-outputs/figures/fig_counting_sensitivity.pdf,13857,2f16538c104e2347d81ec8d379e191a2d55cef03d1efb0d548cb0b53da9bfbdd,Working figure (PDF)
+outputs/figures/fig_counting_sensitivity.pdf,13851,81c6dc08e1662f2cfd1f91674ab30bccbd7631ab3b35908a044c31a15c44108a,Working figure (PDF)
 outputs/figures/fig_counting_sensitivity.png,190902,443da65f8c5291d4a9253ce8ae0488d6848ade2ae2ad0b64dbbe99fb1ee5753b,Working figure
-outputs/figures/fig_decomposition_components.pdf,17471,7c74361bb7516bff8aaa7d374462a4c5197fae6862cc3ca82381a3592f3605ac,Working figure (PDF)
+outputs/figures/fig_decomposition_components.pdf,17465,6997cd141ba41e4ebde17b2cbf4d468cc977df918f826bdfd5d75e46b63f4442,Working figure (PDF)
 outputs/figures/fig_decomposition_components.png,232421,44b3c7a3c06c3e318880e76b94af378d0187ec7715bd0b04c6483b4003c8909d,Working figure
-outputs/figures/fig_demographic_vs_observed.pdf,15860,85b1ac13282837e664e3e67ceeb343732279225da2e1db70cc746c63b93ce666,Working figure (PDF)
-outputs/figures/fig_demographic_vs_observed.png,198793,15aaad8620eaa3c403f6342393284730e3052ac38c3272e8b7a1e8a7f072f155,Working figure
-outputs/figures/fig_scenario_2039.pdf,14913,d29152ae5579709110c3f59fce6e3ad5e380fb48caaf270731c6c0c5f379a01c,Working figure (PDF)
+outputs/figures/fig_demographic_vs_observed.pdf,15854,5cae38b4300fa012bc50b809cbae00384715dd572dd0d7be3fdbbe071b9b668d,Working figure (PDF)
+outputs/figures/fig_demographic_vs_observed.png,198796,0db8793f137aea8885a5f4579babaf01322a92c1ed25a747237a6bd5d9fd354f,Working figure
+outputs/figures/fig_scenario_2039.pdf,14907,3a324e389b369f633c21c7e088e0d8bc33510c8b7da3d744267769ed7cfeec80,Working figure (PDF)
 outputs/figures/fig_scenario_2039.png,197637,f52564bff68b1c8e5912931ea0c630459a3d98978afbcdbb0bd8fa6d99bae1dd,Working figure
 outputs/publication/CAPTIONS.md,2886,0299f432746822e42f87ec8f0005450350e7dfb1534c6e91b407ab7322537130,Short description of each numbered publication item
-outputs/publication/Fig1.pdf,15860,85b1ac13282837e664e3e67ceeb343732279225da2e1db70cc746c63b93ce666,Main figure (numbered as in the article) (PDF)
-outputs/publication/Fig1.png,198793,15aaad8620eaa3c403f6342393284730e3052ac38c3272e8b7a1e8a7f072f155,Main figure (numbered as in the article)
-outputs/publication/Fig2.pdf,14913,d29152ae5579709110c3f59fce6e3ad5e380fb48caaf270731c6c0c5f379a01c,Main figure (numbered as in the article) (PDF)
+outputs/publication/Fig1.pdf,15854,5cae38b4300fa012bc50b809cbae00384715dd572dd0d7be3fdbbe071b9b668d,Main figure (numbered as in the article) (PDF)
+outputs/publication/Fig1.png,198796,0db8793f137aea8885a5f4579babaf01322a92c1ed25a747237a6bd5d9fd354f,Main figure (numbered as in the article)
+outputs/publication/Fig2.pdf,14907,3a324e389b369f633c21c7e088e0d8bc33510c8b7da3d744267769ed7cfeec80,Main figure (numbered as in the article) (PDF)
 outputs/publication/Fig2.png,197637,f52564bff68b1c8e5912931ea0c630459a3d98978afbcdbb0bd8fa6d99bae1dd,Main figure (numbered as in the article)
-outputs/publication/FigS1.pdf,22971,6e41d79a4cd9c0b0cf9287a67d4296f7c84c75bddc471bd1bddb9adbdbfd93b4,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS1.pdf,22965,c589e9aa0a3f89baa2b37a20d42410707ff850d86cd7c7a92741cc0ff9a67c72,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS1.png,404057,2836ea0f7524b763e627d791d30e432989c3746e42af2686b52625034cb0340a,Supplementary figure (numbered as in the article)
-outputs/publication/FigS2.pdf,23989,9aa96719f27b54883d843345ac0d423951aea8a310fcef99f0bd68a67d9e2b52,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS2.pdf,23983,f1cea69b79682a4b0b3d31a8838a3c1c02f2223e70e2a299189dfeb8114fcc99,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS2.png,661491,8bab1edeec31c6be3281640008e32d8bea3d1d3a69ae744b744609003e6b9b5f,Supplementary figure (numbered as in the article)
-outputs/publication/FigS3.pdf,17471,7c74361bb7516bff8aaa7d374462a4c5197fae6862cc3ca82381a3592f3605ac,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS3.pdf,17465,6997cd141ba41e4ebde17b2cbf4d468cc977df918f826bdfd5d75e46b63f4442,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS3.png,232421,44b3c7a3c06c3e318880e76b94af378d0187ec7715bd0b04c6483b4003c8909d,Supplementary figure (numbered as in the article)
-outputs/publication/FigS4.pdf,13992,391bae1bc1d354974f6f3fc0da151e6fd1e2411e8edbe1e2df64854dd382ca1e,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS4.pdf,13986,f23aa20df478eeb6cf897af8c20ec922b3b43fb52e069bec2ba84c5cb82618a8,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS4.png,167440,3cefab57bff45d408cb728297429c6d1b0ded91089456b4b2940d45197009e6a,Supplementary figure (numbered as in the article)
-outputs/publication/FigS5.pdf,14406,9005684028d26cd15efcec1f899e1fe2da6ba04cb4961cdf1e52123a3d47c53b,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS5.pdf,14400,000909bbec689c05daa674785d364cb86ab782606e71e89c66de0fb5d7dcadca,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS5.png,203612,336ef650728179392ffb8e6a7da9e712c4f9b2b21b3afefab171d6a266934dda,Supplementary figure (numbered as in the article)
-outputs/publication/FigS6.pdf,13857,2f16538c104e2347d81ec8d379e191a2d55cef03d1efb0d548cb0b53da9bfbdd,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS6.pdf,13851,81c6dc08e1662f2cfd1f91674ab30bccbd7631ab3b35908a044c31a15c44108a,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS6.png,190902,443da65f8c5291d4a9253ce8ae0488d6848ade2ae2ad0b64dbbe99fb1ee5753b,Supplementary figure (numbered as in the article)
-outputs/publication/FigS7.pdf,15745,261c95bb76ee768ca663eb3b16807bba540fd8264648eb8398cb7a6806c19075,Supplementary figure (numbered as in the article) (PDF)
+outputs/publication/FigS7.pdf,15739,f2520404dc60525c3a5af2aa7770619ae407e3698f821e7957b4658765076a52,Supplementary figure (numbered as in the article) (PDF)
 outputs/publication/FigS7.png,438601,3ff6a2dba09b498faffb27543b7151b33df3c981bcd7682e9e3c57f5a081b7cf,Supplementary figure (numbered as in the article)
 outputs/publication/Table1.csv,1622,036a5995e19682934d1cfd04aa188edb7b94d19974bc950e3b4ad5b55cc7aedb,Main table (numbered as in the article)
 outputs/publication/Table2.csv,1275,efbd43ca44788901aec14a28ee2aca1d229ecfb7629bb07150611d2fd12222ac,Main table (numbered as in the article)
-outputs/publication/Table3.csv,1106,2577d91ff95717d1ccea2b5e0d9c6fb3a9f2bb3b43d1245cf0da1dfdc4262e2f,Main table (numbered as in the article)
+outputs/publication/Table3.csv,1174,e52df2fee29d27b5c5874f6e24e3ba91d0be67980422f97d0d4b988b503d8c86,Main table (numbered as in the article)
 outputs/publication/TableS1.csv,13378,76af1423a9856e0c96930cf2ab5f3cab87afb5fd9d7bd76df6f29d57d47d8622,Supplementary table (numbered as in the article)
 outputs/publication/TableS10.csv,1355,7bef436293ce3719d38f8ee1cc7b0a3a756d2766348683d453cd10574a9395a6,Supplementary table (numbered as in the article)
 outputs/publication/TableS11.csv,3702,aff4e2f718bfc3bea4fab5ae86fd440010af4651efdad929e324e4683b6b807d,Supplementary table (numbered as in the article)
@@ -128,17 +129,17 @@ outputs/tables/tab_substitution_check.csv,234,b2a66503ad0661fd406e1f91456680f4bd
 outputs/tables/tab_variance_decomposition.csv,616,c26d150b6f9e10dfa1b8d4b28d2b161ee159233d09d923c24852b62713e7b59f,Working table
 pyproject.toml,409,c3e5986650e4e13fbd371f822f19c2e990cc70bdfff1aa660fc6d8988983bc78,Python project metadata and pinned runtime dependencies
 requirements.txt,136,7ea68be5282b5558b0dbc0afb267eae2b802bb4cba285f23b55d75c1c80e81d9,Pinned runtime dependencies
-run_all.sh,1636,800643f2bde969a932f4d998a169d8129708c9c59d82867d80cfc6ae08c3da9a,Pipeline runner (verify or refresh mode)
+run_all.sh,1731,b0b675d836af7933297a76fd4fb2bbadec1b0b023a0e4e26646b347532b9707b,Pipeline runner (verify or refresh mode)
 src/config.py,12729,ec7eef2284e355cf928a510e9353c797c1fdb0b355047e099f4697a1bc54a64f,"All analytic choices: procedure groups, age bands, periods, options"
 src/s01_fetch.py,4887,112b5f01c654d8d2299d86680744756f0e45d6d474f98a299a163dfba399a039,Download pinned source files and verify SHA-256 checksums
 src/s02_build.py,7057,28445a5b253da53e29d2b6f8e4868f5ab24b2d424662d17cdc426177ef472292,Build six analysis dataset variants; integrity checks C1 to C3
 src/s03_decompose.py,18456,c0b3d7d8b05d0370e92c6d1ef0ccf78f37044a9bfcddb074092da0389b1fc802,"Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual"
 src/s04_tables.py,12011,c047e753a088a42460977c329a5bf1ad5041d15743ec95942e59c306c93cd9c7,Working tables (tab_*.csv)
-src/s05_figures.py,22343,b69a55dc215262a843406bc6ac4b90c024d19f06d81eb85dc5001bfab5e3378b,Working figures (fig_*.pdf/.eps/.tiff/.png)
-src/s06_verify.py,22317,f59be6976428f910e3422800b92675eecf03c87547fef9edf7eac3a6327d387d,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
+src/s05_figures.py,22351,d275889200562a5d34ec8996713a44db771d73608fc305aacf9d2007fa1aa621,Working figures (fig_*.pdf/.eps/.tiff/.png)
+src/s06_verify.py,22629,af991f135c2d931ef60a9ffb8e58f995d0171f717a8b0ec4557322ae477268f6,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
 src/s07_substitution.py,5614,b1bc83e7392cc358cedbc80e168fa156417baea63f02a012c69a74db9c17bfc8,Candidate embolisation codes against extra-axial haematoma evacuation
-src/s08_projection.py,8107,026b4af529bf1f313e9291a2d49a59dc267c1a2f7fc44b2d786eae4875951404,Fixed-rate demographic scenario to 2039/40
-src/s10_package.py,9474,fa341b272c7e22c15cfcb62c1d15694df14230df19f7cca30f736b04913454bb,This script: builds the file manifest
+src/s08_projection.py,10029,2a9ed5156ea5c28c0a4baf0d018fc8013a697ea4eaf8588ac85038a65043978a,Fixed-rate demographic scenario to 2039/40
+src/s10_package.py,9582,d5212024c3982f69485b2f58684f758207b09673a2becb0ead51881e268207dd,This script: builds the file manifest
 src/s11_code_level.py,6547,62e840228a3a9925bc4bec80278c335e1d6b74b837e2fa3deab42ccdd60ecb1f,"Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen"
 src/s12_robustness.py,15166,d60d70a70ebd63e278bdb101a88eea23bfdd40c63dde5126bab20f20ab93ab36,"Panel, weighting, stable-code and projection sensitivity analyses"
-src/s13_publication.py,28478,334fd03326672010e537c849206d2551a9ac6c3d6528eed2ae7a98b2c877a04e,Numbered publication tables and figures; key results; RESULTS.md
+src/s13_publication.py,30582,567304ce38c7f10360d8d292215492ab9e1ba28f238837f5a463998016b32494,Numbered publication tables and figures; key results; RESULTS.md

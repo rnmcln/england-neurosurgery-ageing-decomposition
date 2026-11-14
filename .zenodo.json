@@ -3,7 +3,7 @@
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
-  "description": "Reproducible Python pipeline and derived data for a national decomposition of recorded neurosurgery-related procedure activity in England (Hospital Episode Statistics OPCS-4 code usage, twelve procedure groups, 2012/13 to 2024/25) into population-size, age-structure and age-specific rate components, with a covariance decomposition of between-group variance and fixed-rate demographic projections to 2039/40 using ONS 2024-based population projections. Upstream NHS England code-usage files are downloaded from a pinned commit and verified by checksum.",
+  "description": "Reproducible Python pipeline and derived data for a national decomposition of recorded neurosurgery-related procedure activity in England (Hospital Episode Statistics OPCS-4 code usage, twelve procedure groups, 2012/13 to 2024/25) into population-size, age-structure and age-specific rate components, with a covariance decomposition of between-group variance and fixed-rate demographic projections to 2039/40 using ONS 2024-based population projections, including the age distribution of the projected change. Upstream NHS England code-usage files are downloaded from a pinned commit and verified by checksum.",
   "creators": [
     {
       "name": "Lawson McLean, Aaron",
@@ -29,11 +29,13 @@
   ],
   "keywords": [
     "neurosurgery",
+    "older people",
     "population ageing",
     "Hospital Episode Statistics",
     "OPCS-4",
     "decomposition analysis",
     "demand projection",
     "health services research"
-  ]
+  ],
+  "version": "1.1.0"
 }

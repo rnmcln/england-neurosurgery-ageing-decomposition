@@ -97,6 +97,12 @@ def load_projections():
     ].sum()
 
 
+def primary_change(proj):
+    pr = proj[(proj["rate_base"] == "2024/25")
+              & (proj["variant"] == "Principal projection")]
+    return pr.set_index("group")["change_n"]
+
+
 def main():
     analysis = pd.read_csv(cfg.DERIVED / f"analysis_{TAG}.csv")
     npp = load_projections()
@@ -148,6 +154,36 @@ def main():
 
     proj = pd.DataFrame(rows)
     proj.to_csv(cfg.DERIVED / "projection_2040.csv", index=False)
+
+    # Age distribution of the primary scenario. The scenario change is split
+    # by broad age at the time of the procedure (0-64, 65-79, 80 and over), so
+    # that the share of projected demographic pressure falling on older people
+    # can be reported. Primary specification only: 2024/25 rates, principal
+    # projection.
+    broad = {b: ("0-64" if i < cfg.AGE_BANDS.index("65-69")
+                 else "65-79" if i < cfg.AGE_BANDS.index("80-84") else "80+")
+             for i, b in enumerate(cfg.AGE_BANDS)}
+    v = npp[npp["variant"] == "Principal projection"]
+    p0 = v[v["year"] == base_pop_year].set_index("band")["population"].reindex(cfg.AGE_BANDS)
+    p1 = v[v["year"] == target_pop_year].set_index("band")["population"].reindex(cfg.AGE_BANDS)
+    age_rows = []
+    for group in cfg.PROCEDURE_GROUPS:
+        b = analysis[(analysis["group"] == group) & (analysis["fy"] == 2025)]
+        rates = (b.groupby("band")["count"].sum()
+                 / b.groupby("band")["population"].sum()).reindex(cfg.AGE_BANDS)
+        n0 = (rates * p0).groupby(broad).sum()
+        n1 = (rates * p1).groupby(broad).sum()
+        for age in ["0-64", "65-79", "80+"]:
+            age_rows.append({"group": group, "age": age,
+                             "count_2024_25": float(n0[age]),
+                             "count_2039_40": float(n1[age]),
+                             "change_n": float(n1[age] - n0[age])})
+    by_age = pd.DataFrame(age_rows)
+    check = (by_age.groupby("group")["change_n"].sum()
+             - primary_change(proj)).abs().max()
+    if check > 1e-6:
+        raise ValueError("age-split scenario does not reconcile to the scenario total")
+    by_age.to_csv(cfg.DERIVED / "projection_2040_by_age.csv", index=False)
 
     # Main scenario table. Absolute counts are reported alongside percentages
     # because planning uses absolute volumes: the observed 2024/25 recorded

@@ -1,7 +1,7 @@
 # Manifest
 
-Generated 2026-11-14T16:04:27+00:00.
-144 files, 14.2 MB.
+Generated 2026-11-16T19:48:13+00:00.
+151 files, 14.3 MB.
 
 SHA-256 is given for every file. The source data files and their
 retrieval URLs are additionally recorded in `data-raw/manifest.json`,
@@ -13,15 +13,15 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 |---|---|---|---|
 | `.github/workflows/verify.yml` | 1 kB | `15b735059324` | Continuous integration: rebuild and verify outputs |
 | `.gitignore` | 0 kB | `0ac42a5f77fd` | Excluded local, cache and unlicensed source files |
-| `.zenodo.json` | 2 kB | `d52a75f5a762` | Archival metadata for Zenodo |
-| `CITATION.cff` | 2 kB | `0af153ad383a` | Citation metadata for this software release |
+| `.zenodo.json` | 2 kB | `2da69823276f` | Archival metadata for Zenodo |
+| `CITATION.cff` | 2 kB | `36da2ab1990d` | Citation metadata for this software release |
 | `LICENSE` | 1 kB | `df0804fec300` | MIT licence for the analysis code |
-| `README.md` | 8 kB | `952c1b5f622d` | Study summary, data sources, method and instructions for reproduction |
-| `RESULTS.md` | 2 kB | `f98128c661dc` | Results summary generated from derived/key_results.json |
+| `README.md` | 9 kB | `6cbc5c17d656` | Study summary, data sources, method and instructions for reproduction |
+| `RESULTS.md` | 3 kB | `7913a20aea24` | Results summary generated from derived/key_results.json |
 | `THIRD_PARTY_DATA.md` | 2 kB | `7d17b83be427` | Licensing and attribution of third-party source data |
-| `pyproject.toml` | 0 kB | `c3e5986650e4` | Python project metadata and pinned runtime dependencies |
+| `pyproject.toml` | 0 kB | `c8742f2d687b` | Python project metadata and pinned runtime dependencies |
 | `requirements.txt` | 0 kB | `7ea68be5282b` | Pinned runtime dependencies |
-| `run_all.sh` | 2 kB | `b0b675d836af` | Pipeline runner (verify or refresh mode) |
+| `run_all.sh` | 2 kB | `c3bb876fa966` | Pipeline runner (verify or refresh mode) |
 
 ## Pipeline source (src/)
 
@@ -33,13 +33,14 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `src/s03_decompose.py` | 18 kB | `c0b3d7d8b05d` | Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual |
 | `src/s04_tables.py` | 12 kB | `c047e753a088` | Working tables (tab_*.csv) |
 | `src/s05_figures.py` | 23 kB | `d7f6363829b8` | Working figures (fig_*.pdf/.eps/.tiff/.png) |
-| `src/s06_verify.py` | 23 kB | `af991f135c2d` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
+| `src/s06_verify.py` | 27 kB | `f302b1a5a8f1` | Consistency, reconciliation and robustness checks; exits non-zero on failure |
 | `src/s07_substitution.py` | 6 kB | `b1bc83e7392c` | Candidate embolisation codes against extra-axial haematoma evacuation |
 | `src/s08_projection.py` | 10 kB | `2a9ed5156ea5` | Fixed-rate demographic scenario to 2039/40 |
-| `src/s10_package.py` | 10 kB | `d5212024c398` | This script: builds the file manifest |
-| `src/s11_code_level.py` | 7 kB | `62e840228a3a` | Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen |
+| `src/s10_package.py` | 10 kB | `eefe559e1358` | This script: builds the file manifest |
+| `src/s11_code_level.py` | 7 kB | `ce58fd7368d8` | Code-level screen: per-code counts, concentration, OPCS-4 revision-boundary screen |
 | `src/s12_robustness.py` | 15 kB | `d60d70a70ebd` | Panel, weighting, stable-code and projection sensitivity analyses |
-| `src/s13_publication.py` | 31 kB | `567304ce38c7` | Numbered publication tables and figures; key results; RESULTS.md |
+| `src/s13_publication.py` | 37 kB | `6ca30f34c45c` | Numbered publication tables and figures; key results; RESULTS.md |
+| `src/s14_supplementary.py` | 10 kB | `e55fafff9e4a` | Recorded expectations, Poisson intervals and denominator timing |
 
 ## Source data (data-raw/)
 
@@ -73,9 +74,12 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `derived/decomposition_main_procedure__oldest.csv` | 29 kB | `6427cefcb94e` | Decomposition output for one analysis variant |
 | `derived/decomposition_main_procedure__proportional.csv` | 29 kB | `5a4686387586` | Decomposition output for one analysis variant |
 | `derived/demographic_counterfactual.csv` | 11 kB | `e7a45104832f` | Demographic counterfactual N(P2,c2,m1) - N(P1,c1,m1) per group and period |
+| `derived/denominator_timing.csv` | 2 kB | `6b34ec27c3be` | Decomposition with mid-year and 1 October interpolated populations |
 | `derived/dispersion.csv` | 4 kB | `8db6a28f3a9b` | Between-group SD, IQR and range per component (descriptive) |
-| `derived/key_results.json` | 7 kB | `fdaefe02108e` | Every quantity quoted in the results summary and article |
+| `derived/expectation_outcomes.csv` | 3 kB | `ea67a6e9e298` | Recorded expectations against the components of change; population-size identity |
+| `derived/key_results.json` | 8 kB | `fd8449e5696c` | Every quantity quoted in the results summary and article |
 | `derived/npp_population_checks.csv` | 2 kB | `9cc5d2809055` | Projected single-age totals reconciled to published All Ages totals |
+| `derived/poisson_intervals.csv` | 5 kB | `0ceec85a5e15` | Poisson 95% intervals for age-standardised rates and rate components |
 | `derived/projection_2040.csv` | 25 kB | `5918214f902f` | Scenario results, all groups by rate base and population variant |
 | `derived/projection_2040_by_age.csv` | 3 kB | `c74033adc432` | Primary scenario split by broad age (0-64, 65-79, 80 and over) |
 | `derived/projection_per_year_comparison.csv` | 1 kB | `6b53d06ae397` | Group-level interval-average observed and projected demographic contributions |
@@ -144,7 +148,7 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 
 | File | Size | SHA-256 (first 12) | Description |
 |---|---|---|---|
-| `outputs/publication/CAPTIONS.md` | 3 kB | `0299f4327468` | Short description of each numbered publication item |
+| `outputs/publication/CAPTIONS.md` | 3 kB | `fa3b608fcb9b` | Short description of each numbered publication item |
 | `outputs/publication/Fig1.pdf` | 16 kB | `5cae38b4300f` | Main figure (numbered as in the article) (PDF) |
 | `outputs/publication/Fig1.png` | 199 kB | `0db8793f137a` | Main figure (numbered as in the article) |
 | `outputs/publication/Fig2.pdf` | 15 kB | `3a324e389b36` | Main figure (numbered as in the article) (PDF) |
@@ -178,6 +182,9 @@ and `src/s01_fetch.py` refuses to proceed if a source file differs.
 | `outputs/publication/TableS18.csv` | 0 kB | `b2a66503ad06` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS19.csv` | 0 kB | `63c0b00cb244` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS2.csv` | 2 kB | `4fb637c00278` | Supplementary table (numbered as in the article) |
+| `outputs/publication/TableS20.csv` | 1 kB | `168fbafd7159` | Supplementary table (numbered as in the article) |
+| `outputs/publication/TableS21.csv` | 2 kB | `2a446fb2fbad` | Supplementary table (numbered as in the article) |
+| `outputs/publication/TableS22.csv` | 1 kB | `76522c768455` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS3.csv` | 9 kB | `b98c389284d7` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS4.csv` | 1 kB | `c26d150b6f9e` | Supplementary table (numbered as in the article) |
 | `outputs/publication/TableS5.csv` | 3 kB | `1d9218fefcc8` | Supplementary table (numbered as in the article) |

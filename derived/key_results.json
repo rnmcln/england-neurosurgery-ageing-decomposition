@@ -36,6 +36,32 @@
  "endpoint_age_min": -3.4,
  "endpoint_rate_max": 47.0,
  "endpoint_rate_min": -22.3,
+ "expectation_demographic_met_groups": [
+  "Extra-axial haematoma evacuation"
+ ],
+ "expectation_demographic_met_n": 1,
+ "expectation_demographic_n": 3,
+ "expectation_demographic_unmet_groups": [
+  "Intracerebral haematoma evacuation",
+  "Lumbar decompression without fusion"
+ ],
+ "expectation_mixed_dominant": {
+  "CSF diversion, primary": "rate",
+  "Intracranial tumour resection and biopsy": "demographic"
+ },
+ "expectation_rate_met_groups": [
+  "CSF diversion, revision and maintenance",
+  "Neuromodulation implantation",
+  "Peripheral nerve entrapment release",
+  "Spinal deformity correction",
+  "Spinal facet joint denervation",
+  "Spinal nerve root injection and denervation"
+ ],
+ "expectation_rate_met_n": 6,
+ "expectation_rate_n": 7,
+ "expectation_rate_unmet_groups": [
+  "Spinal fusion and instrumentation"
+ ],
  "facet_top_change_code": "V485",
  "facet_top_change_share_pct": 67.4,
  "groups_top_code_share_ge_85pct_2025": {
@@ -59,6 +85,9 @@
  "later_demo_max": 8.5,
  "later_demo_min": 2.0,
  "later_entrapment_rate": -5.1,
+ "later_extra_axial_demo": 8.5,
+ "later_extra_axial_net": -7.7,
+ "later_extra_axial_rate": -16.3,
  "later_facet_rate": -5.6,
  "later_ich_rate": 1.2,
  "later_lumbar_rate": -15.8,
@@ -82,6 +111,7 @@
  "loo_rate_share_min": 95.5,
  "n_codes": 125,
  "n_codes_absent_any_year": 8,
+ "n_groups_below_2018_19_in_2024_25": 9,
  "n_groups_below_2019_20_in_2024_25": 8,
  "obs_age_py_max": 0.63,
  "obs_age_py_mean": 0.23,
@@ -97,6 +127,18 @@
  "pandemic_fall_ich": -2.9,
  "pandemic_fall_neuromod": -62.0,
  "pandemic_fall_root": -58.3,
+ "poisson_ich_rate_pre": [
+  -16.9,
+  -27.1,
+  -6.7
+ ],
+ "poisson_pre_rate_interval_includes_zero": [
+  "Extra-axial haematoma evacuation",
+  "Intracranial tumour resection and biopsy",
+  "Spinal fusion and instrumentation"
+ ],
+ "poisson_pre_rate_interval_includes_zero_max_abs_pct": 1.0,
+ "population_size_identity_max_error_pp": 7.105427357601002e-15,
  "pre_age_max": 3.8,
  "pre_age_max_group": "Extra-axial haematoma evacuation",
  "pre_age_min": -2.6,
@@ -132,6 +174,7 @@
  "pre_neuromod_rate": 21.4,
  "pre_pop_max": 5.5,
  "pre_pop_min": 4.2,
+ "pre_population_growth_pct": 4.52,
  "pre_rate_max": 42.6,
  "pre_rate_min": -16.9,
  "pre_root_net": 39.2,
@@ -154,6 +197,8 @@
  ],
  "scen_80p_change_top_group": "Peripheral nerve entrapment release",
  "scen_80p_change_top_n": 3324,
+ "scen_80p_entrapment_share_pct": 46.0,
+ "scen_80p_extra_axial_n": 497,
  "scen_age_65_79_base_share_pct": 28.5,
  "scen_age_65_79_change_n": 11028,
  "scen_age_65_79_change_share_pct": 55.1,
@@ -168,10 +213,15 @@
  "scen_age_u65_base_share_pct": 61.7,
  "scen_age_u65_change_n": 1747,
  "scen_age_u65_change_share_pct": 8.7,
+ "scen_base_vs_recorded_pct": -0.4,
  "scen_change_max": 19.8,
  "scen_change_max_group": "Extra-axial haematoma evacuation",
  "scen_change_min": -9.4,
  "scen_change_min_group": "Spinal deformity correction",
+ "scen_contract_groups": [
+  "CSF diversion, revision and maintenance",
+  "Spinal deformity correction"
+ ],
  "scen_csfrev_base": 3747,
  "scen_csfrev_n": -34,
  "scen_csfrev_pct": -0.9,
@@ -185,6 +235,7 @@
  "scen_extra_axial_80p_change_n": 497,
  "scen_extra_axial_80p_change_share_pct": 60.3,
  "scen_extra_axial_age_per_year": 1.04,
+ "scen_extra_axial_annualised_pct": 1.21,
  "scen_extra_axial_base": 4173,
  "scen_extra_axial_n": 825,
  "scen_extra_axial_pct": 19.8,
@@ -215,6 +266,8 @@
  "subset_rate_share_min": 87.8,
  "subset_rate_share_p05": 93.9,
  "subset_rate_share_p95": 105.3,
+ "timing_max_component_diff_pp": 0.23,
+ "timing_rate_share_interp": 98.8,
  "total_occurrences_2013": 169319,
  "total_occurrences_2025": 182014,
  "total_occurrences_all_years": 2255045,

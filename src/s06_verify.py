@@ -15,6 +15,8 @@ Checks:
   V4  standardisation identity       ASR equals crude rate in the standard year
   V5  qualitative guardrails         central ordering and selected values in
                                      RESULTS.md agree with derived files
+  V18 supplementary analyses         step 14 outputs agree with step 3 and
+                                     recompute by an independent route
 """
 
 import sys
@@ -474,7 +476,7 @@ def main():
     if pub.exists():
         expected = (
             [f"Table{i}.csv" for i in range(1, 4)]
-            + [f"TableS{i}.csv" for i in range(1, 20)]
+            + [f"TableS{i}.csv" for i in range(1, 23)]
             + [f"Fig{i}.{e}" for i in (1, 2) for e in ("pdf", "eps", "tiff", "png")]
             + [f"FigS{i}.{e}" for i in range(1, 8) for e in ("pdf", "eps", "tiff", "png")]
         )
@@ -506,6 +508,64 @@ def main():
               int(t1.iloc[-1]["OPCS-4 codes, n"]) == sum(len(s["codes"]) for s in cfg.PROCEDURE_GROUPS.values()), "")
     else:
         print("  [SKIP] V17 publication items")
+
+    # V18 supplementary analyses (step 14)
+    ef = cfg.DERIVED / "expectation_outcomes.csv"
+    if ef.exists():
+        e = pd.read_csv(ef).set_index("group")
+        pre = dec[dec["period"] == cfg.PRIMARY_PERIOD].set_index("group")
+        gap = max((e["population_size_pct"] - pre["population_size_pct_of_baseline"]).abs().max(),
+                  (e["age_structure_pct"] - pre["age_structure_pct_of_baseline"]).abs().max(),
+                  (e["age_specific_rate_pct"] - pre["age_specific_rate_pct_of_baseline"]).abs().max())
+        check("V18a step 14 components equal step 3", gap < 1e-9, f"max |diff| = {gap:.1e}")
+        # population-size identity from published totals, independent of step 14
+        mye = pd.read_csv(cfg.RAW / "ons_mye_england_sya.csv")
+        tot = mye.groupby("DATE_NAME")["OBS_VALUE"].sum()
+        f1, f2 = cfg.PERIODS[cfg.PRIMARY_PERIOD]
+        g = tot[cfg.fy_to_mye(f2)] / tot[cfg.fy_to_mye(f1)] - 1
+        ratio = pre["crude_rate_2"] / pre["crude_rate_1"]
+        ident = (g * (1 + ratio) / 2 * 100 - pre["population_size_pct_of_baseline"]).abs().max()
+        check("V18b population-size component equals g(1 + R2/R1)/2", ident < 1e-9, f"max |diff| = {ident:.1e}")
+        dom = np.where((pre["population_size_pct_of_baseline"] + pre["age_structure_pct_of_baseline"]).abs()
+                       > pre["age_specific_rate_pct_of_baseline"].abs(), "demographic", "rate")
+        check("V18c larger component recomputes", (pd.Series(dom, index=pre.index).loc[e.index]
+                                                   == e["dominant_component"]).all(), "")
+        # Poisson variance of the rate component by finite differences
+        pois = pd.read_csv(cfg.DERIVED / "poisson_intervals.csv").set_index("group")
+        worst = 0.0
+        for grp in cfg.PROCEDURE_GROUPS:
+            d1 = analysis[(analysis["group"] == grp) & (analysis["fy"] == f1)].set_index("band").reindex(cfg.AGE_BANDS)
+            d2 = analysis[(analysis["group"] == grp) & (analysis["fy"] == f2)].set_index("band").reindex(cfg.AGE_BANDS)
+            n1, p1 = d1["count"].to_numpy(float), d1["population"].to_numpy(float)
+            n2, p2 = d2["count"].to_numpy(float), d2["population"].to_numpy(float)
+
+            def rate_comp(a1, a2):
+                P1, P2 = p1.sum(), p2.sum()
+                c1, c2 = p1 / P1, p2 / P2
+                return (P1 + P2) / 2 * ((a2 / p2 - a1 / p1) * (c1 + c2) / 2).sum()
+
+            base = rate_comp(n1, n2)
+            var = 0.0
+            for i in range(len(n1)):
+                for which in (1, 2):
+                    b1, b2 = n1.copy(), n2.copy()
+                    (b1 if which == 1 else b2)[i] += 1.0
+                    grad = rate_comp(b1, b2) - base
+                    var += grad ** 2 * (n1[i] if which == 1 else n2[i])
+            se = np.sqrt(var) / n1.sum() * 100
+            worst = max(worst, abs(se - pois.loc[grp, "rate_pre_se_pct"]))
+        check("V18d Poisson SE of rate component recomputes by finite differences",
+              worst < 1e-8, f"max |diff| = {worst:.1e}")
+        inside = ((pois["asr_2019_lo"] < pois["asr_2019"]) & (pois["asr_2019"] < pois["asr_2019_hi"])).all()
+        check("V18e age-standardised rate lies inside its interval", bool(inside), "")
+        tim = pd.read_csv(cfg.DERIVED / "denominator_timing.csv").set_index("group")
+        sh = tim.loc["Share of between-group variance, %", "age_specific_rate_pct"]
+        ref = (pd.read_csv(cfg.DERIVED / "variance_decomposition.csv").set_index("period")
+               .loc[cfg.PRIMARY_PERIOD, "age_specific_rate_share"] * 100)
+        check("V18f mid-year rate share in timing table equals variance decomposition",
+              abs(sh - ref) < 1e-9, f"{sh:.3f} vs {ref:.3f}")
+    else:
+        print("  [SKIP] V18 supplementary analyses")
 
     print()
     if failures:

@@ -9,7 +9,7 @@ article can be checked against the pipeline.
 Outputs (outputs/publication/):
   Table1.csv to Table3.csv          main tables
   Fig1.*, Fig2.*                    main figures (PDF, EPS, TIFF, PNG)
-  TableS1.csv to TableS19.csv       supplementary tables
+  TableS1.csv to TableS22.csv       supplementary tables
   FigS1.* to FigS7.*                supplementary figures
   CAPTIONS.md                       short description of every item
 """
@@ -149,6 +149,53 @@ def code_list():
                 "Description (most recent release)": latest.get(c, ""),
             })
     return pd.DataFrame(rows)
+
+
+def table_s20():
+    e = pd.read_csv(cfg.DERIVED / "expectation_outcomes.csv")
+    met = {True: "yes", False: "no"}
+    return pd.DataFrame({
+        "Procedure group": e["group"],
+        "Expectation recorded before decomposition": e["expectation"],
+        "Net change, %": e["net_pct"].round(1),
+        "Demographic change, %": e["demographic_pct"].round(1),
+        "Age-specific rate, %": e["age_specific_rate_pct"].round(1),
+        "Larger component": e["dominant_component"],
+        "Expectation met": e["expectation_met"].map(lambda x: met.get(x, "not applicable")
+                                                    if not pd.isna(x) else "not applicable"),
+        "Crude-rate ratio 2018/19 to 2012/13": e["crude_rate_ratio"].round(3),
+        "Population size, %": e["population_size_pct"].round(1),
+    })
+
+
+def table_s21():
+    p = pd.read_csv(cfg.DERIVED / "poisson_intervals.csv")
+    ci = lambda x, lo, hi, d: (p[x].round(d).map(lambda v: f"{v:.{d}f}") + " ("
+                               + p[lo].round(d).map(lambda v: f"{v:.{d}f}") + " to "
+                               + p[hi].round(d).map(lambda v: f"{v:.{d}f}") + ")")
+    return pd.DataFrame({
+        "Procedure group": p["group"],
+        "ASR 2012/13 (95% interval)": ci("asr_2013", "asr_2013_lo", "asr_2013_hi", 2),
+        "ASR 2018/19 (95% interval)": ci("asr_2019", "asr_2019_lo", "asr_2019_hi", 2),
+        "ASR 2024/25 (95% interval)": ci("asr_2025", "asr_2025_lo", "asr_2025_hi", 2),
+        "Age-specific rate component 2012/13 to 2018/19, % (95% interval)":
+            ci("rate_pre_pct", "rate_pre_lo_pct", "rate_pre_hi_pct", 1),
+        "Age-specific rate component 2018/19 to 2024/25, % (95% interval)":
+            ci("rate_later_pct", "rate_later_lo_pct", "rate_later_hi_pct", 1),
+    })
+
+
+def table_s22():
+    t = pd.read_csv(cfg.DERIVED / "denominator_timing.csv")
+    return pd.DataFrame({
+        "Procedure group": t["group"],
+        "Population size, mid-year, %": t["population_size_pct"].round(2),
+        "Population size, 1 October, %": t["population_size_interp_pct"].round(2),
+        "Age structure, mid-year, %": t["age_structure_pct"].round(2),
+        "Age structure, 1 October, %": t["age_structure_interp_pct"].round(2),
+        "Age-specific rate, mid-year, %": t["age_specific_rate_pct"].round(2),
+        "Age-specific rate, 1 October, %": t["age_specific_rate_interp_pct"].round(2),
+    })
 
 
 def copy_fig(src, dst):
@@ -353,6 +400,47 @@ def key_results(dec, var, proj, rates, analysis, panel, stable, cf, summ, sub, b
     demo_cols = ["Population size, % of baseline", "Age structure, % of baseline"]
     spread = cvt.groupby("Procedure group")[demo_cols].agg(lambda s: s.max() - s.min())
     k["counting_variant_demo_max_spread_pp"] = round(float(spread.max().max()), 2)
+    # later period, extra-axial haematoma evacuation
+    el = lat.loc["Extra-axial haematoma evacuation"]
+    k["later_extra_axial_net"] = r1(el["pct_change"])
+    k["later_extra_axial_demo"] = r1(el["population_size_pct_of_baseline"] + el["age_structure_pct_of_baseline"])
+    k["later_extra_axial_rate"] = r1(el["age_specific_rate_pct_of_baseline"])
+    k["n_groups_below_2018_19_in_2024_25"] = int(sum(r[(g, 2025)] < r[(g, 2019)] for g in GROUPS))
+    k["scen_contract_groups"] = sorted(pr.index[pr["change_pct"] < 0].tolist())
+    k["scen_80p_entrapment_share_pct"] = r1(
+        g80.loc["Peripheral nerve entrapment release"] / g80.sum() * 100)
+    k["scen_80p_extra_axial_n"] = int(round(g80.loc["Extra-axial haematoma evacuation"]))
+    k["scen_base_vs_recorded_pct"] = r1((pr["count_2024_25"].sum() / rates[rates.fy == 2025]["count"].sum() - 1) * 100)
+    k["scen_extra_axial_annualised_pct"] = round(
+        ((1 + pr.loc["Extra-axial haematoma evacuation", "change_pct"] / 100) ** (1 / 15) - 1) * 100, 2)
+    # recorded expectations (step 14)
+    e = pd.read_csv(cfg.DERIVED / "expectation_outcomes.csv").set_index("group")
+    for prior in ("demographic", "rate"):
+        sel = e[e["expectation"] == prior]
+        k[f"expectation_{prior}_n"] = int(len(sel))
+        k[f"expectation_{prior}_met_n"] = int(sel["expectation_met"].astype(bool).sum())
+        k[f"expectation_{prior}_met_groups"] = sorted(sel.index[sel["expectation_met"].astype(bool)].tolist())
+        k[f"expectation_{prior}_unmet_groups"] = sorted(sel.index[~sel["expectation_met"].astype(bool)].tolist())
+    mixed = e[e["expectation"] == "mixed"]
+    k["expectation_mixed_dominant"] = mixed["dominant_component"].to_dict()
+    k["pre_population_growth_pct"] = round(float(e["population_growth_pct"].iloc[0]), 2)
+    k["population_size_identity_max_error_pp"] = float(
+        (e["population_size_identity_pct"] - e["population_size_pct"]).abs().max())
+    # Poisson intervals (step 14)
+    p = pd.read_csv(cfg.DERIVED / "poisson_intervals.csv").set_index("group")
+    k["poisson_ich_rate_pre"] = [r1(p.loc["Intracerebral haematoma evacuation", c])
+                                 for c in ("rate_pre_pct", "rate_pre_lo_pct", "rate_pre_hi_pct")]
+    inc0 = p[(p["rate_pre_lo_pct"] < 0) & (p["rate_pre_hi_pct"] > 0)]
+    k["poisson_pre_rate_interval_includes_zero"] = sorted(inc0.index.tolist())
+    k["poisson_pre_rate_interval_includes_zero_max_abs_pct"] = r1(inc0["rate_pre_pct"].abs().max())
+    # denominator timing (step 14)
+    t = pd.read_csv(cfg.DERIVED / "denominator_timing.csv").set_index("group")
+    tg = t.drop(index="Share of between-group variance, %")
+    k["timing_max_component_diff_pp"] = round(float(max(
+        (tg["population_size_pct"] - tg["population_size_interp_pct"]).abs().max(),
+        (tg["age_structure_pct"] - tg["age_structure_interp_pct"]).abs().max(),
+        (tg["age_specific_rate_pct"] - tg["age_specific_rate_interp_pct"]).abs().max())), 2)
+    k["timing_rate_share_interp"] = r1(t.loc["Share of between-group variance, %", "age_specific_rate_interp_pct"])
     return k
 
 
@@ -417,6 +505,23 @@ baseline-volume weighting, {k['absolute_rate_share']} per cent on the
 absolute-count scale and {k['subset_rate_share_p05']} to
 {k['subset_rate_share_p95']} per cent (5th to 95th percentile) across all
 924 six-group subsets.
+
+## Supplementary analyses
+
+- Recorded expectations (2012/13 to 2018/19): the age-specific rate
+  component was the larger component in {k['expectation_rate_met_n']} of the
+  {k['expectation_rate_n']} groups expected to be rate-driven, and demographic
+  change was the larger component in {k['expectation_demographic_met_n']} of the
+  {k['expectation_demographic_n']} groups expected to be mainly demographic.
+- The population-size component equals population growth
+  ({k['pre_population_growth_pct']} per cent) multiplied by (1 + R2/R1)/2,
+  where R is the group's crude rate.
+- Poisson 95% interval for the age-specific rate component of intracerebral
+  haematoma evacuation: {k['poisson_ich_rate_pre'][0]} per cent
+  ({k['poisson_ich_rate_pre'][1]} to {k['poisson_ich_rate_pre'][2]}).
+- With populations interpolated to 1 October, no component changed by more
+  than {k['timing_max_component_diff_pp']} percentage points and the rate share
+  of between-group variance was {k['timing_rate_share_interp']} per cent.
 """
     (cfg.ROOT / "RESULTS.md").write_text(txt)
 
@@ -469,6 +574,9 @@ def main():
         (scr_flag, "Level shifts at OPCS-4 revision boundaries exceeding the code's typical year-on-year variability (flagged rows; the full screen is in the analysis repository)"),
         (sub, "Extra-axial haematoma evacuation and candidate embolisation codes, 2018/19 to 2024/25"),
         (pd.read_csv(cfg.TABLES / "tab_embolisation_age_profile.csv"), "Age profile of candidate embolisation codes, 2018/19 and 2024/25"),
+        (table_s20(), "Expectations recorded before the decomposition against the components of change, 2012/13 to 2018/19"),
+        (table_s21(), "Poisson 95% intervals for age-standardised rates and age-specific rate components"),
+        (table_s22(), "Decomposition with populations matched at mid-year and interpolated to 1 October, 2012/13 to 2018/19"),
     ]
     for i, (t, cap) in enumerate(supp_tables, 1):
         t.to_csv(PUB / f"TableS{i}.csv", index=False)

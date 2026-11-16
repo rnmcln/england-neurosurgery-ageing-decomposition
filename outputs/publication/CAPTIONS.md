@@ -22,6 +22,9 @@
 - **Table S17.** Level shifts at OPCS-4 revision boundaries exceeding the code's typical year-on-year variability (flagged rows; the full screen is in the analysis repository)
 - **Table S18.** Extra-axial haematoma evacuation and candidate embolisation codes, 2018/19 to 2024/25
 - **Table S19.** Age profile of candidate embolisation codes, 2018/19 and 2024/25
+- **Table S20.** Expectations recorded before the decomposition against the components of change, 2012/13 to 2018/19
+- **Table S21.** Poisson 95% intervals for age-standardised rates and age-specific rate components
+- **Table S22.** Decomposition with populations matched at mid-year and interpolated to 1 October, 2012/13 to 2018/19
 - **Fig. 1.** Demographic change against observed change by procedure group, two periods
 - **Fig. 2.** Fixed-rate demographic scenario, 2024/25 to 2039/40
 - **Fig. S1.** Age-standardised rates per 100 000, 2012/13 to 2024/25

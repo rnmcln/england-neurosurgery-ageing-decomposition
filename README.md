@@ -89,8 +89,10 @@ src/s02_build.py         analysis datasets (six counting variants), integrity ch
 src/s03_decompose.py     decomposition, Shapley allocation, endpoints, variance shares
 src/s07_substitution.py  candidate embolisation codes
 src/s08_projection.py    fixed-rate demographic scenario to 2039/40
-src/s11_code_level.py    code-level audit and OPCS-4 revision-boundary screen
+src/s11_code_level.py    code-level screen and OPCS-4 revision-boundary screen
 src/s12_robustness.py    panel, weighting, code-set and projection sensitivity
+src/s14_supplementary.py recorded expectations, Poisson intervals and
+                         denominator timing
 src/s04_tables.py        working tables (outputs/tables/tab_*.csv)
 src/s05_figures.py       working figures (outputs/figures/fig_*)
 src/s13_publication.py   numbered tables and figures (outputs/publication/),
@@ -122,7 +124,10 @@ three components in every group, the between-group variance decomposes as
 `Var(Y) = Cov(P, Y) + Cov(A, Y) + Cov(R, Y)`; each term is reported as a share
 of `Var(Y)`. Sensitivity analyses cover the allocation of interaction terms
 (three-factor Shapley decomposition), endpoints, counting conventions, panel
-composition and weighting, code stability and OPCS-4 revision boundaries.
+composition and weighting, code stability, OPCS-4 revision boundaries and
+the timing of population denominators. Poisson intervals for
+age-standardised rates and rate components are reported as lower bounds on
+random variation; they do not represent coding or definitional uncertainty.
 
 ## Interpretation
 
@@ -143,6 +148,14 @@ the Zenodo record.
 
 ## Changes
 
+- 1.2.0: adds `src/s14_supplementary.py` with three supplementary analyses
+  (Tables S20 to S22): the expectations recorded before the decomposition set
+  against the components of change, with the identity for the
+  population-size component; exact Poisson 95% intervals for age-standardised
+  rates (gamma method) and for the age-specific rate components; and the
+  decomposition with populations interpolated to 1 October. Verification
+  checks V18a to V18f are added. Step 11 is described as a code-level screen.
+  No previously reported number changed.
 - 1.1.1: point labels in the demographic counterfactual scatter (Figure S4)
   are set in one column with elbow leader lines, so that each label is
   unambiguously attached to its point. No numerical output changed.

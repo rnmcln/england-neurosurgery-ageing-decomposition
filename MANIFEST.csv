@@ -1,11 +1,11 @@
 path,bytes,sha256,description
 .github/workflows/verify.yml,625,15b735059324f5b4a8640b213136fc571a0b69dc47213a3eda7e1c34f76f31e6,Continuous integration: rebuild and verify outputs
 .gitignore,357,0ac42a5f77fd928f645e5a9054a13e9fb160786b3756565ede54e232cb8a1e15,"Excluded local, cache and unlicensed source files"
-.zenodo.json,2237,d52a75f5a762e0e8b0f5c78497d50a951bf4b225429320797838b243c1b6ab12,Archival metadata for Zenodo
-CITATION.cff,1735,0af153ad383a331a7babae220d5ed1ffa7ba9fb01a0e4e1c0ff4c65efbc1ccdc,Citation metadata for this software release
+.zenodo.json,2237,2da69823276f0f0e1b564814ff730d5bbc0d9bfbcb5ffdd2f8e4a6bbde9f91af,Archival metadata for Zenodo
+CITATION.cff,1735,36da2ab1990d89c746b8e33b30599b1d42c2fa02d5c7aa68c64a5d955926c553,Citation metadata for this software release
 LICENSE,1149,df0804fec3004af8caa3c1abd1bceca9f42aee86dd9acee62f4595267855ca81,MIT licence for the analysis code
-README.md,8462,952c1b5f622d21cd3b2eaf28f62f93523750a15dd55258279f6f958f13563870,"Study summary, data sources, method and instructions for reproduction"
-RESULTS.md,2136,f98128c661dc700c1377a5927aebf83afe4c7f8e267b9835b6b5864ec3aead60,Results summary generated from derived/key_results.json
+README.md,9347,6cbc5c17d656f63648ad32204a760cc289cea18bddf011eeb3b47f368e71c0b7,"Study summary, data sources, method and instructions for reproduction"
+RESULTS.md,2874,7913a20aea24664e6cece9ceae72e5b826ddfe9ff40ee50eb524da052932298d,Results summary generated from derived/key_results.json
 THIRD_PARTY_DATA.md,1890,7d17b83be4272b9182f6d411b7b7c39347563c9d8599106d328d6f05d67f539c,Licensing and attribution of third-party source data
 data-raw/manifest.json,1513,25ea06499eaf916209fe0e9ef4596d861b8f9976ff993f61f06147d2e532d532,"Source URL, byte count and SHA-256 for each source file"
 data-raw/ons_mye_england_sya.csv,27142,ce7106ade0afcf2655cc2e3c9a99c6ea0eb86cf0da05e5417bee0f6b510a19d4,"ONS mid-year population estimates, England, single year of age, 2012 to 2024"
@@ -30,9 +30,12 @@ derived/decomposition_main_procedure__drop.csv,29975,33519a3b9407d3ebb59e4cc10b1
 derived/decomposition_main_procedure__oldest.csv,29149,6427cefcb94e7eba24a33e89b41ef90498dbb76ad123bd9972f87b69d60ffe8e,Decomposition output for one analysis variant
 derived/decomposition_main_procedure__proportional.csv,28877,5a4686387586227d512b4301b0ff383c9e4d2c2cfc3fea0a24c7fcdcb9f90f3a,Decomposition output for one analysis variant
 derived/demographic_counterfactual.csv,10682,e7a45104832fadd2503973ec5fcf6bff2f298705dcee12b4d3e4aff1357a029f,"Demographic counterfactual N(P2,c2,m1) - N(P1,c1,m1) per group and period"
+derived/denominator_timing.csv,2062,6b34ec27c3be71e84377e81f5d93d08695e2663859adc6ff8529046e213eed4b,Decomposition with mid-year and 1 October interpolated populations
 derived/dispersion.csv,3587,8db6a28f3a9b3f392a5682135ceb1cc1d09bbd65428d279dfb0607c356b810c0,"Between-group SD, IQR and range per component (descriptive)"
-derived/key_results.json,6509,fdaefe02108e08668f60b453eff05d545c60fe07d835e5fe7aeb5543cc2708d6,Every quantity quoted in the results summary and article
+derived/expectation_outcomes.csv,2617,ea67a6e9e298efa797539ba5ff3466471070c39c3c936c23269fc2278c1e4180,Recorded expectations against the components of change; population-size identity
+derived/key_results.json,8191,fd8449e5696c030411249311f079df71362f28950a99397b7ff0835fe4ab38b7,Every quantity quoted in the results summary and article
 derived/npp_population_checks.csv,2203,9cc5d28090558d1ece7913018868d3adeffa6e68bbb5505df99ca53ffc2de909,Projected single-age totals reconciled to published All Ages totals
+derived/poisson_intervals.csv,4969,0ceec85a5e15494aa26af7e53d7ea922c25f110e4a7e6d352a995668ed2289b8,Poisson 95% intervals for age-standardised rates and rate components
 derived/projection_2040.csv,24696,5918214f902f389781fe3cc7535988f41bd585fa7d67ee516bf24d1ee403689b,"Scenario results, all groups by rate base and population variant"
 derived/projection_2040_by_age.csv,3470,c74033adc4326a66263e9950b3e8efc1e8b35b3dc14516c518ffaea4e4e42171,"Primary scenario split by broad age (0-64, 65-79, 80 and over)"
 derived/projection_per_year_comparison.csv,1497,6b53d06ae397fe51f11502bc49e7128ad2e3839d14708fdc2c5ae85556500e01,Group-level interval-average observed and projected demographic contributions
@@ -65,7 +68,7 @@ outputs/figures/fig_demographic_vs_observed.pdf,15854,5cae38b4300fa012bc50b809cb
 outputs/figures/fig_demographic_vs_observed.png,198796,0db8793f137aea8885a5f4579babaf01322a92c1ed25a747237a6bd5d9fd354f,Working figure
 outputs/figures/fig_scenario_2039.pdf,14907,3a324e389b369f633c21c7e088e0d8bc33510c8b7da3d744267769ed7cfeec80,Working figure (PDF)
 outputs/figures/fig_scenario_2039.png,197637,f52564bff68b1c8e5912931ea0c630459a3d98978afbcdbb0bd8fa6d99bae1dd,Working figure
-outputs/publication/CAPTIONS.md,2886,0299f432746822e42f87ec8f0005450350e7dfb1534c6e91b407ab7322537130,Short description of each numbered publication item
+outputs/publication/CAPTIONS.md,3220,fa3b608fcb9b5a717285672752b03ed8da1b3a022ccc734a5ae88c0140ad9c7e,Short description of each numbered publication item
 outputs/publication/Fig1.pdf,15854,5cae38b4300fa012bc50b809cbae00384715dd572dd0d7be3fdbbe071b9b668d,Main figure (numbered as in the article) (PDF)
 outputs/publication/Fig1.png,198796,0db8793f137aea8885a5f4579babaf01322a92c1ed25a747237a6bd5d9fd354f,Main figure (numbered as in the article)
 outputs/publication/Fig2.pdf,14907,3a324e389b369f633c21c7e088e0d8bc33510c8b7da3d744267769ed7cfeec80,Main figure (numbered as in the article) (PDF)
@@ -99,6 +102,9 @@ outputs/publication/TableS17.csv,8441,9a3f322ef78ba9da1433167ce4ee5b42b995b14d67
 outputs/publication/TableS18.csv,234,b2a66503ad0661fd406e1f91456680f4bdd1e75e8f084b35562f2923128c421c,Supplementary table (numbered as in the article)
 outputs/publication/TableS19.csv,368,63c0b00cb244f426c5676bf3d949ec38c26164c6b3c25b2f38ab8fcb24875d9d,Supplementary table (numbered as in the article)
 outputs/publication/TableS2.csv,1530,4fb637c0027837d6f83090c737e8f5c95340717233340ca0715f697af3e211c6,Supplementary table (numbered as in the article)
+outputs/publication/TableS20.csv,1141,168fbafd7159d5606cf077d32b44568d12c070611cce6a7d979a5e8b1c95415c,Supplementary table (numbered as in the article)
+outputs/publication/TableS21.csv,1914,2a446fb2fbad7db78cfbb48be404b379354e38c8f248b9379caeee10a4cccbec,Supplementary table (numbered as in the article)
+outputs/publication/TableS22.csv,1069,76522c768455a7ebe5730b39aeedd222edd917a2d56c7b3fdf61ed8de44ac393,Supplementary table (numbered as in the article)
 outputs/publication/TableS3.csv,9347,b98c389284d7701ea473f201824c189319f6731bccf6db98c0e3722f1395646f,Supplementary table (numbered as in the article)
 outputs/publication/TableS4.csv,616,c26d150b6f9e10dfa1b8d4b28d2b161ee159233d09d923c24852b62713e7b59f,Supplementary table (numbered as in the article)
 outputs/publication/TableS5.csv,2501,1d9218fefcc8008c95655f1f200bdb394b61820b8e9e9d56c8fc66937b89b050,Supplementary table (numbered as in the article)
@@ -127,19 +133,20 @@ outputs/tables/tab_shapley_comparison.csv,1355,7bef436293ce3719d38f8ee1cc7b0a3a7
 outputs/tables/tab_stable_code_sensitivity.csv,3031,199a83db098ce5a38a3929f0d8ad4099df030f7476d24b8cbd38c5b927f69966,Working table
 outputs/tables/tab_substitution_check.csv,234,b2a66503ad0661fd406e1f91456680f4bdd1e75e8f084b35562f2923128c421c,Working table
 outputs/tables/tab_variance_decomposition.csv,616,c26d150b6f9e10dfa1b8d4b28d2b161ee159233d09d923c24852b62713e7b59f,Working table
-pyproject.toml,409,c3e5986650e4e13fbd371f822f19c2e990cc70bdfff1aa660fc6d8988983bc78,Python project metadata and pinned runtime dependencies
+pyproject.toml,409,c8742f2d687b266141b561a47c02052b58c124d4b882e7d394dda1ad939721fc,Python project metadata and pinned runtime dependencies
 requirements.txt,136,7ea68be5282b5558b0dbc0afb267eae2b802bb4cba285f23b55d75c1c80e81d9,Pinned runtime dependencies
-run_all.sh,1731,b0b675d836af7933297a76fd4fb2bbadec1b0b023a0e4e26646b347532b9707b,Pipeline runner (verify or refresh mode)
+run_all.sh,1773,c3bb876fa966100550b599a8732b5f318b94528e4ae553361b6ed4967ec73932,Pipeline runner (verify or refresh mode)
 src/config.py,12729,ec7eef2284e355cf928a510e9353c797c1fdb0b355047e099f4697a1bc54a64f,"All analytic choices: procedure groups, age bands, periods, options"
 src/s01_fetch.py,4887,112b5f01c654d8d2299d86680744756f0e45d6d474f98a299a163dfba399a039,Download pinned source files and verify SHA-256 checksums
 src/s02_build.py,7057,28445a5b253da53e29d2b6f8e4868f5ab24b2d424662d17cdc426177ef472292,Build six analysis dataset variants; integrity checks C1 to C3
 src/s03_decompose.py,18456,c0b3d7d8b05d0370e92c6d1ef0ccf78f37044a9bfcddb074092da0389b1fc802,"Three-factor decomposition; Shapley, endpoints, cumulated annual, variance, counterfactual"
 src/s04_tables.py,12011,c047e753a088a42460977c329a5bf1ad5041d15743ec95942e59c306c93cd9c7,Working tables (tab_*.csv)
 src/s05_figures.py,23434,d7f6363829b8798c175fc206dd4c2a39a2f44f2bf081752da9f846089f8c68b6,Working figures (fig_*.pdf/.eps/.tiff/.png)
-src/s06_verify.py,22629,af991f135c2d931ef60a9ffb8e58f995d0171f717a8b0ec4557322ae477268f6,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
+src/s06_verify.py,26573,f302b1a5a8f112556c272ce713328eb1a82a0b11562772010adb705f4ea450e9,"Consistency, reconciliation and robustness checks; exits non-zero on failure"
 src/s07_substitution.py,5614,b1bc83e7392cc358cedbc80e168fa156417baea63f02a012c69a74db9c17bfc8,Candidate embolisation codes against extra-axial haematoma evacuation
 src/s08_projection.py,10029,2a9ed5156ea5c28c0a4baf0d018fc8013a697ea4eaf8588ac85038a65043978a,Fixed-rate demographic scenario to 2039/40
-src/s10_package.py,9582,d5212024c3982f69485b2f58684f758207b09673a2becb0ead51881e268207dd,This script: builds the file manifest
-src/s11_code_level.py,6547,62e840228a3a9925bc4bec80278c335e1d6b74b837e2fa3deab42ccdd60ecb1f,"Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen"
+src/s10_package.py,10023,eefe559e135826b230ea8edd155f4f7878ee9b8b3b2dbb090bcec1e710ef79d7,This script: builds the file manifest
+src/s11_code_level.py,6549,ce58fd7368d8dda2c160d1be0746c3f6b229469e2ab90088d099354a97adf192,"Code-level screen: per-code counts, concentration, OPCS-4 revision-boundary screen"
 src/s12_robustness.py,15166,d60d70a70ebd63e278bdb101a88eea23bfdd40c63dde5126bab20f20ab93ab36,"Panel, weighting, stable-code and projection sensitivity analyses"
-src/s13_publication.py,30582,567304ce38c7f10360d8d292215492ab9e1ba28f238837f5a463998016b32494,Numbered publication tables and figures; key results; RESULTS.md
+src/s13_publication.py,37453,6ca30f34c45c673a4fcedc535db676f33d5473e94c827d86cd534010727b0c76,Numbered publication tables and figures; key results; RESULTS.md
+src/s14_supplementary.py,10229,e55fafff9e4a696442eac5bb0cc562185499e1e3136a4815d9c6964207b52399,"Recorded expectations, Poisson intervals and denominator timing"

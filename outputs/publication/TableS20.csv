@@ -1,0 +1,13 @@
+Procedure group,Expectation recorded before decomposition,"Net change, %","Demographic change, %","Age-specific rate, %",Larger component,Expectation met,Crude-rate ratio 2018/19 to 2012/13,"Population size, %"
+Extra-axial haematoma evacuation,demographic,7.6,8.3,-0.7,demographic,yes,1.03,4.6
+Intracerebral haematoma evacuation,demographic,-10.6,6.3,-16.9,rate,no,0.855,4.2
+Intracranial tumour resection and biopsy,mixed,7.7,6.7,1.0,demographic,not applicable,1.03,4.6
+"CSF diversion, primary",mixed,9.5,3.4,6.1,rate,not applicable,1.048,4.6
+"CSF diversion, revision and maintenance",rate,45.4,2.8,42.6,rate,yes,1.391,5.4
+Peripheral nerve entrapment release,rate,-7.1,6.8,-14.0,rate,yes,0.889,4.3
+Neuromodulation implantation,rate,27.9,6.5,21.4,rate,yes,1.223,5.0
+Spinal nerve root injection and denervation,rate,39.2,7.8,31.4,rate,yes,1.332,5.3
+Lumbar decompression without fusion,demographic,-0.5,6.2,-6.7,rate,no,0.952,4.4
+Spinal fusion and instrumentation,rate,5.3,5.7,-0.4,demographic,no,1.007,4.5
+Spinal deformity correction,rate,-11.4,3.8,-15.2,rate,yes,0.848,4.2
+Spinal facet joint denervation,rate,51.2,8.7,42.5,rate,yes,1.447,5.5

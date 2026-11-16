@@ -57,3 +57,20 @@ baseline-volume weighting, 93.5 per cent on the
 absolute-count scale and 93.9 to
 105.3 per cent (5th to 95th percentile) across all
 924 six-group subsets.
+
+## Supplementary analyses
+
+- Recorded expectations (2012/13 to 2018/19): the age-specific rate
+  component was the larger component in 6 of the
+  7 groups expected to be rate-driven, and demographic
+  change was the larger component in 1 of the
+  3 groups expected to be mainly demographic.
+- The population-size component equals population growth
+  (4.52 per cent) multiplied by (1 + R2/R1)/2,
+  where R is the group's crude rate.
+- Poisson 95% interval for the age-specific rate component of intracerebral
+  haematoma evacuation: -16.9 per cent
+  (-27.1 to -6.7).
+- With populations interpolated to 1 October, no component changed by more
+  than 0.23 percentage points and the rate share
+  of between-group variance was 98.8 per cent.

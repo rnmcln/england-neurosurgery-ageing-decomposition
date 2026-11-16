@@ -1,6 +1,6 @@
 [project]
 name = "neurosurgical-procedure-decomposition"
-version = "1.0.0"
+version = "1.2.0"
 description = "Reproducible decomposition of recorded neurosurgery-related procedure activity in England"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"

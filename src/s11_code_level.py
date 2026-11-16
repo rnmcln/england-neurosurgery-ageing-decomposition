@@ -1,9 +1,9 @@
 """
-Step 11. Code-level audit within groups.
+Step 11. Code-level screen within groups.
 
 The dependent quantity throughout the study is OPCS-4 code occurrences, so
 changes in how constituent codes are used enter the age-specific rate
-component directly. This step audits the 125 constituent codes empirically:
+component directly. This step screens the 125 constituent codes empirically:
 
   A  code-level annual counts for every constituent code
      (derived/code_level_counts.csv)

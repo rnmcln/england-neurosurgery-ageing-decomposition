@@ -49,9 +49,10 @@ DESCRIPTIONS = {
     "src/s07_substitution.py": "Candidate embolisation codes against extra-axial haematoma evacuation",
     "src/s08_projection.py": "Fixed-rate demographic scenario to 2039/40",
     "src/s10_package.py": "This script: builds the file manifest",
-    "src/s11_code_level.py": "Code-level audit: per-code counts, concentration, OPCS-4 revision-boundary screen",
+    "src/s11_code_level.py": "Code-level screen: per-code counts, concentration, OPCS-4 revision-boundary screen",
     "src/s12_robustness.py": "Panel, weighting, stable-code and projection sensitivity analyses",
     "src/s13_publication.py": "Numbered publication tables and figures; key results; RESULTS.md",
+    "src/s14_supplementary.py": "Recorded expectations, Poisson intervals and denominator timing",
     # raw
     "data-raw/manifest.json": "Source URL, byte count and SHA-256 for each source file",
     "data-raw/opcs4_usage.rda": "NHS England HES APC OPCS-4 code usage totals (downloaded, not distributed)",
@@ -76,6 +77,9 @@ DESCRIPTIONS = {
     "derived/projection_per_year_comparison.csv": "Group-level interval-average observed and projected demographic contributions",
     "derived/projection_per_year_summary.csv": "Across-group summaries of observed and projected demographic contributions",
     "derived/key_results.json": "Every quantity quoted in the results summary and article",
+    "derived/expectation_outcomes.csv": "Recorded expectations against the components of change; population-size identity",
+    "derived/poisson_intervals.csv": "Poisson 95% intervals for age-standardised rates and rate components",
+    "derived/denominator_timing.csv": "Decomposition with mid-year and 1 October interpolated populations",
     "outputs/publication/CAPTIONS.md": "Short description of each numbered publication item",
 }
 
